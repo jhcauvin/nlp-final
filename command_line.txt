@@ -10,7 +10,7 @@ python3 main.py \
     --do_train \
     --do_test
 
-    python3 main.py \
+python3 main.py \
     --model "baseline" \
     --model_path "squad_model.pt" \
     --train_path "datasets/squad_train.jsonl.gz" \
@@ -20,6 +20,8 @@ python3 main.py \
     --bidirectional \
     --do_train \
     --do_test
+
+python3 visualize.py --path datasets/squad_train.jsonl.gz --samples 10
 
 Trying to find word overlap between question and passage, but it often messes up if there is a high word overlap between question and
 context. If you take pretrained model and give it a passage where words overlap in one area even though the answer is somewhere else.
