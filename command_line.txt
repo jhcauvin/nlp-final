@@ -41,3 +41,9 @@ Could be unrelated to model used to find pruned context. Want to show that two-s
 Might not work on pretrained model because it might be trained to home in on things that aren't relevant anymore.
 
 It could be potentially advantageous to fine-tune a pretrained model over training from scratch.
+
+QADataset create_samples gets the stuff we actually need
+
+lookup whitespace tokenizer in spacy to disable extra stuff (will work b/c there will be a space between punctuation)
+
+need to make sure vocab is correct

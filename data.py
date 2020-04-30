@@ -11,10 +11,13 @@ import torch
 from torch.utils.data import Dataset
 from random import shuffle
 from utils import cuda, load_dataset
-
+import spacy
+# import time
 
 PAD_TOKEN = '[PAD]'
 UNK_TOKEN = '[UNK]'
+
+nlp = spacy.load('en_core_web_sm')
 
 
 class Vocabulary:
@@ -146,6 +149,28 @@ class QADataset(Dataset):
         self.pad_token_id = self.tokenizer.pad_token_id \
             if self.tokenizer is not None else 0
 
+    def spacy_adjustment(self, passage, question):
+        passage = nlp(passage)
+        question = nlp(question)
+        #passage_tokens = [token.text for token in passage]
+        question_tokens = [token.text for token in question]
+
+        sent_cands = []
+        for sent in passage.sents:
+            score = 0
+            for token in sent:
+                for word in question:
+                    if token.text == word.text and token.dep_ == word.dep_:
+                        score += 1
+            if score > 3:
+                sent_cands.append(sent)
+        passage_tokens = []
+        for sent in sent_cands:
+            passage_tokens.extend([token.text for token in sent])
+        return passage_tokens, question_tokens
+
+                
+
     def _create_samples(self):
         """
         Formats raw examples to desired form. Any passages/questions longer
@@ -154,20 +179,35 @@ class QADataset(Dataset):
         Returns:
             A list of words (string).
         """
+        # passage = nlp(passage)
+            # question = nlp(question)
+            # for sent in passage.sents:
+            #     score = 0
+            #     for token in sent:
+            #         for word in question:
+            #             if token.text == word.text and token.dep_ == word.dep_:
+            #                 score += 1
+            #     if score < 4:
+            #         continue
         samples = []
         for elem in self.elems:
-            # Unpack the context paragraph. Shorten to max sequence length.
-            passage = [
-                token.lower() for (token, offset) in elem['context_tokens']
-            ][:self.args.max_context_length]
-
             # Each passage has several questions associated with it.
             # Additionally, each question has multiple possible answer spans.
+            # tic = time.perf_counter()
+    
             for qa in elem['qas']:
+                # Get the passage and question string
+                passage_str = elem['context']
+                question_str = qa['question']
+
+                # Run through Spacy
+                passage, question = self.spacy_adjustment(passage_str, question_str)
+
+                # Adjust size for max length
+                passage = passage[:self.args.max_context_length]
+                question = question[:self.args.max_question_length]
+
                 qid = qa['qid']
-                question = [
-                    token.lower() for (token, offset) in qa['question_tokens']
-                ][:self.args.max_question_length]
 
                 # Select the first answer span, which is formatted as
                 # (start_position, end_position), where the end_position
@@ -177,7 +217,8 @@ class QADataset(Dataset):
                 samples.append(
                     (qid, passage, question, answer_start, answer_end)
                 )
-                
+            # toc = time.perf_counter()
+            # print(f"Downloaded the tutorial in {toc - tic:0.4f} seconds")
         return samples
 
     def _create_data_generator(self, shuffle_examples=False):
