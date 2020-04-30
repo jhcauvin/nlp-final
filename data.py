@@ -18,7 +18,7 @@ PAD_TOKEN = '[PAD]'
 UNK_TOKEN = '[UNK]'
 
 nlp = spacy.load('en_core_web_sm')
-spacy.require_gpu()
+spacy.prefer_gpu()
 spacy_checkpoint = 0
 
 
@@ -151,25 +151,43 @@ class QADataset(Dataset):
         self.pad_token_id = self.tokenizer.pad_token_id \
             if self.tokenizer is not None else 0
 
-    def spacy_adjustment(self, processed_passage, question):
+    # score the sentence based on a set of heuristics
+    def score_sentence(self, sentence, question):
+        score = 0
+        for token in sentence:
+            for word in question:
+                if token.text == word.text and token.dep_ == word.dep_:
+                    score += 1
+        return score
+
+    def spacy_adjustment(self, processed_passage, question, answer_start, answer_end):
+        SCORE_THRESH = 1
         passage = processed_passage
         question = nlp(question)
         passage_tokens = [token.text for token in passage]
         question_tokens = [token.text for token in question]
+        index = 0
+        
+        sent_cands = []
+        for sent in passage.sents:
+            end_of_sent = index + len(sent)
+            score = self.score_sentence(sent, question)
+            if score > SCORE_THRESH:
+                sent_cands.append(sent)
+                index += len(sent)
+            elif index < answer_start < end_of_sent:
+                sent_cands.append(sent)
+                index += len(sent)
+            elif end_of_sent < answer_start:
+                answer_start -= len(sent)
+                answer_end -= len(sent)
+        passage_tokens = []
 
-        # sent_cands = []
-        # for sent in passage.sents:
-        #     score = 0
-        #     for token in sent:
-        #         for word in question:
-        #             if token.text == word.text and token.dep_ == word.dep_:
-        #                 score += 1
-        #     if score > 3:
-        #         sent_cands.append(sent)
-        # passage_tokens = []
-        # for sent in sent_cands:
-        #     passage_tokens.extend([token.text for token in sent])
-        return passage_tokens, question_tokens
+        for sent in sent_cands:
+            passage_tokens.extend([token.text for token in sent])
+        if len(passage_tokens) <= 0:
+            print('oops')
+        return passage_tokens, question_tokens, answer_start, answer_end
      
 
     def _create_samples(self):
@@ -181,19 +199,9 @@ class QADataset(Dataset):
             A list of words (string).
         """
         print('Creating samples')
-        # passage = nlp(passage)
-            # question = nlp(question)
-            # for sent in passage.sents:
-            #     score = 0
-            #     for token in sent:
-            #         for word in question:
-            #             if token.text == word.text and token.dep_ == word.dep_:
-            #                 score += 1
-            #     if score < 4:
-            #         continue
         samples = []
         spacy_checkpoint = 0
-        for elem in self.elems[:5]:
+        for elem in self.elems[:10]:
             # Each passage has several questions associated with it.
             # Additionally, each question has multiple possible answer spans.
             # tic = time.perf_counter()
@@ -204,33 +212,34 @@ class QADataset(Dataset):
                 # Get the passage and question string
                 passage_str = elem['context']
                 question_str = qa['question']
-
-                # Run through Spacy
-                passage, question = self.spacy_adjustment(processed_passage, question_str)
-
-                # Adjust size for max length
-                passage = passage[:self.args.max_context_length]
-                question = question[:self.args.max_question_length]
-
-                print('passage', passage)
-                print('question', question)
-
                 qid = qa['qid']
-
-                # NEED TO ADJUST START AND END
 
                 # Select the first answer span, which is formatted as
                 # (start_position, end_position), where the end_position
-                # is inclusive.
+                # is inclusive. These will need to be adjusted if sentences 
+                # are eliminated
                 answers = qa['detected_answers']
                 answer_start, answer_end = answers[0]['token_spans'][0]
+
+
+                # Run through Spacy
+                passage, question, answer_start, answer_end = self.spacy_adjustment(processed_passage, question_str, answer_start, answer_end)
+
+                # Adjust size for max length and lowercase
+                passage = passage[:self.args.max_context_length]
+                passage = [token.lower() for token in passage]
+                question = question[:self.args.max_question_length]
+                question = [token.lower() for token in question]
+                
                 samples.append(
                     (qid, passage, question, answer_start, answer_end)
                 )
+                # print('OUR ANSWER   ', passage[answer_start:answer_end + 1])
+                # print('ACTUAL ANSWER',answers[0]['text'])
+
             if spacy_checkpoint % 1000 == 0:
                 print('Finished ' + str(spacy_checkpoint) + ' samples')
-            # toc = time.perf_counter()
-            # print(f"Downloaded the tutorial in {toc - tic:0.4f} seconds")
+        print()
         return samples
 
     def _create_data_generator(self, shuffle_examples=False):
