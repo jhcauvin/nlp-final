@@ -161,7 +161,6 @@ class QADataset(Dataset):
         return score
 
     def spacy_adjustment(self, processed_passage, question, answer_start, answer_end):
-        SCORE_THRESH = 1
         passage = processed_passage
         question = nlp(question)
         passage_tokens = [token.text for token in passage]
@@ -171,24 +170,30 @@ class QADataset(Dataset):
         sent_cands = []
         for sent in passage.sents:
             end_of_sent = index + len(sent)
-            score = self.score_sentence(sent, question)
-            if score > SCORE_THRESH:
+            contains_entity = len(sent.ents) != 0
+            if contains_entity:
                 sent_cands.append(sent)
                 index += len(sent)
             elif index < answer_start < end_of_sent:
+                print("cheating")
                 sent_cands.append(sent)
                 index += len(sent)
             elif end_of_sent < answer_start:
                 answer_start -= len(sent)
                 answer_end -= len(sent)
         passage_tokens = []
-
         for sent in sent_cands:
             passage_tokens.extend([token.text for token in sent])
-        if len(passage_tokens) <= 0:
-            print('oops')
+
+        if len(passage_tokens) == 0:
+            print("aw shit")
+            print(passage_tokens)
+
         return passage_tokens, question_tokens, answer_start, answer_end
-     
+
+    def generate_nes(self, passage):
+        return [ent for ent in passage.ents]
+            
 
     def _create_samples(self):
         """
@@ -198,10 +203,11 @@ class QADataset(Dataset):
         Returns:
             A list of words (string).
         """
+
         print('Creating samples')
         samples = []
         spacy_checkpoint = 0
-        for elem in self.elems[:10]:
+        for elem in self.elems[:1000]:
             # Each passage has several questions associated with it.
             # Additionally, each question has multiple possible answer spans.
             # tic = time.perf_counter()
