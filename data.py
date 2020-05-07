@@ -21,6 +21,8 @@ nlp = spacy.load('en_core_web_sm')
 spacy.prefer_gpu()
 spacy_checkpoint = 0
 
+bigger = 0
+smaller = 0
 
 class Vocabulary:
     """
@@ -165,34 +167,100 @@ class QADataset(Dataset):
         question = nlp(question)
         passage_tokens = [token.text for token in passage]
         question_tokens = [token.text for token in question]
-        index = 0
+        SCORE = 1
+        THRESHOLD = 2
+        CHECK_NER = True
+        CHECK_PROPN = True
+        CHECK_SENT_LEN = True
+        CHECK_SUBJ = True
+    
+        # for sent in passage.sents:
+        #     end_of_sent = index + len(sent)
+        #     contains_entity = len(sent.ents) != 0
+        #     if contains_entity:
+        #         sent_cands.append(sent)
+        #         index += len(sent)
+        #     elif index < answer_start < end_of_sent:
+        #         print("cheating")
+        #         sent_cands.append(sent)
+        #         index += len(sent)
+        #     elif end_of_sent < answer_start:
+        #         answer_start -= len(sent)
+        #         answer_end -= len(sent)
+
+        # create array to store each sentence and its score
+        sentences = [[sentence, 0] for sentence in passage.sents]
+
+        # parse the question for useful attributes
+        question_proper_nouns = [noun.text for noun in question if noun.pos_ == 'PROPN']
+        question_noun_subjs = [noun.text for noun in question if noun.dep_ == 'nsubj']
+
+        for sent in sentences:
+            # check if there's a named entity
+            if CHECK_NER:
+                # are there detected named entities?
+                if len(sent[0].ents) > 0:
+                    sent[SCORE] += 1
+                # do any of the entities match those in the question?
+                for ent in sent[0].ents:
+                    if ent in question.ents:
+                        sent[SCORE] += 1
+            # check if sentence contains proper noun from question
+            if CHECK_PROPN:
+                for word in sent[0]:
+                    if word.pos_ == 'PROPN' and word.text in question_proper_nouns:
+                        sent[SCORE] += 1
+            # check the sentence length
+            if CHECK_SENT_LEN:
+                pass
+            # check matching subjects
+            if CHECK_SUBJ:
+                for word in sent[0]:
+                    if word.dep_ == 'nsubj' and word.text in question_noun_subjs:
+                        sent[SCORE] += 1
+
         
-        sent_cands = []
-        for sent in passage.sents:
-            end_of_sent = index + len(sent)
-            contains_entity = len(sent.ents) != 0
-            if contains_entity:
-                sent_cands.append(sent)
-                index += len(sent)
-            elif index < answer_start < end_of_sent:
-                print("cheating")
-                sent_cands.append(sent)
-                index += len(sent)
-            elif end_of_sent < answer_start:
-                answer_start -= len(sent)
-                answer_end -= len(sent)
+        avg_sent_len = sum([len(sent[0]) for sent in sentences]) / len(sentences)
+        min_sent_len = min([len(sent[0]) for sent in sentences])
+        max_sent_len = max([len(sent[0]) for sent in sentences])
+        ans_len = 0
+        index = 0
+        for sent in sentences:
+            end_of_sent = index + len(sent[0])
+            if index < answer_start < end_of_sent:
+                ans_len += len(sent[0])
+            index += len(sent[0])
+        global bigger, smaller
+        if ans_len == min_sent_len:
+            bigger += 1
+        else:
+            smaller += 1
+
+        # print('min', min_sent_len)
+        # print('avg', avg_sent_len)
+        # print('max', max_sent_len)
+
+        # go through sentence candidates and remove ones with too low of a score
         passage_tokens = []
-        for sent in sent_cands:
-            passage_tokens.extend([token.text for token in sent])
+        index = 0
+        for sent in sentences:
+            end_of_sent = index + len(sent[0])
+            # keep the sentence if the score is high enough
+            if sent[SCORE] > THRESHOLD:
+                passage_tokens.extend([token.text for token in sent[0]])
+                index += len(sent[0])
+            elif index < answer_start < end_of_sent:
+                # the sentence containing the answer is being removed
+                print("Sentence with answer is removed")
+            elif end_of_sent < answer_start:
+                # sentence not containing the answer is removed, adjust start and end
+                answer_start -= len(sent[0])
+                answer_end -= len(sent[0])
 
         if len(passage_tokens) == 0:
-            print("aw shit")
-            print(passage_tokens)
+            print("PASSAGE TOKENS LENGTH IS ZERO")
 
         return passage_tokens, question_tokens, answer_start, answer_end
-
-    def generate_nes(self, passage):
-        return [ent for ent in passage.ents]
             
 
     def _create_samples(self):
@@ -243,6 +311,9 @@ class QADataset(Dataset):
                 # print('OUR ANSWER   ', passage[answer_start:answer_end + 1])
                 # print('ACTUAL ANSWER',answers[0]['text'])
 
+            print('num bigger', bigger)
+            print('num smaller', smaller)
+            print('frac', (bigger / (smaller + bigger)))
             if spacy_checkpoint % 1000 == 0:
                 print('Finished ' + str(spacy_checkpoint) + ' samples')
         print()
