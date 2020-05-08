@@ -12,6 +12,9 @@ from torch.utils.data import Dataset
 from random import shuffle
 from utils import cuda, load_dataset
 import spacy
+import warnings
+warnings.filterwarnings("ignore")
+
 # import time
 
 PAD_TOKEN = '[PAD]'
@@ -19,7 +22,14 @@ UNK_TOKEN = '[UNK]'
 
 nlp = spacy.load('en_core_web_md')
 spacy.prefer_gpu()
+
 spacy_checkpoint = 0
+ner_count = 0
+propn_count = 0
+nsubj_count = 0
+simil_count = 0
+nchunk_count = 0
+num_removed = 0
 
 class Vocabulary:
     """
@@ -168,16 +178,17 @@ class QADataset(Dataset):
         THRESHOLD = 0
         CHECK_NER = True
         CHECK_PROPN = True
-        CHECK_SENT_LEN = True
         CHECK_SUBJ = True
         CHECK_SIMILARITY = True
+        CHECK_NOUN_CHNKS = True
+        global ner_count, propn_count, nsubj_count, simil_count, nchunk_count, num_removed
     
         # create array to store each sentence and its score
         sentences = [[sentence, 0] for sentence in passage.sents]
 
         # parse the question for useful attributes
-        question_proper_nouns = [noun.text for noun in question if noun.pos_ == 'PROPN']
-        question_noun_subjs = [noun.text for noun in question if noun.dep_ == 'nsubj']
+        question_proper_nouns = [noun.lemma_ for noun in question if noun.pos_ == 'PROPN']
+        question_noun_subjs = [noun.lemma_ for noun in question if noun.dep_ == 'nsubj']
         avg_similarity = sum([sent[0].similarity(question) for sent in sentences]) / len(sentences)
 
         for sent in sentences:
@@ -190,24 +201,32 @@ class QADataset(Dataset):
                 for ent in sent[0].ents:
                     if ent in question.ents:
                         sent[SCORE] += 1
+                        ner_count += 1
             # check if sentence contains proper noun from question
             if CHECK_PROPN:
                 for word in sent[0]:
-                    if word.pos_ == 'PROPN' and word.text in question_proper_nouns:
+                    if word.pos_ == 'PROPN' and word.lemma_ in question_proper_nouns:
                         sent[SCORE] += 1
-            # check the sentence length
-            if CHECK_SENT_LEN:
-                pass
+                        propn_count += 1
             # check matching subjects
             if CHECK_SUBJ:
                 for word in sent[0]:
-                    if word.dep_ == 'nsubj' and word.text in question_noun_subjs:
+                    if word.dep_ == 'nsubj' and word.lemma_ in question_noun_subjs:
                         sent[SCORE] += 1
+                        nsubj_count += 1
+                        
             # use spacy's built-in similarity estimate
             if CHECK_SIMILARITY:
                 if sent[0].similarity(question) > avg_similarity:
                     sent[SCORE] += 1
-        
+                    simil_count += 1
+            # check for matching noun chunks
+            if CHECK_NOUN_CHNKS:
+                for chunk in sent[0].noun_chunks:
+                    for qchunk in question.noun_chunks:
+                        if chunk.text == qchunk.text:
+                            sent[SCORE] += 1
+                            nchunk_count += 1
         if len(question) == 0:
             print('question with nothing')
 
@@ -223,6 +242,8 @@ class QADataset(Dataset):
             elif index <= answer_start < end_of_sent:
                 # the sentence containing the answer is being removed
                 print("Sentence with answer is removed")
+                num_removed += 1
+                return None
             elif end_of_sent <= answer_start:
                 # sentence not containing the answer is removed, adjust start and end
                 answer_start -= len(sent[0])
@@ -246,7 +267,7 @@ class QADataset(Dataset):
         print('Creating samples')
         samples = []
         spacy_checkpoint = 0
-        for elem in self.elems[:1000]:
+        for elem in self.elems[:100]:
             # Each passage has several questions associated with it.
             # Additionally, each question has multiple possible answer spans.
             # tic = time.perf_counter()
@@ -269,6 +290,8 @@ class QADataset(Dataset):
 
                 # Run through Spacy
                 passage, question, answer_start, answer_end = self.spacy_adjustment(processed_passage, question_str, answer_start, answer_end)
+                if passage == None:
+                    continue
 
                 # Adjust size for max length and lowercase
                 passage = passage[:self.args.max_context_length]
@@ -284,6 +307,14 @@ class QADataset(Dataset):
 
             if spacy_checkpoint % 1000 == 0:
                 print('Finished ' + str(spacy_checkpoint) + ' samples')
+        global ner_count, propn_count, nsubj_count, simil_count, nchunk_count, num_removed
+        print(str(num_removed) + " examples were removed")
+        print('NER triggered ' + str(ner_count) + ' times')
+        print('Proper Noun triggered ' + str(propn_count) + ' times')
+        print('Noun Subject triggered ' + str(nsubj_count) + ' times')
+        print('Similarity triggered ' + str(simil_count) + ' times')
+        print('Noun chunk triggered ' + str(nchunk_count) + ' times')
+        print()
         return samples
 
     def _create_data_generator(self, shuffle_examples=False):
