@@ -21,7 +21,7 @@ PAD_TOKEN = '[PAD]'
 UNK_TOKEN = '[UNK]'
 
 nlp = spacy.load('en_core_web_md')
-spacy.prefer_gpu()
+#spacy.prefer_gpu()
 
 spacy_checkpoint = 0
 ner_count = 0
@@ -175,7 +175,7 @@ class QADataset(Dataset):
         passage_tokens = [token.text for token in passage]
         question_tokens = [token.text for token in question]
         SCORE = 1
-        THRESHOLD = 0
+        THRESHOLD = 3
         CHECK_NER = True
         CHECK_PROPN = True
         CHECK_SUBJ = True
@@ -241,9 +241,9 @@ class QADataset(Dataset):
                 index += len(sent[0])
             elif index <= answer_start < end_of_sent:
                 # the sentence containing the answer is being removed
-                print("Sentence with answer is removed")
+                #print("Sentence with answer is removed")
                 num_removed += 1
-                return None
+                return None, None, None, None
             elif end_of_sent <= answer_start:
                 # sentence not containing the answer is removed, adjust start and end
                 answer_start -= len(sent[0])
@@ -267,10 +267,9 @@ class QADataset(Dataset):
         print('Creating samples')
         samples = []
         spacy_checkpoint = 0
-        for elem in self.elems[:100]:
+        for elem in self.elems[:1500]:
             # Each passage has several questions associated with it.
             # Additionally, each question has multiple possible answer spans.
-            # tic = time.perf_counter()
             passage_str = elem['context']
             processed_passage = nlp(passage_str)
             spacy_checkpoint += 1
@@ -279,7 +278,6 @@ class QADataset(Dataset):
                 passage_str = elem['context']
                 question_str = qa['question']
                 qid = qa['qid']
-
                 # Select the first answer span, which is formatted as
                 # (start_position, end_position), where the end_position
                 # is inclusive. These will need to be adjusted if sentences 
@@ -287,10 +285,10 @@ class QADataset(Dataset):
                 answers = qa['detected_answers']
                 answer_start, answer_end = answers[0]['token_spans'][0]
 
-
                 # Run through Spacy
                 passage, question, answer_start, answer_end = self.spacy_adjustment(processed_passage, question_str, answer_start, answer_end)
                 if passage == None:
+                    # throw out examples that throw off the heuristics
                     continue
 
                 # Adjust size for max length and lowercase
@@ -298,12 +296,9 @@ class QADataset(Dataset):
                 passage = [token.lower() for token in passage]
                 question = question[:self.args.max_question_length]
                 question = [token.lower() for token in question]
-                
                 samples.append(
                     (qid, passage, question, answer_start, answer_end)
                 )
-                # print('OUR ANSWER   ', passage[answer_start:answer_end + 1])
-                # print('ACTUAL ANSWER',answers[0]['text'])
 
             if spacy_checkpoint % 1000 == 0:
                 print('Finished ' + str(spacy_checkpoint) + ' samples')

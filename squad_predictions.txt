@@ -1,1014 +1,739 @@
-{"qid": "b0626b3af0764c80b1e6f22c114982c1", "answer": "super bowl 50"}
-{"qid": "8d96e9feff464a52a15e192b1dc9ed01", "answer": "super bowl 50"}
-{"qid": "190fdfbc068243a7a04eb3ed59808db8", "answer": "super bowl 50"}
-{"qid": "e8d4a7478ed5439fa55c2660267bcaa1", "answer": "super bowl 50"}
-{"qid": "74019130542f49e184d733607e565a68", "answer": "super bowl 50"}
-{"qid": "3729174743f74ed58aa64cb7c7dbc7b3", "answer": "super bowl 50"}
-{"qid": "cc75a31d588842848d9890cafe092dec", "answer": "super bowl 50"}
-{"qid": "7c1424bfa53a4de28c3ec91adfbfe4ab", "answer": "super"}
-{"qid": "78a00c316d9e40e69711a9b5c7a932a0", "answer": "super bowl 50"}
-{"qid": "1ef03938ae3848798b701dd4dbb30bd9", "answer": "super bowl 50"}
-{"qid": "cfd440704eee420b9fdf92725a6cdb64", "answer": "super bowl 50"}
-{"qid": "ca4749d3d0204f418fbfbaa52a1d9ece", "answer": "super bowl 50"}
-{"qid": "c2c7e5d3fb87437c80d863d91f8a4e21", "answer": "super bowl 50"}
-{"qid": "643b4c1ef1644d18bf6866d95f24f900", "answer": "super bowl 50"}
-{"qid": "fad596c3f0e944abae33bf99ceccfbd6", "answer": "super bowl 50"}
-{"qid": "97f0c1c69a694cc8bc9edd41dd4c42be", "answer": "super bowl 50"}
-{"qid": "d14fc2f7c07e4729a02888b4ee4c400c", "answer": "super bowl 50"}
-{"qid": "4297cde9c23a4105998937901a7fd3f6", "answer": "super bowl 50"}
-{"qid": "da8f425e541a46c19be04738f41097b3", "answer": "super bowl 50"}
-{"qid": "f944d4b2519b43e4a3dd13dda85495fc", "answer": "super bowl 50"}
-{"qid": "adff197d69764b7fbe2a6ebaae075df4", "answer": "2016"}
-{"qid": "c5187d183b494ccf969a15cd0c3039e2", "answer": "super bowl 50"}
-{"qid": "6288b96ce9944dc1b391ff08b6bd8386", "answer": "super bowl 50"}
-{"qid": "80edad8dc6254bd680100e36be2cfa98", "answer": "super bowl 50"}
-{"qid": "556c5788c4574cc78d53a241004c4e93", "answer": "super bowl 50"}
-{"qid": "18d7493cca8a44db945ff16a2949e26d", "answer": "super bowl 50"}
-{"qid": "6392df5f107a4acf9d96321f1e0c177d", "answer": "l \""}
-{"qid": "81485c83e23a45448e2b9d31a679d73b", "answer": "super bowl 50"}
-{"qid": "5668cdd5c25b4549856d628a3ec248d9", "answer": "super bowl"}
-{"qid": "52d6568dd0b74a99866cad2599161a4a", "answer": "super bowl 50 was an american football game to determine the champion"}
-{"qid": "fd7bfb38f688441087d80a0351b57a67", "answer": "the broncos took an early lead in super bowl 50 and never trailed"}
-{"qid": "5b79e7b38c4144318840802650a9dad7", "answer": "seven"}
-{"qid": "8eb67b9ad5dc44d0b807662d713368df", "answer": "the broncos"}
-{"qid": "bfa155f66d054ed8a2bd324ffd07f306", "answer": "the broncos"}
-{"qid": "52db8fd9a50a405286d50511f0cbdc01", "answer": "seven"}
-{"qid": "aa128287be4c4c259f508edb9cf10649", "answer": "denver 's defense"}
+{"qid": "b0626b3af0764c80b1e6f22c114982c1", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "8d96e9feff464a52a15e192b1dc9ed01", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "e8d4a7478ed5439fa55c2660267bcaa1", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "74019130542f49e184d733607e565a68", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "3729174743f74ed58aa64cb7c7dbc7b3", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "78a00c316d9e40e69711a9b5c7a932a0", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "1ef03938ae3848798b701dd4dbb30bd9", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "ca4749d3d0204f418fbfbaa52a1d9ece", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "fad596c3f0e944abae33bf99ceccfbd6", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "97f0c1c69a694cc8bc9edd41dd4c42be", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "d14fc2f7c07e4729a02888b4ee4c400c", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "f944d4b2519b43e4a3dd13dda85495fc", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "c5187d183b494ccf969a15cd0c3039e2", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "6288b96ce9944dc1b391ff08b6bd8386", "answer": "nfc"}
+{"qid": "80edad8dc6254bd680100e36be2cfa98", "answer": "nfc"}
+{"qid": "556c5788c4574cc78d53a241004c4e93", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "18d7493cca8a44db945ff16a2949e26d", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "6392df5f107a4acf9d96321f1e0c177d", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "5668cdd5c25b4549856d628a3ec248d9", "answer": "nfl"}
+{"qid": "52d6568dd0b74a99866cad2599161a4a", "answer": "afc ) champion denver broncos defeated the national football conference ("}
+{"qid": "fd7bfb38f688441087d80a0351b57a67", "answer": "five solo tackles"}
+{"qid": "5b79e7b38c4144318840802650a9dad7", "answer": "five solo tackles"}
+{"qid": "bfa155f66d054ed8a2bd324ffd07f306", "answer": "super bowl mvp"}
+{"qid": "52db8fd9a50a405286d50511f0cbdc01", "answer": "tackles"}
+{"qid": "aa128287be4c4c259f508edb9cf10649", "answer": "seven"}
 {"qid": "346105c83f374c7d850fc3851add1c0e", "answer": "seven"}
-{"qid": "419e07351e714aea8c9f8f4768193d42", "answer": "seven times"}
+{"qid": "419e07351e714aea8c9f8f4768193d42", "answer": "five"}
 {"qid": "e3458adb99b1445ba9f0c15bfb1a835b", "answer": "seven"}
-{"qid": "4212722392fb404e9a51f825307ef039", "answer": "seven"}
-{"qid": "96a72d8e442a4f79a95e7a10343fa74d", "answer": "the broncos took an early lead in super bowl 50 and never trailed"}
-{"qid": "45016738a27c46cc85e841bd27ddde8f", "answer": "seven"}
-{"qid": "659ef466d7aa45eb9cd9074c865831e0", "answer": "tackles , 2\u00bd sacks"}
-{"qid": "a0fa827ce3e94fa2be0997ba37a5cfe6", "answer": "seven"}
-{"qid": "277ba1c1c0b640da94f7959433306e9d", "answer": "seven times"}
-{"qid": "eacb604a58ae461c8becaf241d20fc94", "answer": "seven"}
+{"qid": "4212722392fb404e9a51f825307ef039", "answer": "five solo tackles"}
+{"qid": "96a72d8e442a4f79a95e7a10343fa74d", "answer": "five solo tackles"}
+{"qid": "45016738a27c46cc85e841bd27ddde8f", "answer": "tackles"}
+{"qid": "659ef466d7aa45eb9cd9074c865831e0", "answer": "tackles"}
+{"qid": "a0fa827ce3e94fa2be0997ba37a5cfe6", "answer": "von miller was named super bowl mvp"}
+{"qid": "277ba1c1c0b640da94f7959433306e9d", "answer": "five solo tackles"}
+{"qid": "eacb604a58ae461c8becaf241d20fc94", "answer": "tackles"}
 {"qid": "2d10f1eb017749d286b27d931c11ad1c", "answer": "seven"}
 {"qid": "25e7b1192a3f46b29939ca3d24ba84d1", "answer": "seven"}
-{"qid": "f5a36768278949f2a141aaac2b35a90d", "answer": "seven times"}
-{"qid": "cdf0925e33f84a06991a7a956f04aa72", "answer": "the broncos took an early lead in super bowl 50 and never trailed"}
-{"qid": "056e4a0f86af48ed8e52b5a5bbb20a9e", "answer": "seven"}
-{"qid": "28add3f364454f83ad3c97bbeeef265e", "answer": "seven"}
-{"qid": "d1794bb6911644c890519cdcb177ee1f", "answer": "seven"}
-{"qid": "7bb2d15a021247b1b3d162659e7dd9f3", "answer": "seven times"}
-{"qid": "1e24127c2a4340c68af60b0d65bf2321", "answer": "seven"}
-{"qid": "da07218228a644c1857fd6ccb910ae72", "answer": "the nfl"}
-{"qid": "49a498b05c4a4acd85397de984cf2188", "answer": "four"}
-{"qid": "3e7b4eb8b2224ed89647e15fd9d6cd23", "answer": "1995"}
-{"qid": "323d496b4dbe465d9eae68f98bf610cb", "answer": "the panthers finished"}
-{"qid": "ecdf89b712b84cbc8372a41495f62571", "answer": "the panthers"}
-{"qid": "9e40a8ebc8564507b738a65605b9a67e", "answer": "the panthers finished"}
-{"qid": "1b9a02825aa04d5081e10af76a72440f", "answer": "the panthers finished"}
-{"qid": "9af08f972fde41f9922d06b3f4f10c9a", "answer": "the panthers finished"}
-{"qid": "0c53b9deba6e4052833488cdfd5104e3", "answer": "four"}
-{"qid": "6bf2e3769c5b47d899142e101e4f7ef6", "answer": "the panthers finished"}
-{"qid": "437d2865eb1843b9b7d2b307b47aefc0", "answer": "the panthers finished"}
-{"qid": "6feefc79aadb4cc2a2dbe29b3de1932d", "answer": "the panthers finished the regular season with a 15\u20131 record , and quarterback cam newton"}
-{"qid": "8a18fb154ca84cbdacb07e149efaaebd", "answer": "the panthers finished"}
-{"qid": "909ce53c05864cc1b802bf64daa96a57", "answer": "four"}
-{"qid": "4415e45815e14a0985ef22441f8a6ddc", "answer": "title from super bowl xlix"}
-{"qid": "e7a5911b99434f94b94b1fc214d78255", "answer": "the panthers finished the regular season with a 15\u20131 record , and quarterback cam newton"}
-{"qid": "5d1fa83a07cb49f8aac96a4d5442e160", "answer": "the panthers finished"}
-{"qid": "d4667206b27343018306c903f6bc6a99", "answer": "four"}
-{"qid": "0c538848194644f9903c7fb60dd171e6", "answer": "the panthers finished"}
-{"qid": "4d3d83197bba4f518feb689ef7f60f8a", "answer": "the panthers finished the regular season with a 15\u20131 record , and quarterback cam newton"}
-{"qid": "63bed63e1ba54b279f24036708cfddf2", "answer": "the panthers finished"}
-{"qid": "4b5d0e2322fe49ccb9a5448a73d88622", "answer": "the panthers finished"}
-{"qid": "1765057242ee422e82a04197605bfd07", "answer": "the panthers finished the regular season with a 15\u20131 record , and quarterback cam newton"}
-{"qid": "7cc6f913c3334f6bacff45bc1d39eb11", "answer": "the panthers finished the regular season with a 15\u20131 record , and quarterback cam newton"}
-{"qid": "3ce823a0265c42138af5f46290aee69d", "answer": "1995"}
-{"qid": "4a254acd87b748b5b285642219aa07af", "answer": "nfl commissioner roger goodell"}
-{"qid": "0e71ff5d91a049f2913aa1d7c79e1d4e", "answer": "spectacular"}
-{"qid": "9b27dff5b8064c328e37b252b1546ec7", "answer": "2012"}
-{"qid": "ab3d30def72b4174826a713e8f572f0c", "answer": "spectacular"}
-{"qid": "a8ee01c022a64793bb108576e29f8586", "answer": "2012"}
-{"qid": "badec4360c174c3aabc71178828a274c", "answer": "nfl commissioner roger goodell"}
-{"qid": "9f3e1e612d60489d920c5bba8d856be3", "answer": "nfl commissioner roger goodell"}
-{"qid": "2bc59ee77b55423b803ab82039f4a8ad", "answer": "nfl commissioner roger goodell"}
-{"qid": "d61a05770159444da1a4243481a3f2cd", "answer": "2012"}
-{"qid": "79205f275aa3488fa6f4d8d35adc0dad", "answer": "super bowl \" spectacular"}
-{"qid": "281dd246f1eb4df29ce5fa1c9b7e2df1", "answer": "2012"}
-{"qid": "0c9b4fa5b9c94a6dbb05efdc241ecaea", "answer": "the u.s."}
-{"qid": "b4ce2af7a31a480799a4ddf27001324b", "answer": "$ 5 million"}
-{"qid": "3c8f72ed38114041b2a0c784556b70af", "answer": "coldplay"}
-{"qid": "bd4ac80e6ab34822bd30bc62c0aa84f0", "answer": "headlined by the british rock group coldplay"}
-{"qid": "e10622bd50994a70ba188696f1fa950a", "answer": "super bowl"}
-{"qid": "9c8627c4245d40958d9eafe5b3ecb7d9", "answer": "headlined the super bowl xlvii and super bowl xlviii halftime"}
+{"qid": "f5a36768278949f2a141aaac2b35a90d", "answer": "seven"}
+{"qid": "cdf0925e33f84a06991a7a956f04aa72", "answer": "five solo tackles"}
+{"qid": "056e4a0f86af48ed8e52b5a5bbb20a9e", "answer": "denver linebacker von miller was named super bowl mvp"}
+{"qid": "1e24127c2a4340c68af60b0d65bf2321", "answer": "tackles"}
+{"qid": "da07218228a644c1857fd6ccb910ae72", "answer": "mvp"}
+{"qid": "49a498b05c4a4acd85397de984cf2188", "answer": "broncos finished"}
+{"qid": "ecdf89b712b84cbc8372a41495f62571", "answer": "broncos finished"}
+{"qid": "9e40a8ebc8564507b738a65605b9a67e", "answer": "broncos finished"}
+{"qid": "1b9a02825aa04d5081e10af76a72440f", "answer": "broncos finished"}
+{"qid": "9af08f972fde41f9922d06b3f4f10c9a", "answer": "broncos finished"}
+{"qid": "0c53b9deba6e4052833488cdfd5104e3", "answer": "broncos finished"}
+{"qid": "6bf2e3769c5b47d899142e101e4f7ef6", "answer": "mvp"}
+{"qid": "6feefc79aadb4cc2a2dbe29b3de1932d", "answer": "mvp"}
+{"qid": "909ce53c05864cc1b802bf64daa96a57", "answer": "broncos finished"}
+{"qid": "4415e45815e14a0985ef22441f8a6ddc", "answer": "broncos finished"}
+{"qid": "e7a5911b99434f94b94b1fc214d78255", "answer": "mvp"}
+{"qid": "5d1fa83a07cb49f8aac96a4d5442e160", "answer": "the franchise was founded in 1995"}
+{"qid": "d4667206b27343018306c903f6bc6a99", "answer": "broncos finished"}
+{"qid": "0c538848194644f9903c7fb60dd171e6", "answer": "super bowl xlix by defeating them 20\u201318 in the afc championship"}
+{"qid": "4d3d83197bba4f518feb689ef7f60f8a", "answer": "mvp"}
+{"qid": "63bed63e1ba54b279f24036708cfddf2", "answer": "broncos finished"}
+{"qid": "4b5d0e2322fe49ccb9a5448a73d88622", "answer": "broncos finished"}
+{"qid": "1765057242ee422e82a04197605bfd07", "answer": "cam newton was named the nfl most valuable player ( mvp"}
+{"qid": "7cc6f913c3334f6bacff45bc1d39eb11", "answer": "the franchise was founded in 1995"}
+{"qid": "4a254acd87b748b5b285642219aa07af", "answer": "commissioner roger goodell stated that the league planned to make the 50th super bowl \" spectacular"}
+{"qid": "0e71ff5d91a049f2913aa1d7c79e1d4e", "answer": "commissioner roger goodell"}
+{"qid": "9b27dff5b8064c328e37b252b1546ec7", "answer": "commissioner roger goodell"}
+{"qid": "a8ee01c022a64793bb108576e29f8586", "answer": "commissioner roger goodell"}
+{"qid": "d61a05770159444da1a4243481a3f2cd", "answer": "commissioner roger"}
+{"qid": "79205f275aa3488fa6f4d8d35adc0dad", "answer": "commissioner roger goodell stated that the league planned to make the 50th super bowl"}
+{"qid": "281dd246f1eb4df29ce5fa1c9b7e2df1", "answer": "commissioner roger goodell"}
+{"qid": "0c9b4fa5b9c94a6dbb05efdc241ecaea", "answer": "xlvii"}
+{"qid": "b4ce2af7a31a480799a4ddf27001324b", "answer": "xlvii"}
+{"qid": "3c8f72ed38114041b2a0c784556b70af", "answer": "xlvii"}
+{"qid": "bd4ac80e6ab34822bd30bc62c0aa84f0", "answer": "xlvii"}
+{"qid": "e10622bd50994a70ba188696f1fa950a", "answer": "xlvii"}
+{"qid": "9c8627c4245d40958d9eafe5b3ecb7d9", "answer": "xlvii"}
 {"qid": "ed933501734a4497bdc14153e593e2e3", "answer": "$ 5 million"}
-{"qid": "6d5190021d0e47b7939a8a4098fbca30", "answer": "cbs"}
-{"qid": "953fb4e5f4754283b144e9502aa611b6", "answer": "cbs"}
-{"qid": "f43c83e38d1e424ea00f8ad3c77ec999", "answer": "coldplay"}
-{"qid": "f2d38fefa10543f28667c2516b598752", "answer": "super bowl"}
-{"qid": "8010971a771042da83d36365518ce556", "answer": "$ 5 million"}
-{"qid": "f8d1ae73efb54b31a90381ab150dbae6", "answer": "beyonc\u00e9"}
-{"qid": "7384156b154247e288e57763eca2d4c7", "answer": "super bowl 50 in the u.s. , and charged an average of $ 5 million"}
-{"qid": "7df46260b280403986082e27c6b39ecc", "answer": "super bowl 50"}
-{"qid": "e9add81e71134709ba5c5ca255265932", "answer": "$ 5 million"}
-{"qid": "63a7e9b702d94b1994b9f543ba173e99", "answer": "halftime"}
-{"qid": "25d0c8f0803a41b5867e1e10e9d4186d", "answer": "guest performers beyonc\u00e9 and bruno mars"}
-{"qid": "4071b2abd36948da9dc8ae88d79ec150", "answer": "headlined the super bowl xlvii and super bowl xlviii halftime"}
-{"qid": "6e5cce1881714600bdd943b40eea3b1f", "answer": "headlined the super bowl xlvii and super bowl xlviii halftime"}
-{"qid": "c0a739122447497f872a3041671bc290", "answer": "headlined the super bowl xlvii and super bowl xlviii halftime"}
-{"qid": "612366179dfb48acb54d038ce202389d", "answer": "super bowl"}
-{"qid": "79e082c905b147288f1fd1552221c21b", "answer": "$ 5 million"}
-{"qid": "d43b746325264596ad5ab1cd3afd9cb6", "answer": "headlined the super bowl xlvii and super bowl xlviii halftime"}
-{"qid": "8e4c964faecf4027892e02623dc82f33", "answer": "super bowl 50 in the u.s. , and charged an average of $ 5 million"}
-{"qid": "469309ce71a9446f886ef563f7eafc66", "answer": "super bowl"}
-{"qid": "a76d3c5264da4af68c11aadcbac645c1", "answer": "mercedes - benz superdome"}
-{"qid": "38dec4e3dfcb48cfbaeb1d34ce1c8d4d", "answer": "the league eventually narrowed the bids to three sites : new orleans ' mercedes - benz"}
-{"qid": "a3a813c2479d435793ebceaa7017cb4a", "answer": "mercedes - benz superdome"}
-{"qid": "af29d2ba013041048ae9c7fc80c87c69", "answer": "the league eventually narrowed the bids to three sites : new orleans ' mercedes - benz"}
-{"qid": "2624809fbaba41b7a7f293ba928b0a4f", "answer": "san francisco bay"}
+{"qid": "6d5190021d0e47b7939a8a4098fbca30", "answer": "xlvii"}
+{"qid": "953fb4e5f4754283b144e9502aa611b6", "answer": "xlvii"}
+{"qid": "f2d38fefa10543f28667c2516b598752", "answer": "xlvii"}
+{"qid": "8010971a771042da83d36365518ce556", "answer": "xlvii"}
+{"qid": "f8d1ae73efb54b31a90381ab150dbae6", "answer": "xlvii"}
+{"qid": "7df46260b280403986082e27c6b39ecc", "answer": "xlvii"}
+{"qid": "63a7e9b702d94b1994b9f543ba173e99", "answer": "xlvii"}
+{"qid": "25d0c8f0803a41b5867e1e10e9d4186d", "answer": "xlvii"}
+{"qid": "4071b2abd36948da9dc8ae88d79ec150", "answer": "xlvii"}
+{"qid": "6e5cce1881714600bdd943b40eea3b1f", "answer": "xlvii"}
+{"qid": "c0a739122447497f872a3041671bc290", "answer": "xlvii"}
+{"qid": "612366179dfb48acb54d038ce202389d", "answer": "xlvii"}
+{"qid": "d43b746325264596ad5ab1cd3afd9cb6", "answer": "xlvii"}
+{"qid": "8e4c964faecf4027892e02623dc82f33", "answer": "xlvii"}
+{"qid": "469309ce71a9446f886ef563f7eafc66", "answer": "xlvii"}
+{"qid": "2624809fbaba41b7a7f293ba928b0a4f", "answer": "mercedes - benz superdome"}
 {"qid": "d3577e3a35a44b5698776546235b1afe", "answer": "mercedes - benz superdome"}
-{"qid": "8b5db421a73d4a6e8a2cc23306a86d4f", "answer": "mercedes - benz"}
-{"qid": "9433233f7fbc417882f5b3bf324b9a18", "answer": "mercedes - benz superdome"}
-{"qid": "2f2b6dda6f9541c6aa54e8c503c27b44", "answer": "three sites : new orleans ' mercedes - benz superdome"}
-{"qid": "bd6015231c15435780b020832ada86e5", "answer": "three"}
-{"qid": "b57a3b8a64f14502a58f26d61562aa17", "answer": "mercedes - benz"}
-{"qid": "4bc32a6d068f45f7863322228b5222fc", "answer": "mercedes - benz superdome"}
-{"qid": "df37bf87d0e54df88c25d785dd8a0990", "answer": "mercedes - benz superdome"}
-{"qid": "51aa32cd575e4f89939cf9279afc8463", "answer": "mercedes - benz superdome"}
-{"qid": "f130a64961bd4ccca57897ffeec58791", "answer": "mercedes - benz superdome"}
+{"qid": "8b5db421a73d4a6e8a2cc23306a86d4f", "answer": "mercedes - benz superdome"}
+{"qid": "b57a3b8a64f14502a58f26d61562aa17", "answer": "mercedes - benz superdome"}
+{"qid": "51aa32cd575e4f89939cf9279afc8463", "answer": "francisco bay area 's levi 's stadium"}
 {"qid": "9acb55c4351a4534b7aa7553a2cbbe97", "answer": "mercedes - benz superdome"}
-{"qid": "eaaeea366d5145059e51c31dfc75fb5d", "answer": "mercedes - benz superdome"}
-{"qid": "af73833956fe4991baf9a6cef4978577", "answer": "boston voted and awarded the game to levi 's stadium"}
-{"qid": "1c1158f70ceb460c809cd8deb51b4aa2", "answer": "san francisco bay"}
-{"qid": "4d9d4a9f586540c1b5227e8a6c96741b", "answer": "2013"}
-{"qid": "a3bf86576c0342fca8dcc03a882cb85c", "answer": "$ 1.2 billion"}
-{"qid": "9151a879be3d4a8593009534310b4654", "answer": "san francisco bay"}
-{"qid": "1e65836b1a664410966341a9178768f1", "answer": "2013"}
-{"qid": "83d81045f7744f30ba5c03f6adf08438", "answer": "21 , 2013"}
-{"qid": "3c29ee3785fa46b092dc7e5034bb8ca0", "answer": "$ 1.2 billion"}
-{"qid": "3d8ac2bd694a4ac7bad126269d0c92a0", "answer": "2013"}
-{"qid": "6313f86b729e4d0da3c7a7ab7fbdb6d2", "answer": "1985"}
-{"qid": "03910221e3584c339e1a16176c2cfe25", "answer": "2014"}
-{"qid": "660318b1d68a45e7b9131ea05889dd92", "answer": "2013"}
-{"qid": "d0d23a90127a4c3f8b3928ef185631fd", "answer": "$ 1.2 billion"}
-{"qid": "b0c8ddcc8734483f8fa0245dca48785b", "answer": "2003"}
-{"qid": "a9fdb83b628849e89bfd5ead56d2e6ee", "answer": "san francisco bay area since super bowl xix"}
-{"qid": "3b37d8ac6ff6441d87bfab0589ee4a22", "answer": "2013"}
-{"qid": "2b8e91f54fc241e8ab6d393ed21f4c2b", "answer": "2013"}
-{"qid": "39c35592698d4f8b82183414e95a97e0", "answer": "1985"}
-{"qid": "123c0940045243b6a72eead43011d1fc", "answer": "the san francisco bay"}
-{"qid": "3c2a542e2d8d4c159215b971ad3f096d", "answer": "2013"}
-{"qid": "622ba886d68649619d926563ca28eb8f", "answer": "2013"}
-{"qid": "ab581f4ebb6e4f3a97e224e9fe6a515f", "answer": "$ 1.2 billion"}
-{"qid": "bb8ff77cd36a4f02bc6995da68245cc1", "answer": "2013"}
-{"qid": "4d621b4978da4a5dbd57791b86da9c71", "answer": "october 16 , 2012"}
-{"qid": "2e83992ae554439b8e85c47c3518977e", "answer": "10 times"}
-{"qid": "85b0a0b8b1ab46a68e968470f4e5a390", "answer": "super bowl xix"}
-{"qid": "37042bcbf3774e3a8b6fc7582af90bc5", "answer": "florida /"}
-{"qid": "c1610b846d7f4f7a8cb684a694470ce5", "answer": "october 16 , 2012"}
-{"qid": "aaaee866ce0f4876bf9b5f411f80c7bb", "answer": "sun life stadium and levi 's stadium"}
-{"qid": "cff82fdf8f12427aab53d690ce70d30e", "answer": "october 16 , 2012"}
-{"qid": "aa03e9f4b1354458b939ccf3b1b5ff2d", "answer": "the league announced on october 16 , 2012"}
-{"qid": "ef692734c5774551b78c1d6a8a1aa509", "answer": "october 16 , 2012"}
-{"qid": "a70a0ccb24d74a4a8b0f2a3e6436bdff", "answer": "2010"}
-{"qid": "6d0b299bfeff4ab196ab679382d17d8f", "answer": "10 times"}
-{"qid": "75fe1964de0046fa99d54ac2e81be956", "answer": "the league announced on october 16 , 2012"}
-{"qid": "e1f33f1fb239449c9c2048e8e48dd40c", "answer": "san francisco bay"}
-{"qid": "64bf0e133c0741b0ab7bb79e3f695356", "answer": "san francisco bay"}
-{"qid": "118f18b3891a4fa9b39b090ba2a49a89", "answer": "the league announced on october 16 , 2012"}
-{"qid": "504beced7bd646f28d3a3d983d0019e9", "answer": "10 times"}
-{"qid": "6d639b775f574bd3b9955b0ab4ad61cf", "answer": "october 16 , 2012"}
-{"qid": "d2aa5e88daed457589d89095055adcbb", "answer": "10 times"}
-{"qid": "2ee29208f7ae4be1a28fce711758a99f", "answer": "new orleans"}
-{"qid": "84c1a0498d4b4843a03ea86fa7e8a5c6", "answer": "the league announced on october 16 , 2012"}
-{"qid": "0e0dd2d0d46c491082bc3f0196789a95", "answer": "the league"}
-{"qid": "c5f55f0f56704c7aa28769060e232615", "answer": "john fox"}
-{"qid": "b3627c8795144e2a9915e506968a0f53", "answer": "six"}
-{"qid": "d93364aeb44a49c0b8d03fcdae097770", "answer": "six"}
+{"qid": "af73833956fe4991baf9a6cef4978577", "answer": "san francisco bay area since super bowl xix in 1985"}
+{"qid": "9151a879be3d4a8593009534310b4654", "answer": "san francisco bay area since super bowl xix in 1985"}
+{"qid": "1e65836b1a664410966341a9178768f1", "answer": "san francisco bay area since super bowl xix in 1985"}
+{"qid": "83d81045f7744f30ba5c03f6adf08438", "answer": "san francisco bay area since super bowl xix in 1985"}
+{"qid": "3d8ac2bd694a4ac7bad126269d0c92a0", "answer": "san francisco bay area since super bowl xix in 1985"}
+{"qid": "6313f86b729e4d0da3c7a7ab7fbdb6d2", "answer": "san francisco bay area since super bowl xix in 1985"}
+{"qid": "03910221e3584c339e1a16176c2cfe25", "answer": "san francisco bay area since super bowl xix in 1985"}
+{"qid": "b0c8ddcc8734483f8fa0245dca48785b", "answer": "san francisco bay area since super bowl xix in 1985"}
+{"qid": "a9fdb83b628849e89bfd5ead56d2e6ee", "answer": "san francisco bay area since super bowl xix in 1985"}
+{"qid": "39c35592698d4f8b82183414e95a97e0", "answer": "san francisco bay area since super bowl xix in 1985"}
+{"qid": "123c0940045243b6a72eead43011d1fc", "answer": "san francisco bay area since super bowl xix in 1985"}
+{"qid": "3c2a542e2d8d4c159215b971ad3f096d", "answer": "boston voted and awarded"}
+{"qid": "bb8ff77cd36a4f02bc6995da68245cc1", "answer": "san francisco bay area since super bowl xix in 1985"}
+{"qid": "4d621b4978da4a5dbd57791b86da9c71", "answer": "1985"}
+{"qid": "2e83992ae554439b8e85c47c3518977e", "answer": "1985"}
+{"qid": "85b0a0b8b1ab46a68e968470f4e5a390", "answer": "1985"}
+{"qid": "37042bcbf3774e3a8b6fc7582af90bc5", "answer": "1985"}
+{"qid": "c1610b846d7f4f7a8cb684a694470ce5", "answer": "1985"}
+{"qid": "aaaee866ce0f4876bf9b5f411f80c7bb", "answer": "16 , 2012 , that the two finalists were sun life stadium and levi 's stadium"}
+{"qid": "cff82fdf8f12427aab53d690ce70d30e", "answer": "october 16"}
+{"qid": "aa03e9f4b1354458b939ccf3b1b5ff2d", "answer": "1985"}
+{"qid": "ef692734c5774551b78c1d6a8a1aa509", "answer": "underwent"}
+{"qid": "a70a0ccb24d74a4a8b0f2a3e6436bdff", "answer": "1985"}
+{"qid": "6d0b299bfeff4ab196ab679382d17d8f", "answer": "1985"}
+{"qid": "75fe1964de0046fa99d54ac2e81be956", "answer": "1985"}
+{"qid": "64bf0e133c0741b0ab7bb79e3f695356", "answer": "1985"}
+{"qid": "118f18b3891a4fa9b39b090ba2a49a89", "answer": "1985"}
+{"qid": "504beced7bd646f28d3a3d983d0019e9", "answer": "1985"}
+{"qid": "d2aa5e88daed457589d89095055adcbb", "answer": "1985 ( super bowl xix"}
+{"qid": "2ee29208f7ae4be1a28fce711758a99f", "answer": "1985"}
+{"qid": "84c1a0498d4b4843a03ea86fa7e8a5c6", "answer": "1985"}
+{"qid": "c5f55f0f56704c7aa28769060e232615", "answer": "xxxviii"}
 {"qid": "67f71da206e14df29c4095c51e2240a5", "answer": "xxxviii"}
 {"qid": "c6488a805a0044f2818aab09b0a77edb", "answer": "xxxviii"}
-{"qid": "51784276fee04f33966e71320a7d87c3", "answer": "john fox"}
-{"qid": "ddcbfe39a20540df86ccc7b713d820f6", "answer": "straight"}
-{"qid": "f420b5aeeea04b40aa8943b7c3cb9c66", "answer": "six"}
+{"qid": "51784276fee04f33966e71320a7d87c3", "answer": "john fox in their last super bowl appearance prior to super bowl 50"}
+{"qid": "ddcbfe39a20540df86ccc7b713d820f6", "answer": "xxxviii"}
+{"qid": "f420b5aeeea04b40aa8943b7c3cb9c66", "answer": "denver broncos became one of four teams to have made eight appearances in the super bowl"}
 {"qid": "dda3b90e6e59403ab7d02ce32a8e84b5", "answer": "xxxviii"}
-{"qid": "2ff5748b293c472ba0800a38fc620079", "answer": "six"}
-{"qid": "9b75a742420e4c5c8f12e837ff18c25a", "answer": "the third straight"}
-{"qid": "b870221781c64c0e9769b542adb9de5c", "answer": "the third straight"}
 {"qid": "3891e5bedff44b968211dcb2f9287a75", "answer": "xxxviii"}
 {"qid": "f3b014ecab1c4032a1c6e5fa7641555b", "answer": "xxxviii"}
-{"qid": "644501ec5c0749bbbb3b27debffca9b8", "answer": "straight"}
-{"qid": "a4339b28775f456c94895fc5a37e77fd", "answer": "straight"}
-{"qid": "b1cb5895c617478aa2d30992551f903a", "answer": "six"}
-{"qid": "7311a706089c4dedaee715881d893ebc", "answer": "john fox"}
-{"qid": "0e3b434ab0ac4318aabcd29e030523ae", "answer": "waiving longtime"}
-{"qid": "08b9ace3723f4360b5bb00a7aea977ec", "answer": "waiving longtime"}
-{"qid": "50f65d4d1ec6483ba2bb42031d656df0", "answer": "least 15"}
-{"qid": "d82088877d5543f694f2af057fce09a7", "answer": "least 15"}
-{"qid": "4394b910b1d840e78b9ad6b8e5f31b4c", "answer": "waiving longtime running"}
+{"qid": "a4339b28775f456c94895fc5a37e77fd", "answer": "xxxviii"}
+{"qid": "b1cb5895c617478aa2d30992551f903a", "answer": "xxxviii"}
+{"qid": "7311a706089c4dedaee715881d893ebc", "answer": "john fox in their last super bowl appearance prior to super bowl 50"}
+{"qid": "0e3b434ab0ac4318aabcd29e030523ae", "answer": "bay packers"}
+{"qid": "08b9ace3723f4360b5bb00a7aea977ec", "answer": "least"}
 {"qid": "7131e4b52ecb44f4ae14f3734f6d7c96", "answer": "least 15"}
 {"qid": "0ec83cf9a5d94c08a7f75fcfbded2057", "answer": "eight"}
-{"qid": "0515b56f5c034b8492e71266251cd34f", "answer": "waiving longtime"}
-{"qid": "04def93363e142fb976ded79212e9331", "answer": "least 15 regular season games since the league"}
-{"qid": "e91a3b3b72d44a4ab0de6f9cbe4de146", "answer": "streak"}
-{"qid": "9e6cf6de9029406a8c807f3c9dadaab0", "answer": "streak"}
-{"qid": "88138335d9724387ab75669b97131b2a", "answer": "least 15"}
-{"qid": "8367dace42d646df8dfe429f545d2c1b", "answer": "waiving longtime running back deangelo williams and losing top wide receiver kelvin"}
-{"qid": "56ff24dfe4eb4f2186901cca0ee168f3", "answer": "waiving longtime"}
-{"qid": "cf061826580f45908fec8617888fe6a9", "answer": "least 15"}
-{"qid": "aab9c74ec68645e79ecf9019e36ac771", "answer": "least 15"}
-{"qid": "0833e0539eb44c2fba66625f7bdce517", "answer": "franchise history"}
-{"qid": "2e29854700ab4436bf2a4fa777c84665", "answer": "least 15 regular season games"}
-{"qid": "7ded1b9fa0c4487cb947ea9653235a3f", "answer": "waiving longtime"}
+{"qid": "0515b56f5c034b8492e71266251cd34f", "answer": "least 15 regular season games since the league expanded to a 16-game schedule in 1978"}
+{"qid": "04def93363e142fb976ded79212e9331", "answer": "least 15"}
+{"qid": "e91a3b3b72d44a4ab0de6f9cbe4de146", "answer": "bay packers"}
+{"qid": "9e6cf6de9029406a8c807f3c9dadaab0", "answer": "bay packers"}
+{"qid": "88138335d9724387ab75669b97131b2a", "answer": "least"}
+{"qid": "8367dace42d646df8dfe429f545d2c1b", "answer": "least"}
+{"qid": "56ff24dfe4eb4f2186901cca0ee168f3", "answer": "least"}
+{"qid": "aab9c74ec68645e79ecf9019e36ac771", "answer": "franchise history )"}
+{"qid": "2e29854700ab4436bf2a4fa777c84665", "answer": "least 15"}
 {"qid": "8bc00cf440354fd5bd645ccad4b04290", "answer": "least 15"}
-{"qid": "1738dd23d5b14b17adec5dd2f47190c3", "answer": "four"}
-{"qid": "9c090180c78646e19cdee5a613a9ddb2", "answer": "seven"}
-{"qid": "7de29e338d984112847e7b572d851d0d", "answer": "four"}
-{"qid": "d728fe2f98014625aaf258a6d5ba5e88", "answer": "seven"}
-{"qid": "d8a497a7f3734481a4f01092247015ab", "answer": "josh norman"}
-{"qid": "3cb07bf985e04c3689c20129faf928ae", "answer": "seven"}
-{"qid": "ff26f72850f64f30a645f8a918c258c1", "answer": "josh norman"}
-{"qid": "408f868a6c84462abb8ee9d3beff6738", "answer": "four"}
-{"qid": "39c0543e9e614337b1ea6c1d65fcb04d", "answer": "four"}
-{"qid": "639d717284e749be924081e097f996b1", "answer": "josh norman"}
-{"qid": "b19d8bea484a4e10b4cbc37fc77bf9ae", "answer": "seven"}
-{"qid": "a2aed81677fc427b94a34075eb9d9161", "answer": "josh norman"}
-{"qid": "b5dc895fade74e458b3128b6ca143855", "answer": "josh norman"}
-{"qid": "c116c9979af14e7fac181bedb4e467df", "answer": "seven"}
-{"qid": "80a690a87b2042dbaf952a01b67bf901", "answer": "panthers beat the seattle seahawks"}
-{"qid": "2a753c419e5549ac9ba8e341807e7bae", "answer": "the panthers beat the seattle seahawks in the divisional round , running up a 31\u20130 halftime"}
+{"qid": "1738dd23d5b14b17adec5dd2f47190c3", "answer": "thomas"}
+{"qid": "9c090180c78646e19cdee5a613a9ddb2", "answer": "kony ealy"}
+{"qid": "7de29e338d984112847e7b572d851d0d", "answer": "118"}
+{"qid": "d8a497a7f3734481a4f01092247015ab", "answer": "118"}
+{"qid": "3cb07bf985e04c3689c20129faf928ae", "answer": "thomas"}
+{"qid": "ff26f72850f64f30a645f8a918c258c1", "answer": "thomas"}
+{"qid": "408f868a6c84462abb8ee9d3beff6738", "answer": "thomas"}
+{"qid": "b19d8bea484a4e10b4cbc37fc77bf9ae", "answer": "thomas"}
+{"qid": "a2aed81677fc427b94a34075eb9d9161", "answer": "thomas"}
+{"qid": "b5dc895fade74e458b3128b6ca143855", "answer": "thomas"}
+{"qid": "80a690a87b2042dbaf952a01b67bf901", "answer": "divisional"}
+{"qid": "2a753c419e5549ac9ba8e341807e7bae", "answer": "seven"}
 {"qid": "385fe1c0f9a34081bbc769eff1e36622", "answer": "seven"}
 {"qid": "d9ec88cfeb8244d79832c592423c4180", "answer": "seven"}
-{"qid": "e9e3f6cb047648378fa35f62f1e49dfd", "answer": "the panthers beat the seattle seahawks"}
-{"qid": "6ce26c5df2634c29ba5aa8b907ee00f0", "answer": "the panthers beat the seattle seahawks in the divisional round , running up a 31\u20130 halftime"}
-{"qid": "96094a9932af448bbc39bf568597bd70", "answer": "the panthers beat the seattle seahawks"}
+{"qid": "e9e3f6cb047648378fa35f62f1e49dfd", "answer": "divisional"}
+{"qid": "6ce26c5df2634c29ba5aa8b907ee00f0", "answer": "seven"}
+{"qid": "96094a9932af448bbc39bf568597bd70", "answer": "seven"}
 {"qid": "281660d4837d4e809ffcaea8d758c271", "answer": "seven"}
-{"qid": "6d8d745f1327427f998be7965979dff1", "answer": "the panthers beat the seattle seahawks"}
-{"qid": "da409312ccb644bca8e717cbe4cd6240", "answer": "panthers beat the seattle seahawks in the divisional round , running up a 31\u20130 halftime"}
+{"qid": "6d8d745f1327427f998be7965979dff1", "answer": "divisional"}
+{"qid": "da409312ccb644bca8e717cbe4cd6240", "answer": "seven"}
 {"qid": "f61a9cd5bd0346af835695140a4666c2", "answer": "seven"}
-{"qid": "bfbc17df54d9407f84fb4cb306e552cb", "answer": "the panthers beat the seattle seahawks"}
-{"qid": "ac00b89c936b45348aa94a79e4412411", "answer": "the panthers beat the seattle seahawks"}
-{"qid": "ae488b4c020847c8b47d43dc93823acd", "answer": "the panthers beat the seattle seahawks in the divisional round , running up a 31\u20130 halftime"}
+{"qid": "bfbc17df54d9407f84fb4cb306e552cb", "answer": "seven"}
+{"qid": "ae488b4c020847c8b47d43dc93823acd", "answer": "seven"}
 {"qid": "f5788777522d4000a5bf530d2386acc0", "answer": "seven"}
-{"qid": "c7d65717883d4573a8df761ec1ac8e98", "answer": "rivera"}
-{"qid": "da951016315c4230b913c469688af920", "answer": "rivera"}
-{"qid": "b100e1bfd5704e05bcf4e2ec842aa06a", "answer": "rivera"}
-{"qid": "8db19bb6237c4267b903b0d348c46102", "answer": "rivera having been a linebacker with the chicago bears in super bowl xx"}
-{"qid": "8dceaa47a38d485a86d6213d60d6bec7", "answer": "rivera"}
-{"qid": "2b00f72ce83f4598ba2de44d4181028a", "answer": "rivera"}
-{"qid": "fcd0fd72886f4e55a4e5b2fefb546fb0", "answer": "rivera"}
-{"qid": "3b135767c60944c9b553293a1de2438d", "answer": "head coaches"}
-{"qid": "758adda8585a4887901167fe63009d94", "answer": "rivera"}
-{"qid": "68d5e205ca564d9e8701f5e52dbb806d", "answer": "broncos defeated the pittsburgh steelers"}
-{"qid": "00c2ee2cc2e744e9961f8fcef76fb902", "answer": "three"}
-{"qid": "4cf7016faef642289d5ef0858330a1d0", "answer": "the broncos defeated the pittsburgh steelers"}
-{"qid": "1343fa26263c40dfabfeb6d49785adef", "answer": "champion"}
-{"qid": "2976d9e5d3d2405b9b70ab760f227aa4", "answer": "11 points"}
-{"qid": "be31091fdd6145e19ff83a66bd1ca28a", "answer": "champion new england patriots"}
-{"qid": "1e7ff9b50dde434982853a67dcedaf69", "answer": "the broncos"}
-{"qid": "6bd89f300f1949f3aca3506fa32e722a", "answer": "the broncos defeated the pittsburgh steelers"}
-{"qid": "5c630748014b4477891f665bbb9e5c70", "answer": "three"}
-{"qid": "8ae8bcbcaa144656b2f6215cbd25547c", "answer": "points"}
-{"qid": "60b1c556714a40c2ba56ef9db31072e6", "answer": "the broncos defeated the pittsburgh steelers"}
-{"qid": "c5d7b91f3afa4ad3becb374097236b6d", "answer": "three"}
-{"qid": "6ac9065d46554f7bbbd83277481f90d9", "answer": "xlix champion"}
-{"qid": "8a147613379d42739186014d2b88b66a", "answer": "the final three minutes"}
-{"qid": "7fd8adf2387e454ebe2659c6e55dbded", "answer": "xlix champion"}
-{"qid": "152502eb290943fa9ebd0740cf24a89d", "answer": "three"}
-{"qid": "d1c599cbd5004f559dc062905efa3c64", "answer": "manning finished"}
+{"qid": "c7d65717883d4573a8df761ec1ac8e98", "answer": "bowls"}
+{"qid": "da951016315c4230b913c469688af920", "answer": "bowls"}
+{"qid": "b100e1bfd5704e05bcf4e2ec842aa06a", "answer": "bowls"}
+{"qid": "8db19bb6237c4267b903b0d348c46102", "answer": "bowls"}
+{"qid": "8dceaa47a38d485a86d6213d60d6bec7", "answer": "bowls"}
+{"qid": "2b00f72ce83f4598ba2de44d4181028a", "answer": "bowls"}
+{"qid": "fcd0fd72886f4e55a4e5b2fefb546fb0", "answer": "bowls"}
+{"qid": "758adda8585a4887901167fe63009d94", "answer": "bowls"}
+{"qid": "68d5e205ca564d9e8701f5e52dbb806d", "answer": "scoring 11"}
+{"qid": "00c2ee2cc2e744e9961f8fcef76fb902", "answer": "divisional round , 23\u201316 , by scoring 11"}
+{"qid": "4cf7016faef642289d5ef0858330a1d0", "answer": "17"}
+{"qid": "1343fa26263c40dfabfeb6d49785adef", "answer": "xlix champion new england patriots in the afc championship"}
+{"qid": "2976d9e5d3d2405b9b70ab760f227aa4", "answer": "17"}
+{"qid": "be31091fdd6145e19ff83a66bd1ca28a", "answer": "divisional round , 23\u201316 , by scoring 11 points in the final three minutes"}
+{"qid": "1e7ff9b50dde434982853a67dcedaf69", "answer": "divisional round"}
+{"qid": "6bd89f300f1949f3aca3506fa32e722a", "answer": "17"}
+{"qid": "60b1c556714a40c2ba56ef9db31072e6", "answer": "divisional round"}
+{"qid": "c5d7b91f3afa4ad3becb374097236b6d", "answer": "divisional round , 23\u201316 , by scoring 11"}
+{"qid": "6ac9065d46554f7bbbd83277481f90d9", "answer": "17"}
+{"qid": "8a147613379d42739186014d2b88b66a", "answer": "scoring 11"}
+{"qid": "7fd8adf2387e454ebe2659c6e55dbded", "answer": "17"}
+{"qid": "152502eb290943fa9ebd0740cf24a89d", "answer": "17"}
+{"qid": "d1c599cbd5004f559dc062905efa3c64", "answer": "nine"}
 {"qid": "5f109c1aed584b8cac593c86cf929ba3", "answer": "nine"}
-{"qid": "dea5bcab4cd44c8cbd436b1d5dd5b42d", "answer": "105 receptions"}
-{"qid": "ef809f1d8c054746b4b48797d5a1d791", "answer": "j. anderson"}
-{"qid": "1f5dc42a4e1946578a4ee4f82ac9c04d", "answer": "nine"}
-{"qid": "670b2e41045a48b78400714ba1befbbf", "answer": "46 receptions"}
-{"qid": "1af3c6ff72f44a9bbd0494b13310b57a", "answer": "five"}
-{"qid": "17c52eeb6fe840b2a2056e40bc3d372b", "answer": "manning"}
-{"qid": "6c2b37a0632341cebf0ed76a23e2e264", "answer": "105 receptions"}
-{"qid": "5a1b7a26186c477dbe5243fc89e666f3", "answer": "manning"}
-{"qid": "b8890850cfcd4513817e6d65ba16d39c", "answer": "manning"}
+{"qid": "1f5dc42a4e1946578a4ee4f82ac9c04d", "answer": "six"}
+{"qid": "670b2e41045a48b78400714ba1befbbf", "answer": "nine"}
+{"qid": "1af3c6ff72f44a9bbd0494b13310b57a", "answer": "nine touchdowns"}
+{"qid": "17c52eeb6fe840b2a2056e40bc3d372b", "answer": "nine"}
+{"qid": "5a1b7a26186c477dbe5243fc89e666f3", "answer": "thomas led the team with 105"}
+{"qid": "b8890850cfcd4513817e6d65ba16d39c", "answer": "nine"}
 {"qid": "3e361c69cef043d9a10b67488920cbb3", "answer": "nine"}
-{"qid": "d762dff23fae4ff898f153397c627b37", "answer": "105 receptions"}
-{"qid": "7170e2c487be44d39a25cff533b5f828", "answer": "nine"}
-{"qid": "d935796508064bb38b7354f6a17ffe37", "answer": "manning finished"}
-{"qid": "e23f0399e9e14470b8dd2ee726994240", "answer": "nine"}
-{"qid": "4e6cc369ecea4d96a9f8fefa5cb92bbc", "answer": "manning finished"}
-{"qid": "3c176b3b49894d32a734e1d2070dceec", "answer": "big element of the passing game with 46 receptions"}
-{"qid": "53895874faba455e89fb8fb67dd7f69a", "answer": "overall"}
-{"qid": "9d88bcae95ce4459b9bdf21bc8a9bb01", "answer": "four"}
-{"qid": "fdb7d8a80c7f4ef79ab2b61aae8b8b7f", "answer": "four"}
-{"qid": "8c53aa54e92742268a605fe712ed0ccf", "answer": "broncos ' defense"}
-{"qid": "496580a779d24154ba5e1e2bc697bb3f", "answer": "four"}
-{"qid": "892a21172aa04a1ebdf26e31f11cbd2a", "answer": "the broncos ' defense"}
-{"qid": "b6bd95a300294312b2bb040b8f2865b8", "answer": "the broncos ' defense"}
-{"qid": "e5a292f3601547c89cc506ceb0c73a87", "answer": "the broncos ' defense"}
-{"qid": "67c4e768945d4997bbc42b9942e82e20", "answer": "four"}
-{"qid": "035c3771c9ac4e068ae0fb4adc0b71d8", "answer": "broncos ' defense"}
-{"qid": "ede2530241354fe8b2aaf06c625841ab", "answer": "broncos ' defense"}
-{"qid": "cf2f1b36cbea407ebdd8aee82d3605cb", "answer": "11"}
-{"qid": "44274d853cbd4d8fa23cb42452e2d97f", "answer": "broncos ' defense"}
-{"qid": "e2a6a7456aaa407fadb50a63bc68f5af", "answer": "broncos ' defense"}
-{"qid": "69bfda1e7edb4ff09bb54bf1e9b12e4e", "answer": "11 sacks"}
-{"qid": "55e158accf3e4218ba5c7d7f58686773", "answer": "carolina"}
-{"qid": "c0ae74b107be4d4abaadc217859189b8", "answer": "carolina"}
-{"qid": "ae185dc821a4477bb3a66ee6af7102dd", "answer": "three"}
-{"qid": "ad70f3e1a6cf4fa2b18bd3e5fb285079", "answer": "11-year veteran who had already overcome three acl tears"}
-{"qid": "8880f30c02834955913336c0c7a6b054", "answer": "carolina"}
-{"qid": "1862db23afe345ecba3f6d997d8c751b", "answer": "carolina"}
-{"qid": "106b9776784f48408a12ba6f48defb46", "answer": "three acl tears"}
-{"qid": "f17a430585f14d46a5e3e05d89358651", "answer": "carolina"}
+{"qid": "d762dff23fae4ff898f153397c627b37", "answer": "thomas led the team with 105"}
+{"qid": "7170e2c487be44d39a25cff533b5f828", "answer": "five touchdowns , 24 receptions , and a 4.7 yards per"}
+{"qid": "d935796508064bb38b7354f6a17ffe37", "answer": "nine"}
+{"qid": "53895874faba455e89fb8fb67dd7f69a", "answer": "five touchdowns , 24 receptions , and a 4.7 yards per"}
+{"qid": "9d88bcae95ce4459b9bdf21bc8a9bb01", "answer": "allowed ("}
+{"qid": "8c53aa54e92742268a605fe712ed0ccf", "answer": "sacks"}
+{"qid": "892a21172aa04a1ebdf26e31f11cbd2a", "answer": "linebacker demarcus"}
+{"qid": "e5a292f3601547c89cc506ceb0c73a87", "answer": "defensive ends derek"}
+{"qid": "67c4e768945d4997bbc42b9942e82e20", "answer": "allowed ("}
+{"qid": "035c3771c9ac4e068ae0fb4adc0b71d8", "answer": "linebacker von miller led the team with 11 sacks"}
+{"qid": "44274d853cbd4d8fa23cb42452e2d97f", "answer": "allowed ("}
+{"qid": "55e158accf3e4218ba5c7d7f58686773", "answer": "thomas davis"}
+{"qid": "c0ae74b107be4d4abaadc217859189b8", "answer": "thomas davis"}
+{"qid": "ae185dc821a4477bb3a66ee6af7102dd", "answer": "thomas davis"}
+{"qid": "ad70f3e1a6cf4fa2b18bd3e5fb285079", "answer": "thomas davis"}
+{"qid": "8880f30c02834955913336c0c7a6b054", "answer": "thomas davis"}
+{"qid": "1862db23afe345ecba3f6d997d8c751b", "answer": "thomas davis"}
+{"qid": "106b9776784f48408a12ba6f48defb46", "answer": "thomas davis"}
+{"qid": "f17a430585f14d46a5e3e05d89358651", "answer": "thomas davis"}
 {"qid": "ef1a0a2d614e4db6aec01c2eba7ef708", "answer": "thomas davis"}
-{"qid": "4a21f8c9cace4fd8b9feda41fe3dba0d", "answer": "stanford university"}
-{"qid": "16d107338e6b4272be348a9d532eebe7", "answer": "stanford university"}
-{"qid": "b436af43940445c084c00b98ccff8356", "answer": "the panthers"}
-{"qid": "336d8d706a7b403db7ebbb59259017fc", "answer": "the panthers"}
-{"qid": "cc62159cc0b345fbb0b424228a16dade", "answer": "the panthers"}
-{"qid": "5e8acf20236349bfae848710adacaf64", "answer": "the panthers"}
-{"qid": "cc5b6764fdb749b89bb456ae602c006d", "answer": "the panthers"}
-{"qid": "5ef15f97b6a14b25b782270099885ae0", "answer": "the panthers"}
-{"qid": "0a946105788d4e66a06c61723fc3725f", "answer": "the panthers"}
-{"qid": "b67310e916c14d5bbc024872e164cf7c", "answer": "stanford university and stayed at the santa clara marriott"}
-{"qid": "d9c9a433149e49fda4c1bfe587d7d9d5", "answer": "the panthers"}
-{"qid": "86fa3c2e6e7044b5a46ac3af604ef805", "answer": "the panthers"}
-{"qid": "320448ac19a54e839cd0fc747074372b", "answer": "the panthers"}
-{"qid": "3a7deadf9927491dbb03ea1f7e4fafe9", "answer": "the panthers"}
-{"qid": "ea4eda0f019b464c8c6e6d802730a5d1", "answer": "the panthers"}
-{"qid": "53b0c431c0754af89fe953eff569cc1c", "answer": "stanford university and stayed at the santa clara marriott"}
-{"qid": "2cef7e7673884188b0ce32b9ecb9ee9c", "answer": "six touchdowns in 13"}
-{"qid": "b29afede5ef04c8794a96e7a4e335ea5", "answer": "six touchdowns in 13"}
-{"qid": "784ed1913a2f431dba526ff07159141e", "answer": "six touchdowns in 13"}
-{"qid": "62150d2aef2d4e7fb7a59b183bc9c6d5", "answer": "six touchdowns in 13"}
-{"qid": "8318b3a4c5ad4c67b5e228543df9b262", "answer": "the panthers offense"}
-{"qid": "8005ab279efd417281d7fc31e4ae704c", "answer": "500 points"}
-{"qid": "56f641ad899f404bb0c0c9190ed102e7", "answer": "the panthers offense"}
-{"qid": "4168284b2aa24209a03aa8967c45a8c9", "answer": "six touchdowns in 13"}
-{"qid": "cfd112d4f8eb4779aa0b83427196988c", "answer": "the panthers offense"}
-{"qid": "153781c295e34067ae372b112cacff83", "answer": "the panthers offense"}
-{"qid": "c054f25a4a4d41eeb4b4a4c59f4e523d", "answer": "six touchdowns in 13"}
-{"qid": "ef9bd4afd9b04e5b85f8fd2f52f6aa1f", "answer": "the panthers offense"}
-{"qid": "ac46cf3a346e4f2bb6ba99f1c24e7cf6", "answer": "six touchdowns in 13"}
-{"qid": "c28252d7a259420aab82f2fe75e1b4ff", "answer": "six touchdowns in 13"}
-{"qid": "65f195e4eebf4aafb52d10fd9ce6447e", "answer": "six touchdowns in 13"}
-{"qid": "f6e3378dba95429b9690be503d36eb24", "answer": "six touchdowns in 13"}
-{"qid": "6de282c77ce54d148919299393deca48", "answer": "six touchdowns in 13"}
-{"qid": "ac7c02a02b5d49cc97d530fbb456010e", "answer": "six touchdowns in 13"}
-{"qid": "51c3ebbad0704e52a1617a9bdec83054", "answer": "the panthers offense"}
-{"qid": "e1dd0ea070434aa0910d89459422750f", "answer": "six touchdowns in 13"}
-{"qid": "5cd02794e825438f92b08f87203e8469", "answer": "gold - themed promotions"}
-{"qid": "c2cecb163cd74a60a5fd30e840ee20b5", "answer": "super bowl \" ; gold - tinted logos"}
-{"qid": "8247093d2d3c4066a957b3915b1095ab", "answer": "gold - themed promotions"}
-{"qid": "e11246cc28c943f1aab91fb2b49ee534", "answer": "gold - themed promotions"}
-{"qid": "4d9033016d6649c991e78ac5d96ce516", "answer": "gold - themed promotions"}
-{"qid": "9b029eccc92b43b8930bc70848f00309", "answer": "gold - themed promotions"}
-{"qid": "4897a6c5fafe4d82a0291cf3be229775", "answer": "the super bowl , and \" homecoming"}
-{"qid": "926e31c8640e4b94839b4f7ad0f9d055", "answer": "gold - themed promotions"}
-{"qid": "8657d5ec6a45471eabb588b4cbd26d33", "answer": "gold - themed promotions"}
-{"qid": "f5b1009140d84998a47022261d946a7c", "answer": "selection of the 1998 nfl draft"}
-{"qid": "a3fef3dbe98a463db81cd277a66fe0c0", "answer": "super bowl to feature a quarterback"}
+{"qid": "4a21f8c9cace4fd8b9feda41fe3dba0d", "answer": "san jose marriott"}
+{"qid": "16d107338e6b4272be348a9d532eebe7", "answer": "santa clara"}
+{"qid": "b436af43940445c084c00b98ccff8356", "answer": "san jose marriott"}
+{"qid": "336d8d706a7b403db7ebbb59259017fc", "answer": "santa clara marriott"}
+{"qid": "cc62159cc0b345fbb0b424228a16dade", "answer": "san jose"}
+{"qid": "cc5b6764fdb749b89bb456ae602c006d", "answer": "san jose"}
+{"qid": "5ef15f97b6a14b25b782270099885ae0", "answer": "santa clara"}
+{"qid": "0a946105788d4e66a06c61723fc3725f", "answer": "san jose"}
+{"qid": "b67310e916c14d5bbc024872e164cf7c", "answer": "san jose"}
+{"qid": "320448ac19a54e839cd0fc747074372b", "answer": "san jose"}
+{"qid": "3a7deadf9927491dbb03ea1f7e4fafe9", "answer": "san jose"}
+{"qid": "53b0c431c0754af89fe953eff569cc1c", "answer": "santa clara"}
+{"qid": "2cef7e7673884188b0ce32b9ecb9ee9c", "answer": "scoring ( 500"}
+{"qid": "b29afede5ef04c8794a96e7a4e335ea5", "answer": "35"}
+{"qid": "784ed1913a2f431dba526ff07159141e", "answer": "35"}
+{"qid": "62150d2aef2d4e7fb7a59b183bc9c6d5", "answer": "ted ginn , jr. , who caught 44"}
+{"qid": "8318b3a4c5ad4c67b5e228543df9b262", "answer": "jr. , who caught 44"}
+{"qid": "8005ab279efd417281d7fc31e4ae704c", "answer": "35"}
+{"qid": "56f641ad899f404bb0c0c9190ed102e7", "answer": "touchdowns ("}
+{"qid": "4168284b2aa24209a03aa8967c45a8c9", "answer": "ted ginn , jr. , who caught 44"}
+{"qid": "153781c295e34067ae372b112cacff83", "answer": "scoring ( 500"}
+{"qid": "c054f25a4a4d41eeb4b4a4c59f4e523d", "answer": "scoring ( 500"}
+{"qid": "ac46cf3a346e4f2bb6ba99f1c24e7cf6", "answer": "35"}
+{"qid": "c28252d7a259420aab82f2fe75e1b4ff", "answer": "35"}
+{"qid": "f6e3378dba95429b9690be503d36eb24", "answer": "scoring ( 500"}
+{"qid": "6de282c77ce54d148919299393deca48", "answer": "35"}
+{"qid": "ac7c02a02b5d49cc97d530fbb456010e", "answer": "35"}
+{"qid": "51c3ebbad0704e52a1617a9bdec83054", "answer": "touchdowns ("}
+{"qid": "5cd02794e825438f92b08f87203e8469", "answer": "2015"}
+{"qid": "c2cecb163cd74a60a5fd30e840ee20b5", "answer": "super bowl \" ; gold"}
+{"qid": "e11246cc28c943f1aab91fb2b49ee534", "answer": "2015"}
+{"qid": "4d9033016d6649c991e78ac5d96ce516", "answer": "2015"}
+{"qid": "9b029eccc92b43b8930bc70848f00309", "answer": "2015"}
+{"qid": "4897a6c5fafe4d82a0291cf3be229775", "answer": "2015"}
+{"qid": "8657d5ec6a45471eabb588b4cbd26d33", "answer": "2015"}
+{"qid": "f5b1009140d84998a47022261d946a7c", "answer": "26"}
+{"qid": "a3fef3dbe98a463db81cd277a66fe0c0", "answer": "13"}
 {"qid": "2983facd0cb54544953594a28ac667a8", "answer": "13"}
 {"qid": "869ea3f7cf3345beb29bcf4b08af8e4e", "answer": "13"}
-{"qid": "cab504e87d4f4c64a6f540ffd7d6ee0b", "answer": "selection of the 1998 nfl draft"}
-{"qid": "66c8f2fe36e045c5b8104d8734d73ad9", "answer": "super bowl to feature a quarterback"}
-{"qid": "1552e898d2f04cc5a59a3010d178daef", "answer": "picks"}
+{"qid": "66c8f2fe36e045c5b8104d8734d73ad9", "answer": "nfl"}
+{"qid": "1552e898d2f04cc5a59a3010d178daef", "answer": "nfl"}
 {"qid": "ab43c91537c3471ca220dff88a45c913", "answer": "13"}
 {"qid": "234757bd757a4a48877bcb5f6ed1c238", "answer": "13"}
-{"qid": "0d51f2973b374eb8bf316e011e206e9d", "answer": "picks"}
-{"qid": "35ddee575d8d4859afc86d5df2076930", "answer": "picks"}
-{"qid": "cec5799e77324807a706e7032afa6bc5", "answer": "picks of the 2011 draft against each other : newton"}
+{"qid": "0d51f2973b374eb8bf316e011e206e9d", "answer": "13"}
+{"qid": "35ddee575d8d4859afc86d5df2076930", "answer": "13"}
 {"qid": "d6ad7c6ec26345a79a58423123f112e6", "answer": "13"}
 {"qid": "ea647ebb1975423f8f5bfc48c75bfc59", "answer": "13"}
 {"qid": "14fb1c45171745708e52b6e3fef1dec8", "answer": "13"}
-{"qid": "961073a3e3f642c3af76fa93651a5a1a", "answer": "peyton manning"}
+{"qid": "961073a3e3f642c3af76fa93651a5a1a", "answer": "john elway , who led the broncos to victory in super bowl xxxiii"}
 {"qid": "3ccdcffa63d3402881a85ce85723402a", "answer": "john elway"}
-{"qid": "08c9fe5516ad4c63bcffec662a1642a7", "answer": "peyton manning"}
-{"qid": "3fd247acb82740feb3add5257e07e851", "answer": "denver"}
-{"qid": "8d333b1d36ee4151a72b00080196771f", "answer": "peyton manning"}
-{"qid": "3871eb4d5d2f48f69c0cf2bf619dadc8", "answer": "peyton manning"}
-{"qid": "f0a5393dfaf245828d1a399435cdfd02", "answer": "executive vice president of football operations"}
-{"qid": "321e0548a015454e9c987b06770b62ad", "answer": "peyton manning"}
-{"qid": "ff18717ccb9b42aea3d4cdb70040ec45", "answer": "the oldest"}
-{"qid": "1565230529f64cc0ab610b9a6facdb8e", "answer": "lead two"}
-{"qid": "e4e361b200534a3388fe2b7922b904d0", "answer": "lead two"}
-{"qid": "7d2d6343328f48198ab3eab671e0b6b4", "answer": "the oldest"}
-{"qid": "71760ddbdc1641f4af1bf01d571bcea8", "answer": "the oldest"}
-{"qid": "6f8b3c5b93cd46d9a1fb29d18e73138c", "answer": "peyton manning"}
-{"qid": "566cf0c8463c4d0db029e607060e2a1b", "answer": "peyton manning"}
-{"qid": "9b3bf037fad04cd48595bdb28b4351e1", "answer": "peyton manning"}
-{"qid": "82c9cf3397344e51866e8e921461f07a", "answer": "peyton manning"}
-{"qid": "5ae7970b8e8545e2914407572d5cd782", "answer": "50 fund"}
-{"qid": "60a8a9c38332436aa383adb9b91942c6", "answer": "super bowl 50 host committee"}
-{"qid": "ad997b2dc2044f959d28ed91a6de3dcb", "answer": "50"}
-{"qid": "341a75397cc84708bd23046e9b923756", "answer": "raises for philanthropic causes in the bay area . the committee created the 50 fund"}
-{"qid": "311b9f06eb96472babc167ae3ea1b595", "answer": "super bowl 50 host committee"}
-{"qid": "3c8bac2c6e074b2391a91763c5f2e23b", "answer": "50"}
-{"qid": "f41c709fe2a44e509de02a019995d78e", "answer": "raises for philanthropic causes in the bay area . the committee created the 50 fund"}
-{"qid": "8a94f01e51064a6c95b7583c597166c2", "answer": "50 fund"}
-{"qid": "3691868eda8b41e0a418fa8a4f8dac47", "answer": "youth development"}
-{"qid": "256e6aea8e284d458f0e634c5417a830", "answer": "vince lombardi trophy that all super bowl champions"}
-{"qid": "f525d3ff283146e693f88f25f83a5dc1", "answer": "super bowl 50 will also receive a large , 18-karat gold - plated"}
-{"qid": "c7be99f0b4f44e3bb140165b2bca1c22", "answer": "18-karat gold - plated"}
-{"qid": "10e4c05319ff48d088e590fc59d66396", "answer": "the winner of super bowl 50 will also receive a large , 18-karat gold - plated"}
-{"qid": "1780eb6f4a44465db33d9ef80cfd3578", "answer": "18-karat gold - plated"}
-{"qid": "e63f576b48994ba393a4976a43f34bc4", "answer": "33"}
-{"qid": "5e762db6eacd4ef9a17178a676997bd2", "answer": "winner of super bowl 50 will also receive a large , 18-karat gold - plated"}
-{"qid": "4d34e1d759844a3a8b60fe75199310e2", "answer": "18-karat gold - plated"}
+{"qid": "08c9fe5516ad4c63bcffec662a1642a7", "answer": "john elway , who led the broncos to victory in super bowl xxxiii"}
+{"qid": "3fd247acb82740feb3add5257e07e851", "answer": "john elway , who led the broncos to victory in super bowl xxxiii"}
+{"qid": "8d333b1d36ee4151a72b00080196771f", "answer": "john elway , who led the broncos to victory in super bowl xxxiii"}
+{"qid": "3871eb4d5d2f48f69c0cf2bf619dadc8", "answer": "john elway , who led the broncos to victory in super bowl xxxiii"}
+{"qid": "f0a5393dfaf245828d1a399435cdfd02", "answer": "john elway , who led the broncos to victory in super bowl xxxiii"}
+{"qid": "321e0548a015454e9c987b06770b62ad", "answer": "john elway , who led the broncos to victory in super bowl xxxiii"}
+{"qid": "1565230529f64cc0ab610b9a6facdb8e", "answer": "john elway , who led the broncos to victory in super bowl xxxiii"}
+{"qid": "e4e361b200534a3388fe2b7922b904d0", "answer": "john elway , who led the broncos to victory in super bowl xxxiii"}
+{"qid": "71760ddbdc1641f4af1bf01d571bcea8", "answer": "john elway , who led the broncos to victory in super bowl xxxiii"}
+{"qid": "6f8b3c5b93cd46d9a1fb29d18e73138c", "answer": "john elway"}
+{"qid": "566cf0c8463c4d0db029e607060e2a1b", "answer": "john elway , who led the broncos to victory in super bowl xxxiii"}
+{"qid": "9b3bf037fad04cd48595bdb28b4351e1", "answer": "john elway , who led the broncos to victory in super bowl xxxiii"}
+{"qid": "82c9cf3397344e51866e8e921461f07a", "answer": "john elway , who led the broncos to victory in super bowl xxxiii"}
+{"qid": "5ae7970b8e8545e2914407572d5cd782", "answer": "25"}
+{"qid": "311b9f06eb96472babc167ae3ea1b595", "answer": "25 percent of all money it raises for philanthropic causes in the bay area"}
+{"qid": "f41c709fe2a44e509de02a019995d78e", "answer": "the 50"}
+{"qid": "3691868eda8b41e0a418fa8a4f8dac47", "answer": "committee created the 50"}
+{"qid": "256e6aea8e284d458f0e634c5417a830", "answer": "winner of super bowl"}
+{"qid": "10e4c05319ff48d088e590fc59d66396", "answer": "tiffany"}
+{"qid": "1780eb6f4a44465db33d9ef80cfd3578", "answer": "winner of super"}
+{"qid": "5e762db6eacd4ef9a17178a676997bd2", "answer": "winner of super bowl 50"}
 {"qid": "b8ba9f94d19a4864bf6f2c380c555949", "answer": "santa clara university"}
-{"qid": "5bdca30388f34cb38bb9decea12428b3", "answer": "$ 2 million"}
-{"qid": "8ec1dfb7d89e460994ac9f66cd9a8a98", "answer": "week - long event at the santa clara convention"}
-{"qid": "738ddb29962c47b4b8d750a1431600b3", "answer": "$ 2 million"}
-{"qid": "ec0c01d9a0fd49b79d1e6753c8cda073", "answer": "santa clara convention center"}
-{"qid": "bc9cd02af8ad415eb2d8f03b0788b5e9", "answer": "$ 2 million worth"}
-{"qid": "eed2f8386ecc45a8a183f23f543161e4", "answer": "bellomy field"}
-{"qid": "c124ba8b3c074e3db1c1d5c3733bb5f0", "answer": "$ 2 million worth"}
-{"qid": "e5a955a02a4f41a99d85df987ac78e5c", "answer": "aside seed funding"}
-{"qid": "2336aff6623f454588b9bac7e08b1c11", "answer": "$ 2 million worth"}
-{"qid": "5981c573776140c280d6974d71c58952", "answer": "$ 2 million worth"}
-{"qid": "32f3113d45214b698a794a03fae6bfe4", "answer": "super bowl program"}
-{"qid": "94a8c150e43f40c6a5a322eb593be27e", "answer": "over $ 40 million"}
-{"qid": "f4bc507a69b8406484c3738edb4f80f0", "answer": "$ 40 million"}
-{"qid": "68742ecf1d3c49b0a034d96fafc7a1f9", "answer": "$ 40 million"}
-{"qid": "cbf8f986ff854679941d6c37ba6e93c4", "answer": "$ 40 million"}
-{"qid": "e7dbabe1f69d40688ef88e7a707c8cf2", "answer": "yahoo !"}
-{"qid": "99053ad2256b4be4890f280ce9417987", "answer": "over $ 40 million"}
-{"qid": "9ee73728614940b29a563b8d0efe0b9a", "answer": "over $ 40 million"}
-{"qid": "5dc1970284314a36be1bc150a9f0e625", "answer": "companies with contracting opportunities"}
-{"qid": "62131e91ff6c40469ca11330ea281f84", "answer": "contracting opportunities"}
-{"qid": "c235b61a39f340028f5917b32f273263", "answer": "over $ 40 million"}
+{"qid": "8ec1dfb7d89e460994ac9f66cd9a8a98", "answer": "santa clara"}
+{"qid": "eed2f8386ecc45a8a183f23f543161e4", "answer": "santa clara"}
+{"qid": "32f3113d45214b698a794a03fae6bfe4", "answer": "sought disabled veteran"}
+{"qid": "e7dbabe1f69d40688ef88e7a707c8cf2", "answer": "sought disabled"}
+{"qid": "5dc1970284314a36be1bc150a9f0e625", "answer": "super bowl 50"}
+{"qid": "62131e91ff6c40469ca11330ea281f84", "answer": "super bowl"}
 {"qid": "b6444ce89cee470e8e27faa745b214b5", "answer": "stephen colbert"}
-{"qid": "a18be35b7c6840878da200331bcc1256", "answer": "stephen colbert following the game . following a break for late local programming , cbs"}
-{"qid": "ff965497cc7e4665bc6fd7e689ab5cf3", "answer": "james corden"}
-{"qid": "10ed7f9a747d4eca8a1b23f44305b619", "answer": "stephen colbert"}
-{"qid": "6770b2d6a616433399b78793ac928681", "answer": "james corden"}
+{"qid": "a18be35b7c6840878da200331bcc1256", "answer": "stephen colbert"}
+{"qid": "ff965497cc7e4665bc6fd7e689ab5cf3", "answer": "stephen colbert"}
+{"qid": "6770b2d6a616433399b78793ac928681", "answer": "stephen colbert"}
 {"qid": "dc01fdc6811b4628b4591d736a7216ee", "answer": "james corden"}
-{"qid": "26f553fd7f72470bbf4299b572a8bc68", "answer": "james corden"}
-{"qid": "2b735c3b6f6a49c3b5b497250a87f42f", "answer": "a portion of the turf collapsed under baltimore ravens kicker justin tucker"}
-{"qid": "bce9c75a5cd34926964e24f4ce9ba877", "answer": "super bowl games played at natural grass stadiums"}
-{"qid": "95aa71546b3b412eaf2582ee0b4c506f", "answer": "director"}
-{"qid": "e55257b31dfd46ec8482ebf56c80940e", "answer": "super bowl games played at natural grass stadiums"}
-{"qid": "e9dd661e37724995af453a3197f1c160", "answer": "over whether levi 's stadium 's field"}
-{"qid": "4027081bf47c4a8bb8c3fea6d378118e", "answer": "natural grass stadiums"}
-{"qid": "4743695c2bd040b3b08435172563598c", "answer": "super bowl games played at natural grass stadiums"}
-{"qid": "ec1e941a8d4b444cba0ee62ef1eb1f35", "answer": "re - sodded"}
-{"qid": "dc8c943d1253438c876317cc39932a0a", "answer": "slip and miss a field goal"}
-{"qid": "1ba37fbddbf04e6ab343ee5bb465b3c0", "answer": "over whether levi 's stadium"}
-{"qid": "4229f7764cd747eb8cf9ca38ad3530c3", "answer": "natural grass stadiums"}
-{"qid": "39ec3dbad66145c8b9a37403d7b25baa", "answer": "change"}
-{"qid": "86a4dda931be468ba5f3e3ab021bad16", "answer": "natural grass stadiums"}
-{"qid": "40242b86cd88486eb8ac2efecde28f30", "answer": "super bowl games played at natural grass stadiums"}
-{"qid": "bf2e353804c743388f340a79ced93ef8", "answer": "the game 's media day , which was typically held on the tuesday afternoon"}
-{"qid": "1078044ce95445059e2c3058631194ee", "answer": "the game 's media"}
-{"qid": "8ee36e16ba3b4e479f6e6f2e46df9af5", "answer": "the"}
-{"qid": "dd498ba3f06042418c854c111e0a31e4", "answer": "sap center in san jose"}
-{"qid": "fb753442135f4610b1043610ae3861c1", "answer": "the"}
-{"qid": "188c5f34bd99484997fba092e24adb7f", "answer": "the tuesday afternoon"}
-{"qid": "dff6dacadea244cb9e77c298e0eabd5a", "answer": "the game 's media"}
-{"qid": "3d887639868d479bbecc12a93c6dd0cd", "answer": "the game 's media"}
-{"qid": "39d658b125dc43c1a42798fbf06b4205", "answer": "the game 's media"}
-{"qid": "3a0bb057cdcd4f5885b4351bc2bdf7f0", "answer": "the game 's media"}
-{"qid": "0454bbf76df84084ad2e55b28e21cd5b", "answer": "the tuesday afternoon"}
-{"qid": "1e826c33a7d64804b685c91a6c6038b0", "answer": "the game 's media"}
-{"qid": "5258a9d243b84b779f2f0827dd17a784", "answer": "the game 's media"}
-{"qid": "e64b7a1e74c44fc5aa4728feca497ec0", "answer": "introductions"}
-{"qid": "d055cc9408d248f98d1b7ee4b848b6ec", "answer": "the game 's media"}
-{"qid": "b974c630ff6e4ba08bd212ea2c51f745", "answer": "the game 's media"}
-{"qid": "ea2e8a9c994b468eabb65bb45f5a2bda", "answer": "the tuesday afternoon"}
-{"qid": "e8ccdf37bb194df7a1b9d9b7c1cd4477", "answer": "the"}
-{"qid": "22922fc3ed5f4f06ab265ff100e260e1", "answer": "february 1 , 2016"}
-{"qid": "a15db933be4f474fb9530a29c56676e5", "answer": "june 4 , 2014"}
-{"qid": "3e75d0e276ab40258d814569934f9a39", "answer": "roman numerals"}
-{"qid": "038d7e2d3d5c477b8b20914dc02bdb03", "answer": "brand and creative"}
-{"qid": "18393ee943a8463b9d9db58e764f2806", "answer": "june 4 , 2014"}
-{"qid": "5e2f82b378e34ddc9dfd68485bb31063", "answer": "vice president of brand and creative"}
-{"qid": "3e2e4a9415be4272bd796b61ec908983", "answer": "june 4 , 2014"}
-{"qid": "d5fa75dfa6c542dfba4e293a811eaa3e", "answer": "2014"}
-{"qid": "d0da4f4bcc56446998965a0c3eb86a28", "answer": "june 4 , 2014"}
-{"qid": "03bb769169d14e2cb760fe8bd8f0c99a", "answer": "june 4 , 2014"}
-{"qid": "8ec59353139d473687709183c70aebeb", "answer": "june 4 , 2014"}
-{"qid": "f3281d29820a438eac70020bc2e1de94", "answer": "super bowl li"}
-{"qid": "24f623c539004dafa467390fa0116ad6", "answer": "behind the vince lombardi"}
-{"qid": "350e0128ab6c4c2aba0b6329e680192b", "answer": "june 4 , 2014"}
-{"qid": "a10337cda893472c8c3486bea7cc7c13", "answer": "super bowl l."}
-{"qid": "7df3b85497bf458aa7df911038a515a8", "answer": "super bowl li"}
-{"qid": "ec739bf23f4748cfa92ffc3e8ef5c080", "answer": "the"}
+{"qid": "2b735c3b6f6a49c3b5b497250a87f42f", "answer": "ravens kicker justin"}
+{"qid": "bce9c75a5cd34926964e24f4ce9ba877", "answer": "natural"}
+{"qid": "95aa71546b3b412eaf2582ee0b4c506f", "answer": "ed mangan"}
+{"qid": "e55257b31dfd46ec8482ebf56c80940e", "answer": "ravens kicker justin"}
+{"qid": "e9dd661e37724995af453a3197f1c160", "answer": "ravens kicker justin"}
+{"qid": "4027081bf47c4a8bb8c3fea6d378118e", "answer": "baltimore ravens kicker justin"}
+{"qid": "4743695c2bd040b3b08435172563598c", "answer": "ravens kicker justin"}
+{"qid": "ec1e941a8d4b444cba0ee62ef1eb1f35", "answer": "natural"}
+{"qid": "dc8c943d1253438c876317cc39932a0a", "answer": "ravens kicker justin"}
+{"qid": "1ba37fbddbf04e6ab343ee5bb465b3c0", "answer": "natural"}
+{"qid": "86a4dda931be468ba5f3e3ab021bad16", "answer": "ravens kicker justin"}
+{"qid": "40242b86cd88486eb8ac2efecde28f30", "answer": "natural"}
+{"qid": "bf2e353804c743388f340a79ced93ef8", "answer": "tuesday afternoon"}
+{"qid": "1078044ce95445059e2c3058631194ee", "answer": "tuesday afternoon"}
+{"qid": "dd498ba3f06042418c854c111e0a31e4", "answer": "san jose"}
+{"qid": "188c5f34bd99484997fba092e24adb7f", "answer": "tuesday afternoon"}
+{"qid": "dff6dacadea244cb9e77c298e0eabd5a", "answer": "tuesday afternoon"}
+{"qid": "3d887639868d479bbecc12a93c6dd0cd", "answer": "tuesday afternoon"}
+{"qid": "e64b7a1e74c44fc5aa4728feca497ec0", "answer": "gate bridge"}
+{"qid": "d055cc9408d248f98d1b7ee4b848b6ec", "answer": "tuesday afternoon"}
+{"qid": "b974c630ff6e4ba08bd212ea2c51f745", "answer": "tuesday afternoon"}
+{"qid": "a15db933be4f474fb9530a29c56676e5", "answer": "logo template introduced at super bowl xlv"}
+{"qid": "3e75d0e276ab40258d814569934f9a39", "answer": "logo template introduced at super bowl xlv"}
+{"qid": "038d7e2d3d5c477b8b20914dc02bdb03", "answer": "l. jaime"}
+{"qid": "18393ee943a8463b9d9db58e764f2806", "answer": "logo template introduced at super bowl xlv"}
+{"qid": "3e2e4a9415be4272bd796b61ec908983", "answer": "logo template introduced at super bowl xlv"}
+{"qid": "d5fa75dfa6c542dfba4e293a811eaa3e", "answer": "logo template introduced at super bowl xlv"}
+{"qid": "03bb769169d14e2cb760fe8bd8f0c99a", "answer": "logo template introduced at super bowl xlv"}
+{"qid": "8ec59353139d473687709183c70aebeb", "answer": "super bowl v"}
+{"qid": "350e0128ab6c4c2aba0b6329e680192b", "answer": "logo template introduced at super bowl xlv"}
+{"qid": "a10337cda893472c8c3486bea7cc7c13", "answer": "logo template introduced at super bowl xlv"}
+{"qid": "7df3b85497bf458aa7df911038a515a8", "answer": "logo template introduced at super bowl xlv"}
+{"qid": "ec739bf23f4748cfa92ffc3e8ef5c080", "answer": "carry the contest"}
 {"qid": "0c9403bd386c48b2a4f90beb67b03078", "answer": "carry the contest"}
 {"qid": "31b5d574b20c4b3fbcd511d7a853adf0", "answer": "greg brady"}
-{"qid": "3dafef508455487c99d6d051c0f2c355", "answer": "greg brady"}
 {"qid": "e92b130e0cd44a9389ba06900febff75", "answer": "greg brady"}
-{"qid": "55e2e3f4ff524ffaadcca00275e0d8b2", "answer": "the designated home team"}
-{"qid": "b2a4ed9f64364ea7a9c3d614c41746d8", "answer": "the designated"}
-{"qid": "46739ee2b5ad4b7ba18810c2f9080cc1", "answer": "the designated home team"}
-{"qid": "5297ac62f83d439bbf4daeab11acdf31", "answer": "super bowl xxxiii"}
-{"qid": "d17b2fb7b7ac4d7d8577a15c3eab43c1", "answer": "the designated"}
-{"qid": "07d1c355c55e4217b2cae4c41363c544", "answer": "the designated"}
-{"qid": "454ef87d1740418ba6ac2cd2491cf1b7", "answer": "the designated"}
-{"qid": "85d2089c0046418d9e8851acfde41ee1", "answer": "the designated home team"}
-{"qid": "f253b330f7f343abac061f738374acd4", "answer": "super bowl xxxiii"}
-{"qid": "0b1080ffd3c84c2296f23aea71eaa122", "answer": "the designated"}
-{"qid": "fc6ca746b46c48978649d526c2dc1b40", "answer": "afc champion team"}
-{"qid": "16412cc2fd62478682e4891aa54e44f2", "answer": "blue jerseys"}
-{"qid": "374bbf3b6c8a47f2a5af50a4535f6aa2", "answer": "blue jerseys"}
-{"qid": "d287c349248d4871aaa6bd98b44cb976", "answer": "blue jerseys"}
-{"qid": "d3e1b2d9745a45eda966e9fab1e348b0", "answer": "blue jerseys"}
-{"qid": "8c8e58310f3f42a49c556f2c8c700a1d", "answer": "the annual nfl"}
-{"qid": "2f050d73d9094f0daadb96db1b7a93a9", "answer": "the moscone center"}
-{"qid": "b4e51017fd994feba8835c1eb59d1dca", "answer": "the annual nfl"}
-{"qid": "a15d7cf8db424b38b7f3de29081519a5", "answer": "san francisco city supervisor jane kim unsuccessfully lobbied"}
-{"qid": "daaf426eebff41418516836ad5535374", "answer": "super bowl city"}
-{"qid": "3b2194b9c3cb47d9bb2f1c52b074220b", "answer": "million"}
-{"qid": "02c8159a9fad48bc8bddd866c8de86b4", "answer": "the annual nfl experience"}
-{"qid": "c416744def884556a14237a9c00cd22c", "answer": "the moscone center"}
-{"qid": "4fe87db70d384f9384277af3188f3a7d", "answer": "san francisco city supervisor jane kim unsuccessfully lobbied for the nfl to reimburse san francisco"}
-{"qid": "2cf0253b56d24ae4aaa337c80ad0bdf0", "answer": "the moscone"}
-{"qid": "69561927300242d887cbeaf14a3aad41", "answer": "justin herman plaza"}
-{"qid": "3369a0a565344f3bbdb78b7c72ea72c3", "answer": "the annual nfl"}
-{"qid": "52fd0f0d139f47159d237e5888e93ecd", "answer": "super bowl city \" opened on january 30 at justin herman plaza"}
-{"qid": "c1840feb868644468f0ffc897452785b", "answer": "million"}
-{"qid": "14e5ff3017b343e2a0dec9551d7e91d7", "answer": "san francisco"}
-{"qid": "374b47d1e78d4e81a2e95c55f7ff1004", "answer": "more than 1 million"}
-{"qid": "dda0e48d6b624b71bb247fe06089d3c2", "answer": "the annual nfl"}
-{"qid": "6b60485586d5447ba612e526d500d15f", "answer": "verizon communications exclusivity"}
-{"qid": "a2344051e78348c9a2e513e0dc69ce4d", "answer": "verizon communications exclusivity"}
-{"qid": "9cfa244f0f2f4f5a9189757f78805624", "answer": "cbs"}
-{"qid": "a1a683f4f9ed41ef85856b733165031d", "answer": "cbs provided digital streams of the game via cbssports.com , and the cbs sports"}
-{"qid": "cc146c3e8e114d0ebd7a79758f1f2af3", "answer": "cbs provided digital streams of the game via cbssports.com"}
-{"qid": "6d0f6bac68734e40931642da248caaa2", "answer": "cbs"}
-{"qid": "f63e7162a84441978848ca990e17e212", "answer": "cbs provided digital streams of the game via cbssports.com"}
-{"qid": "dc3837cd290f430ea4a40c354ef4bd17", "answer": "verizon communications exclusivity"}
-{"qid": "0f01281537014805824f46dc9a2886ee", "answer": "verizon communications exclusivity"}
-{"qid": "fa98ac26824148be9d198276a7c3e646", "answer": "verizon communications exclusivity"}
-{"qid": "8a8a592d45a04dedab08ce67400f75da", "answer": "verizon communications exclusivity"}
-{"qid": "1c8de3e862a14f89afad2f54038b7aff", "answer": "cbs provided digital streams of the game via cbssports.com"}
-{"qid": "debfa6170f0f493982902411e62e5cb9", "answer": "verizon communications exclusivity"}
-{"qid": "aee384938e3f4b5a9956e5c2e9025f14", "answer": "cbs provided digital streams of the game via cbssports.com"}
-{"qid": "1f9b8f89d1af403d8514c7e6441b9c5c", "answer": "quickbooks sponsored"}
-{"qid": "42415b516de84bc3a4a83cf039c56cb5", "answer": "quickbooks sponsored"}
+{"qid": "b2a4ed9f64364ea7a9c3d614c41746d8", "answer": "super bowl xxxii"}
+{"qid": "46739ee2b5ad4b7ba18810c2f9080cc1", "answer": "wore matching white jerseys and pants in the super bowl in super bowl xxxiii"}
+{"qid": "5297ac62f83d439bbf4daeab11acdf31", "answer": "xl 10 seasons"}
+{"qid": "d17b2fb7b7ac4d7d8577a15c3eab43c1", "answer": "wore matching white jerseys and pants in the super bowl in super bowl xxxiii"}
+{"qid": "07d1c355c55e4217b2cae4c41363c544", "answer": "wore matching white jerseys and pants in the super bowl in super bowl xxxiii"}
+{"qid": "454ef87d1740418ba6ac2cd2491cf1b7", "answer": "wore matching white jerseys and pants in the super bowl in super bowl xxxiii"}
+{"qid": "85d2089c0046418d9e8851acfde41ee1", "answer": "wore matching white jerseys and pants in the super bowl in super bowl xxxiii"}
+{"qid": "0b1080ffd3c84c2296f23aea71eaa122", "answer": "xl 10 seasons"}
+{"qid": "fc6ca746b46c48978649d526c2dc1b40", "answer": "wore matching white jerseys and pants in the super bowl in super bowl xxxiii"}
+{"qid": "16412cc2fd62478682e4891aa54e44f2", "answer": "xl 10 seasons"}
+{"qid": "374bbf3b6c8a47f2a5af50a4535f6aa2", "answer": "wore matching white jerseys and pants in the super bowl in super"}
+{"qid": "2f050d73d9094f0daadb96db1b7a93a9", "answer": "the moscone center in san francisco"}
+{"qid": "b4e51017fd994feba8835c1eb59d1dca", "answer": "francisco mayor"}
+{"qid": "a15d7cf8db424b38b7f3de29081519a5", "answer": "francisco mayor"}
+{"qid": "daaf426eebff41418516836ad5535374", "answer": "justin herman"}
+{"qid": "3b2194b9c3cb47d9bb2f1c52b074220b", "answer": "justin herman"}
+{"qid": "02c8159a9fad48bc8bddd866c8de86b4", "answer": "justin herman"}
+{"qid": "4fe87db70d384f9384277af3188f3a7d", "answer": "justin"}
+{"qid": "2cf0253b56d24ae4aaa337c80ad0bdf0", "answer": "the moscone center in san francisco"}
+{"qid": "69561927300242d887cbeaf14a3aad41", "answer": "justin"}
+{"qid": "3369a0a565344f3bbdb78b7c72ea72c3", "answer": "francisco mayor"}
+{"qid": "52fd0f0d139f47159d237e5888e93ecd", "answer": "justin"}
+{"qid": "c1840feb868644468f0ffc897452785b", "answer": "justin herman"}
+{"qid": "374b47d1e78d4e81a2e95c55f7ff1004", "answer": "justin herman"}
+{"qid": "dda0e48d6b624b71bb247fe06089d3c2", "answer": "the moscone center in san francisco"}
+{"qid": "6b60485586d5447ba612e526d500d15f", "answer": "via the nfl mobile"}
+{"qid": "a2344051e78348c9a2e513e0dc69ce4d", "answer": "espn"}
+{"qid": "9cfa244f0f2f4f5a9189757f78805624", "answer": "via cbssports.com"}
+{"qid": "a1a683f4f9ed41ef85856b733165031d", "answer": "via cbssports.com , and the cbs sports"}
+{"qid": "cc146c3e8e114d0ebd7a79758f1f2af3", "answer": "via cbssports.com , and the cbs sports"}
+{"qid": "f63e7162a84441978848ca990e17e212", "answer": "via cbssports.com"}
+{"qid": "8a8a592d45a04dedab08ce67400f75da", "answer": "via the nfl"}
+{"qid": "1c8de3e862a14f89afad2f54038b7aff", "answer": "via cbssports.com , and the cbs sports apps on tablets , windows 10"}
+{"qid": "debfa6170f0f493982902411e62e5cb9", "answer": "via the nfl mobile"}
+{"qid": "aee384938e3f4b5a9956e5c2e9025f14", "answer": "espn deportes spanish"}
+{"qid": "1f9b8f89d1af403d8514c7e6441b9c5c", "answer": "wish coffee"}
+{"qid": "42415b516de84bc3a4a83cf039c56cb5", "answer": "wish coffee"}
 {"qid": "a0eddeed029f4d74b892dcf39458e054", "answer": "wish coffee"}
 {"qid": "94246d0a86e04b09aa23718ab45751b9", "answer": "nine"}
-{"qid": "356f7fcc88e6432dbb87a2b2e1acd325", "answer": "wish coffee"}
-{"qid": "18f9c17562ef4c9a93c0aaffed21bf20", "answer": "nine"}
-{"qid": "4fce98a7cad443ce9d88e1e9374ff28c", "answer": "business big game \" contest"}
-{"qid": "1516021aa1e144e78fd2c6bdab1cf22d", "answer": "wish coffee"}
-{"qid": "87dae46938bb41b39b8dde1ef5a33022", "answer": "nine"}
-{"qid": "bd3dbab9555b44de9c972eed238ac763", "answer": "quickbooks sponsored a \" small business big game \" contest"}
-{"qid": "48492b19dd144e6ab8dd5208983702f6", "answer": "wish coffee"}
-{"qid": "eaca6902a35a4602a6d6784224ac9a8c", "answer": "espn deportes ' monday"}
-{"qid": "7acdd7e80f7d46c3bd3be88fc4320ccc", "answer": "mike & mike"}
-{"qid": "ed92b217e0914c7792f334eb35e04adb", "answer": "espn deportes ' monday"}
-{"qid": "2d2df68e5b0e48a284abffc7265b0b02", "answer": "december 28 , 2015"}
-{"qid": "f79ece242924438499a6a4a5815a1680", "answer": "spanish - language broadcaster of the game , marking the third dedicated spanish - language"}
-{"qid": "d60f72613efb44b29ab166964b260734", "answer": "spanish - language broadcaster of the game , marking the third dedicated spanish - language"}
-{"qid": "4178d3b67c7e4c0c94c4ce43df48ea34", "answer": "cbs and the nfl"}
-{"qid": "2748e0d8b18e440da6e929d7f418866f", "answer": "mike & mike"}
-{"qid": "120a55820e4d41449f0d3d20fa6f6c2a", "answer": "spanish - language broadcaster of the game , marking the third dedicated spanish - language"}
-{"qid": "0041859712bb48408e7c7718b5cf4f4a", "answer": "over - the - air viewers"}
-{"qid": "c1c61bee1f194790a50366a165a2f4dd", "answer": "mike & mike"}
-{"qid": "4e63380089fd4f3bae50aec64037be56", "answer": "westwood"}
-{"qid": "0508451a8a4249dc97b55eca33a12eaf", "answer": "announcer"}
-{"qid": "5034ffe15395421daba607b918125063", "answer": "james lofton and mark malone as sideline reporters . jim gray"}
-{"qid": "2865d4c386ba49379f6749cf935f4b3b", "answer": "james lofton and mark malone as sideline reporters . jim gray"}
-{"qid": "950c5e40f43045b38261f6cf614fc8d6", "answer": "james lofton"}
-{"qid": "15ba222fcaea4bdcb9cdb2179afa8ed9", "answer": "halftime"}
-{"qid": "14043d6154ee400a8ec22dc9c7afefa1", "answer": "boomer esiason and dan fouts"}
-{"qid": "5f9d04b51ed540579e1fdcdd4966c77c", "answer": "carry the game throughout north america"}
-{"qid": "a109a77ccac94b6fae0d8ec58ce1e5cc", "answer": "boomer esiason and dan fouts"}
-{"qid": "835dfb7ed41d482d99967b36e510e3f1", "answer": "gray will anchor the pre - game and halftime coverage"}
-{"qid": "41d6dee7014e426aa0372ecf30661081", "answer": "james lofton and mark malone as sideline reporters . jim gray"}
-{"qid": "d603841df09243c99050094c9efc74a4", "answer": "james lofton"}
-{"qid": "9483bc4483a44b7c9049d8a16d0f96d5", "answer": "james lofton and mark malone as sideline reporters . jim gray"}
-{"qid": "dd68fdeb1cbc4c208f12c0593b08b3bf", "answer": "westwood"}
-{"qid": "8b28dc4a4dd1488582476b19e33655ab", "answer": "westwood"}
-{"qid": "05f5825e397c40d5b570b9b97dd45c12", "answer": "six"}
-{"qid": "aaffd8d51549479d83f6a06191806e87", "answer": "six - time grammy winner and academy award nominee lady gaga performed the national anthem"}
-{"qid": "d4a01a581d2445bd9cb718c7a3683ac6", "answer": "nominee lady gaga"}
-{"qid": "8e2935bfdf22459c9c14670495ea0291", "answer": "six"}
-{"qid": "36d1169a7cf1476db5e028f796b10673", "answer": "six - time grammy winner and academy award nominee lady gaga performed the national"}
-{"qid": "b60e5aae22384a43bc12327f886787a9", "answer": "the national"}
-{"qid": "2d44a8bfe6094e03a1098bcef1dc9a5e", "answer": "six - time grammy winner and academy award nominee lady gaga"}
-{"qid": "5ddcf8946bd449d49364ee8861666aec", "answer": "gaga performed the national"}
-{"qid": "6cb0a124a34846d3988d8e89cfcb90bf", "answer": "nominee lady gaga performed the national"}
-{"qid": "b139508eba0f46e69ca5f9f4ec025c68", "answer": "gaga performed the national"}
-{"qid": "b0f5ca2048c94596a1f8452cdc8def59", "answer": "six - time grammy winner and academy"}
-{"qid": "5bc8c583753640ebac686615a3a83e84", "answer": "gaga performed the national"}
-{"qid": "f48ccbc06b744252a8bdcdf571607121", "answer": "cycle between the three main broadcast television partners of the nfl"}
-{"qid": "1b804260665b46559b1e280f5e070808", "answer": "phil simms"}
-{"qid": "d8ffd3fbd94d44c68cf0c4ff2958bc05", "answer": "phil simms"}
-{"qid": "6ae83f2323ac4f5ba3180cd2ca7b91ae", "answer": "three"}
-{"qid": "463c6c0baed04ee9b4a3855070074036", "answer": "cycle between the three main broadcast television partners of the nfl"}
-{"qid": "71207695cb11442ea869daf9b9c917cf", "answer": "three"}
-{"qid": "de9667a6304341faa88d01fa474b388a", "answer": "phil"}
-{"qid": "8770b21f52cc491fa228a3b61fd3b5f9", "answer": "cycle between the three main broadcast television partners of the nfl"}
-{"qid": "97608914bdff4f51811d0da4141a2425", "answer": "cycle between the three"}
-{"qid": "87ec754d57e54d2dabf4764cb6e2a5db", "answer": "cycle between the three main broadcast television partners of the nfl"}
-{"qid": "0bfcb28d6c964bb98a0532f80377051a", "answer": "partners of the nfl"}
-{"qid": "1806511e001640209173bbd712cad01f", "answer": "three"}
-{"qid": "300e5271ed854399b8fe2859ed4646a5", "answer": "lead broadcast team of jim nantz"}
-{"qid": "b03144f9433146c095ca319a928ef300", "answer": "phil simms"}
-{"qid": "06e3a236b6394aed8b637614c2f72027", "answer": "phil"}
-{"qid": "c8c4f00195a2483798434642a2188dc6", "answer": "360-degree view of plays and \" bullet time \" effects"}
-{"qid": "633df376058449e1bf3a68c336bee69e", "answer": "super bowl 50"}
-{"qid": "dabb3283885c4a1ba2852d1f727d293d", "answer": "20th"}
-{"qid": "4537e29b8afa4db5bc8c5d8b98f840d9", "answer": "20th"}
-{"qid": "0e791f441c874b438714a54362506640", "answer": "20th century fox"}
-{"qid": "cec3bd62eeb84397ad744cc930a98823", "answer": "20th century fox"}
-{"qid": "628f24c97bf64dfbab3d86ce575f6c23", "answer": "the super bowl . fox paid"}
-{"qid": "c61abda326914e649b1d3db4e4f6533e", "answer": "super bowl . fox paid"}
-{"qid": "046335ad2d5e4ca7aa86dd640926f53d", "answer": "walt disney studios paid"}
-{"qid": "539c7d52978740dfaef9411716b4366f", "answer": "super bowl . fox paid"}
-{"qid": "0c59482708864b4a901c74b9cad3b7f4", "answer": "the super bowl . fox paid for deadpool , x - men :"}
-{"qid": "40622c5c391b4710a1b8e10c6e2685eb", "answer": "fox paid"}
-{"qid": "03718d29bebd45169c642b17f3bac340", "answer": "fox paid"}
-{"qid": "8fa3f90ebe9846288c78dee46ae906c0", "answer": "john fox"}
-{"qid": "946d309a3309420b9bbe3a0e43818fbe", "answer": "john fox"}
-{"qid": "e7ca35a0b54d49da877dc49f2cd826c1", "answer": "john fox"}
-{"qid": "2d3cbecd013149779ebbe8dbff5fcbf7", "answer": "the divisional round"}
-{"qid": "c4ba141b3d9e4cf68202373ce4789808", "answer": "coach john fox"}
-{"qid": "1e648cb02af945a190a110b719235a4a", "answer": "four divisional championships"}
-{"qid": "207a1d14440e47fbb32d4970418ea0eb", "answer": "coach"}
-{"qid": "176298bb01a446b0899859a724cec3d3", "answer": "coach john fox"}
-{"qid": "08e910444b714446a47303e0bbd859c4", "answer": "off - season"}
-{"qid": "ef5af243531d43a5970fffca80fbae9e", "answer": "indianapolis colts in 1998"}
-{"qid": "78ad29cf0bc142fd9a60e6616d283661", "answer": "coach"}
-{"qid": "19c6f4d6a3d240518c6fff7de7bbccb1", "answer": "john fox"}
-{"qid": "5734aaf4be3d43f08b02a344555ee742", "answer": "17 regular season finale"}
-{"qid": "a83b5727c5124c4cae09d58651046c14", "answer": "17 regular season finale"}
-{"qid": "31eb86b4b95745a7b2b11c06f32966b5", "answer": "17"}
-{"qid": "b55a8b5c24cf4d8fb276df05b56947f1", "answer": "coach john fox"}
-{"qid": "2af60ddad84a4b61a3e136b4a116dea6", "answer": "2015"}
-{"qid": "a99f1d67b9ea435ba4cff3f4644453a6", "answer": "john fox"}
-{"qid": "fcbdee0771fe4a80a5b0259af7b30757", "answer": "plantar fasciitis injury"}
-{"qid": "34ae945abbff4a7885736d8230c6c664", "answer": "coach john fox"}
-{"qid": "3418211da7ff4038b2bad66a0a003467", "answer": "co - mvp of super bowl xii"}
-{"qid": "0e833ff376024f7c8e3c63c6bceeb579", "answer": "honor of the 50th super bowl , the pregame ceremony featured the on - field introduction"}
-{"qid": "32d5f21ace9e425ab28776414ced2d6e", "answer": "co - mvp of super bowl xii"}
-{"qid": "61dc6eeb85b8409b8215cba1a8288139", "answer": "2001"}
-{"qid": "8bacb5e68e3b4f739feee5130cb445b7", "answer": "co - mvp of super bowl xii"}
-{"qid": "9db1ae516909469f9b85f41e29c28318", "answer": "43"}
-{"qid": "ffc5b81c0ee142449c8f134ef0048c0a", "answer": "the locker room preparing"}
-{"qid": "720bed02760044c78557565499806869", "answer": "2001"}
-{"qid": "3cd4ef61cabf4519ae4014b55510fbc4", "answer": "43"}
-{"qid": "a1d214c252a64bd388ecc753f29a86ff", "answer": "43"}
-{"qid": "687842eaad154ff8b45a5c264a5f22e8", "answer": "co - mvp of super bowl xii"}
-{"qid": "b5229331359441dca1d5b9082280bb5d", "answer": "co - mvp of super bowl xii"}
-{"qid": "72680ed17401443ebabcad9daa09aaef", "answer": "2001"}
-{"qid": "5116f0bf694041d496ef50491944b5e0", "answer": "13"}
-{"qid": "51bbc5ca6f8e4270bc14700e3aa8c3b6", "answer": "13"}
-{"qid": "0ffb0d6a9a9b4698b89d2ce86b55eb3b", "answer": "13"}
-{"qid": "9dd2479881304189b193aa1e7f2da24a", "answer": "13"}
-{"qid": "c6d4b43dd08c4928a752d88c0efaefb5", "answer": "13"}
-{"qid": "3b077956076f42e58e0f83aafcf1a15e", "answer": "the most famous people born in warsaw was maria sk\u0142odowska - curie"}
-{"qid": "92aecbe00ac647f3ab13f76b3cdb9299", "answer": "1745"}
-{"qid": "f9aa391b02b84fa7b0c2717e5da23722", "answer": "the most famous people born in warsaw was maria sk\u0142odowska - curie"}
-{"qid": "0e4e9b2ea49b4b008e553bddf3d0077b", "answer": "seven months old . casimir pulaski"}
-{"qid": "bb83e55e07184663ad762e28197ddccb", "answer": "seven months old . casimir pulaski"}
-{"qid": "3259c1940a1a428f9ce683cb7c01c023", "answer": "influential polish academic center , in krak\u00f3w . warsaw university of technology"}
-{"qid": "3fb8eb64570b4658af4ad09b375d17fe", "answer": "influential polish academic center , in krak\u00f3w . warsaw university"}
-{"qid": "a5fc86d461ab4d09a4861cd3c611782f", "answer": "the oldest"}
-{"qid": "f01ab4ae77c34a6dbfa53df58adb6203", "answer": "the university of warsaw"}
-{"qid": "23699edb007840e0b1789e842e2b1459", "answer": "the oldest"}
-{"qid": "547ad573fc9e48d88964164dac98f338", "answer": "november 2015"}
-{"qid": "d1a26505356b474788cfa0696bbd8b00", "answer": "halftime"}
-{"qid": "20f323408c80416ba5025bd87f9df333", "answer": "november 2015"}
-{"qid": "1ee44fc67340412aa574ef24f2086e91", "answer": "hymn"}
-{"qid": "41b5b73b0aee4bfab5011c4352efd110", "answer": "november 2015"}
-{"qid": "982485904ba64241a06c01941be6f2b5", "answer": "headlined the super bowl xlvii halftime show and collaborated with coldplay"}
-{"qid": "b499ed6dd1cd432f823f61e8fba31bc1", "answer": "november 2015"}
-{"qid": "b241ec99428c4d02a7cfbca813443abe", "answer": "hymn"}
-{"qid": "8a87d08af2284ffc8ddeec259b13c81d", "answer": "coldplay"}
-{"qid": "e2cf697b25d24b2a90daca817a203768", "answer": "pepsi confirmed"}
-{"qid": "9c384dd5bb9c441e89e9f48a1d3178c5", "answer": "hymn"}
-{"qid": "e83f6100a6134fb9b66fb08d812540b5", "answer": "coldplay"}
-{"qid": "25ef67bee06346a98b89d40464e6e4d0", "answer": "the university library"}
-{"qid": "2111bfcfb15e4c6ebe9e205f10e44ef1", "answer": "over two million"}
-{"qid": "f0fd1211f3e547dcb70a78b9450b0d49", "answer": "12 june 2002"}
-{"qid": "34942275d6804af5a1f716bfffbcf212", "answer": "architects marek budzy\u0144ski and zbigniew badowski and opened on 15 december 1999 . the university library"}
-{"qid": "4d838b2ccaab4c89966122429abea787", "answer": "the university"}
-{"qid": "345fac362db04f4fb301f30ef839e8c8", "answer": "thanks"}
-{"qid": "d4a3192468084612921ad3714e231c9d", "answer": "warsaw hosts"}
-{"qid": "ca2605ae1fa442249cecb98c7f00fb74", "answer": "philharmonic hall and the national theatre"}
-{"qid": "b13fd96683fb4cbeaa48c14cc319e626", "answer": "the polish national opera , the chamber opera"}
-{"qid": "9cdc979b232f4325a44828e635f98351", "answer": "warsaw hosts many events and festivals . among the events worth particular attention"}
-{"qid": "d10f9ca8b67f486dbc35fab24744cdb9", "answer": "demographically"}
-{"qid": "4ec518110a3f4c34abf8122569c1def8", "answer": "300"}
-{"qid": "727de8ab7bc44864b5706950432adcb1", "answer": "more than"}
-{"qid": "d1e43a2ee64e4feb92153dd4fe69497c", "answer": "jewish minority"}
-{"qid": "482b35dbc61c46ea8a93c29b81778c9b", "answer": "internal migration"}
-{"qid": "b3e99b497b5c4a798d5f65c82b047bdd", "answer": "wbt - fm"}
-{"qid": "a6f2d4bf24bb4828b15aab5bec7bee3b", "answer": "eugene robinson"}
-{"qid": "0a4a4bdfd67a40ee945f99bc7fdfb41c", "answer": "wbt - fm"}
-{"qid": "e118c57bd8aa437486e38ae737207ce0", "answer": "99.3 fm"}
-{"qid": "39b5628dec664f3c9a094cb404cc3892", "answer": "eugene robinson"}
-{"qid": "7ced43a5e18c4bd7b121ef61daf9f033", "answer": "eugene robinson"}
-{"qid": "cddb7bcaa3e44b6f9893bb5ae6f9e063", "answer": "wbt - fm"}
-{"qid": "20d06d90e84d45f89c8b29217fcd58cc", "answer": "wbt - fm"}
-{"qid": "fe32b385ba384f5a9177ed78140194fb", "answer": "eugene robinson"}
-{"qid": "7b54d63c02bc4a27ae5e6e7dbaf73253", "answer": "denver"}
-{"qid": "b01f202c6edd40ec9ece50c3b63e69be", "answer": "wbt - fm"}
-{"qid": "73b7724b92904e59be7bbd2b64717d80", "answer": "knocked the ball out of manning 's hand"}
-{"qid": "1f4b668a0343453b9d4bf3edc86daf63", "answer": "the 50-yard"}
-{"qid": "e6d060834bdf4574b2324db6e75b3465", "answer": "knocked the ball out of manning 's hand"}
-{"qid": "d91ddcdc07fe4c95831f46449c43babf", "answer": "panthers 41-yard"}
-{"qid": "c9cda00a300d42ff957f95b7dc9a065a", "answer": "the 50-yard line"}
-{"qid": "ed7c641da57c4361a0dae3e960c571e0", "answer": "winding up for a pass , and then recovered it for carolina on the 50-yard line"}
-{"qid": "c9fd265234134a4a8c66a68c2b2058cf", "answer": "three"}
-{"qid": "4d9344a9470c40f0a4412147e31d3292", "answer": "knocked the ball out of manning 's hand"}
-{"qid": "29c4c77954234035936ff9a4e556841e", "answer": "the 50-yard"}
-{"qid": "d24fe8cdd727487c9380d9e3710c5c6c", "answer": "three"}
-{"qid": "c26fa417eb9a46e58477e330b45e94dd", "answer": "three"}
-{"qid": "028b002badf34642a0ef8be39dce4dbc", "answer": "the fall of warsaw"}
-{"qid": "c123803a4c94450aa7ac8cc95366663f", "answer": "warsaw uprising museum"}
-{"qid": "d975020abc8e4988bbcc19d0f3f32a4e", "answer": "a fine tribute to the fall of warsaw and history of poland"}
-{"qid": "375d91bb41774027b41f0073205cf8d6", "answer": "permanent exhibition of the history of warsaw"}
-{"qid": "3f551446260d4c47a455935aa6b2d6b0", "answer": "historical museum contains 60"}
-{"qid": "9b6fca4d266f44f0bf6e03521bb67cf2", "answer": "eastern bloc economy"}
-{"qid": "308dcb30a7574d4ab0e86e95cfefc01e", "answer": "central and eastern europe , infrastructure in warsaw suffered considerably"}
-{"qid": "0bd2eb8992094b3c992f4671eb10c644", "answer": "over the past decade"}
-{"qid": "c91410cae1694b17b3077c781e7031f3", "answer": "over the past decade warsaw"}
-{"qid": "c6c74790c98f4b24bb1bd4f9248e7dca", "answer": "ogr\u00f3d saski"}
-{"qid": "0c86637781214c358c0aba095f5b735f", "answer": "ogr\u00f3d saski ( the saxon garden"}
-{"qid": "0c45baa4630a42378532c4d39d7b8231", "answer": "ogr\u00f3d saski ( the saxon garden ) , the summer theatre"}
-{"qid": "c8ecc78824864735b27e476fb84c8321", "answer": "nearby"}
-{"qid": "206cf8b2b95941b8b69e54edb060aec4", "answer": "polish monumental theatre"}
+{"qid": "4fce98a7cad443ce9d88e1e9374ff28c", "answer": "wish coffee had a 30-second commercial aired free of charge courtesy of quickbooks"}
+{"qid": "eaca6902a35a4602a6d6784224ac9a8c", "answer": "28 , 2015"}
+{"qid": "7acdd7e80f7d46c3bd3be88fc4320ccc", "answer": "28 , 2015"}
+{"qid": "ed92b217e0914c7792f334eb35e04adb", "answer": "john sutcliffe"}
+{"qid": "2d2df68e5b0e48a284abffc7265b0b02", "answer": "28 , 2015"}
+{"qid": "f79ece242924438499a6a4a5815a1680", "answer": "28 , 2015"}
+{"qid": "d60f72613efb44b29ab166964b260734", "answer": "28 , 2015"}
+{"qid": "4178d3b67c7e4c0c94c4ce43df48ea34", "answer": "28 , 2015"}
+{"qid": "2748e0d8b18e440da6e929d7f418866f", "answer": "28 , 2015"}
+{"qid": "120a55820e4d41449f0d3d20fa6f6c2a", "answer": "28 , 2015"}
+{"qid": "0041859712bb48408e7c7718b5cf4f4a", "answer": "28 , 2015"}
+{"qid": "c1c61bee1f194790a50366a165a2f4dd", "answer": "28 , 2015"}
+{"qid": "0508451a8a4249dc97b55eca33a12eaf", "answer": "james lofton and mark malone as sideline reporters"}
+{"qid": "2865d4c386ba49379f6749cf935f4b3b", "answer": "james lofton and mark malone as sideline reporters"}
+{"qid": "950c5e40f43045b38261f6cf614fc8d6", "answer": "james lofton and mark malone"}
+{"qid": "5f9d04b51ed540579e1fdcdd4966c77c", "answer": "james lofton and mark malone as sideline reporters"}
+{"qid": "a109a77ccac94b6fae0d8ec58ce1e5cc", "answer": "james lofton and mark malone as sideline reporters"}
+{"qid": "41d6dee7014e426aa0372ecf30661081", "answer": "james lofton and mark malone as sideline reporters"}
+{"qid": "d603841df09243c99050094c9efc74a4", "answer": "james lofton and mark malone as sideline reporters"}
+{"qid": "9483bc4483a44b7c9049d8a16d0f96d5", "answer": "james lofton and mark malone as sideline reporters"}
+{"qid": "dd68fdeb1cbc4c208f12c0593b08b3bf", "answer": "jim gray will anchor the pre - game and halftime coverage"}
+{"qid": "8b28dc4a4dd1488582476b19e33655ab", "answer": "james lofton and mark malone as sideline reporters"}
+{"qid": "05f5825e397c40d5b570b9b97dd45c12", "answer": "winner"}
+{"qid": "aaffd8d51549479d83f6a06191806e87", "answer": "marlee matlin provided american sign language ( asl"}
+{"qid": "d4a01a581d2445bd9cb718c7a3683ac6", "answer": "winner"}
+{"qid": "8e2935bfdf22459c9c14670495ea0291", "answer": "marlee matlin provided american sign language ( asl"}
+{"qid": "36d1169a7cf1476db5e028f796b10673", "answer": "winner marlee matlin provided american sign language ("}
+{"qid": "b0f5ca2048c94596a1f8452cdc8def59", "answer": "winner"}
+{"qid": "f48ccbc06b744252a8bdcdf571607121", "answer": "cbs"}
+{"qid": "1b804260665b46559b1e280f5e070808", "answer": "jim nantz"}
+{"qid": "d8ffd3fbd94d44c68cf0c4ff2958bc05", "answer": "tracy wolfson and evan washburn on the sidelines"}
+{"qid": "6ae83f2323ac4f5ba3180cd2ca7b91ae", "answer": "360\u2014an array of 36 cameras along the upper"}
+{"qid": "463c6c0baed04ee9b4a3855070074036", "answer": "k resolution"}
+{"qid": "71207695cb11442ea869daf9b9c917cf", "answer": "cbs"}
+{"qid": "de9667a6304341faa88d01fa474b388a", "answer": "k resolution"}
+{"qid": "97608914bdff4f51811d0da4141a2425", "answer": "k resolution"}
+{"qid": "87ec754d57e54d2dabf4764cb6e2a5db", "answer": "simms called the contest , with tracy wolfson and evan washburn on the sidelines"}
+{"qid": "1806511e001640209173bbd712cad01f", "answer": "cbs"}
+{"qid": "dabb3283885c4a1ba2852d1f727d293d", "answer": "cloverfield lane"}
+{"qid": "628f24c97bf64dfbab3d86ce575f6c23", "answer": "mutant ninja turtles"}
+{"qid": "c61abda326914e649b1d3db4e4f6533e", "answer": "mutant ninja turtles"}
+{"qid": "046335ad2d5e4ca7aa86dd640926f53d", "answer": "cloverfield lane"}
+{"qid": "539c7d52978740dfaef9411716b4366f", "answer": "looking glass.[citation"}
+{"qid": "0c59482708864b4a901c74b9cad3b7f4", "answer": "disney studios paid for movie trailers to be aired during the super"}
+{"qid": "40622c5c391b4710a1b8e10c6e2685eb", "answer": "cloverfield lane"}
+{"qid": "03718d29bebd45169c642b17f3bac340", "answer": "disney studios paid for movie trailers to be aired during the super"}
+{"qid": "8fa3f90ebe9846288c78dee46ae906c0", "answer": "john fox ( who had won four divisional championships"}
+{"qid": "946d309a3309420b9bbe3a0e43818fbe", "answer": "john fox ( who had won four divisional championships"}
+{"qid": "e7ca35a0b54d49da877dc49f2cd826c1", "answer": "17"}
+{"qid": "2d3cbecd013149779ebbe8dbff5fcbf7", "answer": "john fox ( who had won four divisional championships"}
+{"qid": "1e648cb02af945a190a110b719235a4a", "answer": "coach john fox ( who had won four divisional championships"}
+{"qid": "207a1d14440e47fbb32d4970418ea0eb", "answer": "coach john fox ( who had won four divisional championships"}
+{"qid": "176298bb01a446b0899859a724cec3d3", "answer": "17"}
+{"qid": "08e910444b714446a47303e0bbd859c4", "answer": "17"}
+{"qid": "ef5af243531d43a5970fffca80fbae9e", "answer": "17"}
+{"qid": "78ad29cf0bc142fd9a60e6616d283661", "answer": "coach john fox ( who had won four divisional championships"}
+{"qid": "19c6f4d6a3d240518c6fff7de7bbccb1", "answer": "john fox ( who had won four divisional championships"}
+{"qid": "5734aaf4be3d43f08b02a344555ee742", "answer": "17"}
+{"qid": "31eb86b4b95745a7b2b11c06f32966b5", "answer": "john fox ( who had won four divisional championships"}
+{"qid": "b55a8b5c24cf4d8fb276df05b56947f1", "answer": "john fox ("}
+{"qid": "a99f1d67b9ea435ba4cff3f4644453a6", "answer": "john fox ("}
+{"qid": "fcbdee0771fe4a80a5b0259af7b30757", "answer": "17"}
+{"qid": "3418211da7ff4038b2bad66a0a003467", "answer": "manning ("}
+{"qid": "0e833ff376024f7c8e3c63c6bceeb579", "answer": "manning ("}
+{"qid": "32d5f21ace9e425ab28776414ced2d6e", "answer": "manning ("}
+{"qid": "61dc6eeb85b8409b8215cba1a8288139", "answer": "regarding the recognition of harvey martin , co - mvp of super bowl xii"}
+{"qid": "9db1ae516909469f9b85f41e29c28318", "answer": "manning ( mvp of super bowl xli and current broncos quarterback"}
+{"qid": "ffc5b81c0ee142449c8f134ef0048c0a", "answer": "manning ( mvp of super bowl xli and current broncos quarterback"}
+{"qid": "720bed02760044c78557565499806869", "answer": "manning ( mvp of super bowl xli and current broncos quarterback"}
+{"qid": "3cd4ef61cabf4519ae4014b55510fbc4", "answer": "manning ("}
+{"qid": "687842eaad154ff8b45a5c264a5f22e8", "answer": "manning ("}
+{"qid": "b5229331359441dca1d5b9082280bb5d", "answer": "manning ("}
+{"qid": "72680ed17401443ebabcad9daa09aaef", "answer": "manning ( mvp of super bowl xli and current broncos quarterback"}
+{"qid": "5116f0bf694041d496ef50491944b5e0", "answer": "kilometres ( 9 miles"}
+{"qid": "51bbc5ca6f8e4270bc14700e3aa8c3b6", "answer": "9 miles"}
+{"qid": "0ffb0d6a9a9b4698b89d2ce86b55eb3b", "answer": "kilometres ( 9 miles"}
+{"qid": "9dd2479881304189b193aa1e7f2da24a", "answer": "kilometres ( 9 miles"}
+{"qid": "c6d4b43dd08c4928a752d88c0efaefb5", "answer": "the majority"}
+{"qid": "3b077956076f42e58e0f83aafcf1a15e", "answer": "nobel prize"}
+{"qid": "92aecbe00ac647f3ab13f76b3cdb9299", "answer": "37"}
+{"qid": "f9aa391b02b84fa7b0c2717e5da23722", "answer": "37"}
+{"qid": "0e4e9b2ea49b4b008e553bddf3d0077b", "answer": "37"}
+{"qid": "bb83e55e07184663ad762e28197ddccb", "answer": "37"}
+{"qid": "3259c1940a1a428f9ce683cb7c01c023", "answer": "founded"}
+{"qid": "3fb8eb64570b4658af4ad09b375d17fe", "answer": "founded"}
+{"qid": "a5fc86d461ab4d09a4861cd3c611782f", "answer": "founded"}
+{"qid": "f01ab4ae77c34a6dbfa53df58adb6203", "answer": "founded"}
+{"qid": "547ad573fc9e48d88964164dac98f338", "answer": "xlvii"}
+{"qid": "d1a26505356b474788cfa0696bbd8b00", "answer": "xlvii"}
+{"qid": "20f323408c80416ba5025bd87f9df333", "answer": "xlvii"}
+{"qid": "1ee44fc67340412aa574ef24f2086e91", "answer": "xlvii"}
+{"qid": "41b5b73b0aee4bfab5011c4352efd110", "answer": "xlvii"}
+{"qid": "b499ed6dd1cd432f823f61e8fba31bc1", "answer": "2016 , pepsi confirmed to the associated press that beyonc\u00e9 , who headlined the super"}
+{"qid": "b241ec99428c4d02a7cfbca813443abe", "answer": "2016 , pepsi confirmed to the associated press that beyonc\u00e9 , who headlined the super"}
+{"qid": "e2cf697b25d24b2a90daca817a203768", "answer": "xlvii"}
+{"qid": "9c384dd5bb9c441e89e9f48a1d3178c5", "answer": "xlvii"}
+{"qid": "e83f6100a6134fb9b66fb08d812540b5", "answer": "2016"}
+{"qid": "25ef67bee06346a98b89d40464e6e4d0", "answer": "12 june 2002"}
+{"qid": "2111bfcfb15e4c6ebe9e205f10e44ef1", "answer": "12 june 2002"}
+{"qid": "f0fd1211f3e547dcb70a78b9450b0d49", "answer": "architects marek budzy\u0144ski"}
+{"qid": "34942275d6804af5a1f716bfffbcf212", "answer": "12 june 2002"}
+{"qid": "345fac362db04f4fb301f30ef839e8c8", "answer": "teatr wielki , the polish national opera , the chamber opera , the national philharmonic hall"}
+{"qid": "d4a3192468084612921ad3714e231c9d", "answer": "warsaw autumn"}
+{"qid": "ca2605ae1fa442249cecb98c7f00fb74", "answer": "teatr wielki , the polish national opera , the chamber opera , the national philharmonic hall"}
+{"qid": "9cdc979b232f4325a44828e635f98351", "answer": "warsaw autumn"}
+{"qid": "d10f9ca8b67f486dbc35fab24744cdb9", "answer": "the demographics"}
+{"qid": "d1e43a2ee64e4feb92153dd4fe69497c", "answer": "the demographics"}
+{"qid": "b3e99b497b5c4a798d5f65c82b047bdd", "answer": "koa ( 850 am ) and krfx ( 103.5 fm"}
+{"qid": "a6f2d4bf24bb4828b15aab5bec7bee3b", "answer": "koa ( 850 am ) and krfx ( 103.5 fm"}
+{"qid": "0a4a4bdfd67a40ee945f99bc7fdfb41c", "answer": "99.3 fm"}
+{"qid": "e118c57bd8aa437486e38ae737207ce0", "answer": "fm"}
+{"qid": "39b5628dec664f3c9a094cb404cc3892", "answer": "wbt - fm ( 99.3 fm"}
+{"qid": "7ced43a5e18c4bd7b121ef61daf9f033", "answer": "koa ( 850 am ) and krfx ( 103.5 fm"}
+{"qid": "20d06d90e84d45f89c8b29217fcd58cc", "answer": "sunset ("}
+{"qid": "fe32b385ba384f5a9177ed78140194fb", "answer": "wbt - fm ( 99.3 fm"}
+{"qid": "7b54d63c02bc4a27ae5e6e7dbaf73253", "answer": "koa ( 850 am ) and krfx ( 103.5 fm"}
+{"qid": "b01f202c6edd40ec9ece50c3b63e69be", "answer": "99.3 fm"}
+{"qid": "73b7724b92904e59be7bbd2b64717d80", "answer": "ealy knocked the"}
+{"qid": "d91ddcdc07fe4c95831f46449c43babf", "answer": "broncos drove to the panthers 41-yard"}
+{"qid": "c9cda00a300d42ff957f95b7dc9a065a", "answer": "ealy knocked the ball out of manning 's hand"}
+{"qid": "ed7c641da57c4361a0dae3e960c571e0", "answer": "ealy knocked the ball out of manning 's hand"}
+{"qid": "c9fd265234134a4a8c66a68c2b2058cf", "answer": "three drives of the game would end in punts"}
+{"qid": "4d9344a9470c40f0a4412147e31d3292", "answer": "ealy knocked the"}
+{"qid": "29c4c77954234035936ff9a4e556841e", "answer": "broncos drove to the panthers 41-yard"}
+{"qid": "d24fe8cdd727487c9380d9e3710c5c6c", "answer": "the panthers deficit to one score at 16\u201310"}
+{"qid": "c26fa417eb9a46e58477e330b45e94dd", "answer": "three drives of the game would end in punts"}
+{"qid": "028b002badf34642a0ef8be39dce4dbc", "answer": "stereoscopic theatre , the warsaw fotoplastikon . dating back to 1936 warsaw historical museum"}
+{"qid": "c123803a4c94450aa7ac8cc95366663f", "answer": "warsaw uprising museum and in the katy\u0144 museum"}
+{"qid": "d975020abc8e4988bbcc19d0f3f32a4e", "answer": "stereoscopic theatre , the warsaw fotoplastikon . dating back to 1936 warsaw historical museum"}
+{"qid": "375d91bb41774027b41f0073205cf8d6", "answer": "stereoscopic theatre"}
+{"qid": "3f551446260d4c47a455935aa6b2d6b0", "answer": "stereoscopic theatre , the warsaw fotoplastikon . the museum"}
+{"qid": "9b6fca4d266f44f0bf6e03521bb67cf2", "answer": "poland ("}
+{"qid": "308dcb30a7574d4ab0e86e95cfefc01e", "answer": "poland ("}
+{"qid": "0bd2eb8992094b3c992f4671eb10c644", "answer": "poland ("}
+{"qid": "c6c74790c98f4b24bb1bd4f9248e7dca", "answer": "saski ( the saxon garden"}
+{"qid": "0c86637781214c358c0aba095f5b735f", "answer": "theatre ("}
+{"qid": "0c45baa4630a42378532c4d39d7b8231", "answer": "theatre ("}
+{"qid": "c8ecc78824864735b27e476fb84c8321", "answer": "saski ( the saxon garden"}
+{"qid": "206cf8b2b95941b8b69e54edb060aec4", "answer": "theatre ("}
 {"qid": "a5bd84711e3b49ee98747301cdfad8cc", "answer": "17th century royal ujazd\u00f3w castle currently houses"}
-{"qid": "a9fa8e5548de49a2a19c8b9f9186385b", "answer": "500"}
-{"qid": "ffb45fdc7baf409bb8e3c49a683f5c03", "answer": "17th"}
-{"qid": "1aaed4478a0e44578f0d6e63fae20d8d", "answer": "17th century royal ujazd\u00f3w castle currently houses centre for contemporary art"}
-{"qid": "0bf24a930bf143818a136937d4fb0f72", "answer": "17th"}
-{"qid": "fbdb322421374af891796c26d4165f03", "answer": "700 beds"}
-{"qid": "43f1706f9c884acbb0f949bf80635ab0", "answer": "warsaw"}
-{"qid": "2bd52c4aeba34f2a91854fa12b413a28", "answer": "the largest"}
-{"qid": "62e99ef012ed40769ad2d0dd03bb1171", "answer": "700"}
-{"qid": "150496a3879e4f0ab675b62c8f46124c", "answer": "over the past years"}
-{"qid": "d00a23accfd84aa8ac02784f4bfbb23f", "answer": "2000 . they also won the country \u2019s championship in 1946 , and won the cup"}
-{"qid": "aaf959665b14402c886e6e58e9969d38", "answer": "2000"}
-{"qid": "4374317f269d4fa5862555785a2587d8", "answer": "won the cup twice"}
-{"qid": "3ca4cf3a32fd4167a009feeddb8c3613", "answer": "konwiktorska"}
-{"qid": "90d1321c692f479eb3f0ea3a51358183", "answer": "top flight"}
-{"qid": "c7e844402ba843b2a93d500a724bf031", "answer": "collections"}
-{"qid": "d71cbc2c28e94f6e9e342a693e846abb", "answer": "60"}
-{"qid": "6dd2dd0228124dfdbddfc98b48648d7a", "answer": "interesting examples of expositions the most notable are : the world 's first museum"}
-{"qid": "0a7045f649504ebe89f621e9bba1d8b4", "answer": "national museum"}
-{"qid": "b7538fcf820a47fd812abb3632391b69", "answer": "interesting examples of expositions the most notable are : the world 's first museum"}
-{"qid": "0cfaaabb18f240e4aca7f77338de7e40", "answer": "30-second advertisement at $ 5,000,000 , a record high price for a super bowl ad"}
-{"qid": "dc880fc939664cb1b7d7fdd5bc39ec24", "answer": "30-second advertisement at $ 5,000,000 , a record high price for a super bowl ad"}
-{"qid": "0f2567436dc345dabaff8bf16148648d", "answer": "super bowl ad"}
-{"qid": "2afaa17592a34cb0b7f46cb7f53d7321", "answer": "a steep discount"}
-{"qid": "e6418f36ba384c669cc06533e99c4e56", "answer": "30-second advertisement at $ 5,000,000 , a record high price for a super bowl ad"}
-{"qid": "40460c690c944e20ac8d0a6cd94f7d6c", "answer": "ad"}
-{"qid": "f4ee8c41f0f040779bdf21fa87e67a04", "answer": "doritos ads"}
-{"qid": "cf8d33c3478946a18b1a6eb7753fda93", "answer": "doritos ads"}
-{"qid": "22e1ae050c484fd4ac4b1541b4b6a879", "answer": "promoting the 20th anniversary"}
-{"qid": "6b20b734a5e44465bf5169c790f24391", "answer": "super bowl ad"}
-{"qid": "92da960893144af5808fac6524ca6796", "answer": "doritos ads"}
-{"qid": "22fbab8e5c5f43588d9c3ed199aeeae9", "answer": "ad"}
-{"qid": "e0556ad1be0b451d90bf71123be04c13", "answer": "doritos ads"}
+{"qid": "a9fa8e5548de49a2a19c8b9f9186385b", "answer": "realizes about 500"}
+{"qid": "ffb45fdc7baf409bb8e3c49a683f5c03", "answer": "oldest exhibition"}
+{"qid": "1aaed4478a0e44578f0d6e63fae20d8d", "answer": "17th"}
+{"qid": "0bf24a930bf143818a136937d4fb0f72", "answer": "warsaw gallery"}
+{"qid": "fbdb322421374af891796c26d4165f03", "answer": "maria sk\u0142odowska - curie institute"}
+{"qid": "43f1706f9c884acbb0f949bf80635ab0", "answer": "health institute"}
+{"qid": "2bd52c4aeba34f2a91854fa12b413a28", "answer": "maria sk\u0142odowska - curie institute"}
+{"qid": "150496a3879e4f0ab675b62c8f46124c", "answer": "the past years"}
+{"qid": "d00a23accfd84aa8ac02784f4bfbb23f", "answer": "fewer supporters , yet they managed to win ekstraklasa championship"}
+{"qid": "4374317f269d4fa5862555785a2587d8", "answer": "1946"}
+{"qid": "3ca4cf3a32fd4167a009feeddb8c3613", "answer": "ten"}
+{"qid": "90d1321c692f479eb3f0ea3a51358183", "answer": "financial situation"}
+{"qid": "c7e844402ba843b2a93d500a724bf031", "answer": "till the present"}
+{"qid": "d71cbc2c28e94f6e9e342a693e846abb", "answer": "till the present"}
+{"qid": "6dd2dd0228124dfdbddfc98b48648d7a", "answer": "till the present"}
+{"qid": "0a7045f649504ebe89f621e9bba1d8b4", "answer": "till the present"}
+{"qid": "b7538fcf820a47fd812abb3632391b69", "answer": "till the present"}
+{"qid": "0cfaaabb18f240e4aca7f77338de7e40", "answer": "ad"}
+{"qid": "0f2567436dc345dabaff8bf16148648d", "answer": "ad"}
+{"qid": "2afaa17592a34cb0b7f46cb7f53d7321", "answer": "promoting the 20th anniversary"}
+{"qid": "e6418f36ba384c669cc06533e99c4e56", "answer": "$ 5,000,000 , a record high price for a super bowl ad"}
+{"qid": "f4ee8c41f0f040779bdf21fa87e67a04", "answer": "$ 5,000,000 , a record high price for a super bowl ad"}
+{"qid": "cf8d33c3478946a18b1a6eb7753fda93", "answer": "$ 5,000,000 , a record high price for a super bowl ad"}
+{"qid": "22e1ae050c484fd4ac4b1541b4b6a879", "answer": "super"}
+{"qid": "6b20b734a5e44465bf5169c790f24391", "answer": "steep discount"}
+{"qid": "e0556ad1be0b451d90bf71123be04c13", "answer": "steep discount"}
 {"qid": "de8c76c894f24446af33d0af18dc3fb5", "answer": "ad"}
-{"qid": "9aed193c87c741808217b6792999d7b4", "answer": "midsummer \u2019s night"}
-{"qid": "51ef258565de43bca808fd31177b20d1", "answer": "thousands of people"}
-{"qid": "1efa16567dee40f3bae5678aeec7fec2", "answer": "midsummer \u2019s night"}
-{"qid": "e8a17dcdf53447b6a964b1474d3bfd4a", "answer": "gatherings of thousands of people"}
-{"qid": "bec1bcd3f94c40acbca28919a65b3d05", "answer": "midsummer \u2019s night"}
-{"qid": "99bf603eddae49049e8c050d10e41490", "answer": "ted ginn jr. on the denver 35-yard"}
-{"qid": "af1f07aa4de9477aa4dd5f6fbe646677", "answer": "the panthers seemed primed"}
-{"qid": "f0c7abd352d34c05965fe9fe582c5b7b", "answer": "the panthers seemed primed"}
-{"qid": "fa11905483bb4c7bb663c92d177eb553", "answer": "j. ward . ward fumbled the ball during the return , but trevathan recovered"}
-{"qid": "ec403dcced51404fbc6b851b085d60cf", "answer": "ted ginn jr. on the denver 35-yard"}
-{"qid": "4ec5beca852e460c9f010d4ef2217a80", "answer": "the panthers seemed primed"}
-{"qid": "63b469a768634fdeb67ebc9a475af813", "answer": "the denver 35-yard"}
-{"qid": "898c6b16214b41e79c88b4f8de69a589", "answer": "the panthers seemed primed"}
-{"qid": "7d2fd238263b427aa2a8a705742d2cda", "answer": "panthers seemed primed"}
-{"qid": "de0937a79db14c54a308eaebb13bfa41", "answer": "panthers seemed primed"}
-{"qid": "8a6d6f0af65b4d05be3611bacd21be9f", "answer": "the denver 35-yard"}
-{"qid": "dba3c579006449e9b334dc78de9351b0", "answer": "panthers seemed primed"}
-{"qid": "5be53635287b4206b2c811abe6ca6756", "answer": "mike carey"}
-{"qid": "0e43218a0d594ff1a82868a47f8b4167", "answer": "24-yard pass jerricho cotchery"}
-{"qid": "0be5ccc5a9c444fa9c876d94426dcb11", "answer": "3rd - and-10"}
-{"qid": "ecfb5e0c38fa495092087670796f96aa", "answer": "mike carey stated"}
-{"qid": "d3b2a7cd45e04ae8bccc69e905f576af", "answer": "3rd - and-10"}
-{"qid": "7e35cfa47a6c414d9dc9cea02df1ae6a", "answer": "mike carey"}
-{"qid": "521b6a1ea3bf4ac8ab794933bbdfd838", "answer": "3rd - and-10"}
-{"qid": "f76a0154e9334d6ab5c038c3dbe895c3", "answer": "3rd - and-10"}
-{"qid": "65d60692f7aa4f4ba96fa3cb0847571a", "answer": "3rd - and-10"}
-{"qid": "43959adc778449858dc2acfee5126d7a", "answer": "3rd - and-10"}
-{"qid": "3602c898fa7b4cf7b535e91ab2308f9f", "answer": "mike carey"}
-{"qid": "20fe7c4a064d46b894e747288d5a0489", "answer": "mike carey"}
-{"qid": "e3d810285da74de8a691bc7996022082", "answer": "carey"}
-{"qid": "0731e4271080467796bddd0f0a48056a", "answer": "3rd - and-10"}
-{"qid": "5c3a8beffc41454cb61262349da857ef", "answer": "denver"}
-{"qid": "58eb8125b5934774bec4997d3257af2b", "answer": "thomas davis tackled anderson"}
-{"qid": "2b661ca735734fd3ad534d5dd6846ae2", "answer": "thomas davis tackled anderson"}
-{"qid": "6b823eb4bf0c4d98bb71be84da366f19", "answer": "thomas davis tackled anderson"}
-{"qid": "a9285d290396423bac13011dcf37abbe", "answer": "thomas davis tackled anderson"}
-{"qid": "9552f81dabda4242a576b1994dc99e67", "answer": "over the next three"}
-{"qid": "7d2a01834a834ca49e296e8f5ed0c91c", "answer": "thomas davis tackled anderson"}
-{"qid": "f6926ddc8eec47debdcd726c1a77f542", "answer": "thomas davis tackled anderson"}
-{"qid": "2f36a54a499e43e48685119180f1733d", "answer": "denver took the opening kickoff"}
-{"qid": "246ef284199742a4949b43fd14ae678d", "answer": "denver took the opening kickoff"}
-{"qid": "a78709d5128a4376baf19e1fbcfbc8a7", "answer": "thomas davis tackled anderson"}
-{"qid": "afb2ebc3ac7144428950f82b8298f2aa", "answer": "thomas davis tackled anderson"}
-{"qid": "ab6e82c828bd48629daa2134649f642e", "answer": "thomas davis tackled anderson"}
-{"qid": "99b934c91c494a759ea100243fa97e00", "answer": "denver"}
-{"qid": "0f050c81509a4ee896f789c9ee0b2cdc", "answer": "the coast of denmark"}
-{"qid": "654bed286e47425fa672080e51a29ba1", "answer": "journey"}
-{"qid": "4766ba29d08d4fabab349fedbb049625", "answer": "the coast of denmark"}
-{"qid": "70e5ea9e069e4cca958bb8432fccd3c7", "answer": "the village of warszowa"}
-{"qid": "89e312272b7d4db4b32a2de1b08dfcb9", "answer": "the best - known legend , by artur oppman"}
-{"qid": "8b3fbc2b75c2439a9dfa88fb24a4ff6b", "answer": "safety darian stewart"}
-{"qid": "17032566ce704156a5d9fe5eea2c3f93", "answer": "carolina 's next possession fullback mike tolbert"}
-{"qid": "6710148cc3404e6b8cd1cdffc7c76693", "answer": "denver punt"}
-{"qid": "de8d1cacebd448e187d21033c2d2a777", "answer": "mike tolbert lost a fumble while being tackled by safety darian stewart"}
-{"qid": "f51d5700891947099a62a570cf0b8681", "answer": "mike tolbert lost a fumble while being tackled by safety darian stewart"}
-{"qid": "7ccc877d257f4408bfd8fb798c9d7174", "answer": "safety darian stewart"}
-{"qid": "0b75783c7c484dde88791eae2bae1dc2", "answer": "mike tolbert lost a fumble while being tackled by safety darian stewart"}
-{"qid": "2385a1006c0a4a9799e79b72322fbaab", "answer": "11 seconds left , newton was sacked by demarcus ware as time expired in the half"}
-{"qid": "3386cbc4737d46e59805d4605289308a", "answer": "mike tolbert"}
-{"qid": "7780221d2391411b8b4f8ba2da39de35", "answer": "denver punt"}
-{"qid": "eb7618064d7d4ebfbc85a1a918b99290", "answer": "mike tolbert"}
-{"qid": "875074ecdbbd47e8be477ca1f85c471c", "answer": "denver punt"}
-{"qid": "a9a3fcb7b8e34ac8a9160e228d4929b0", "answer": "11 seconds left , newton was sacked by demarcus ware as time expired in the half"}
-{"qid": "e902e225975047548c0250674e33ce90", "answer": "mike tolbert lost a fumble while being tackled by safety darian stewart"}
-{"qid": "5409b77e7786452480860fb372803c91", "answer": "apparently thinking norwood"}
-{"qid": "19a73dce47894947989cdc707c3de0e4", "answer": "took off for a super bowl record 61-yard return before mario addison dragged"}
-{"qid": "63c1b4c8da7c4772b4b0e4ec0719cbca", "answer": "4 passes"}
-{"qid": "b9289a8951d046ee800faa051e67e47e", "answer": "punt from both teams , carolina got"}
-{"qid": "df9414d82c574375af55282ee72ee51a", "answer": "a punt"}
-{"qid": "6b6a17d528c948caae8e90c5d2461ffa", "answer": "apparently thinking norwood"}
-{"qid": "995a10b86b6249ab9a2b8e1b9088b99a", "answer": "a punt"}
-{"qid": "aad588fdba604167bc11e5234f98be13", "answer": "a punt"}
-{"qid": "14971c15f14a42b5b41e20f2f87aee1a", "answer": "warsaw remained"}
-{"qid": "cbf33da4ae554a64979b7c572875d9bf", "answer": "warsaw"}
-{"qid": "0d0114c237864da6baa3f49f2978dc12", "answer": "warsaw"}
-{"qid": "b02b47efbe894bf6a2a58140a2729489", "answer": "warsaw remained"}
-{"qid": "9080698da40e40f28e9f8c0afe246743", "answer": "warsaw remained the capital of the polish \u2013 lithuanian commonwealth"}
-{"qid": "aeb7ce370dac4d5f9418120ece171bcf", "answer": "over 100"}
-{"qid": "823a1f66ec3f4a2abc302bf9b74ebc56", "answer": "strolling destination"}
-{"qid": "f1806c6628e44ae190462b64ba4677e6", "answer": "the saxon garden , covering the area of 15.5 ha"}
-{"qid": "4c76ddc590504aca87e8fc876c0d5c46", "answer": "saxon garden"}
-{"qid": "5f20685c63a14a0cbdd1a7c387c688a7", "answer": "the saxon garden"}
-{"qid": "531778bc01a44b3580b75290ec7eb1ae", "answer": "the mermaid"}
-{"qid": "2a7b74cd98234be6acf32c272d164c59", "answer": "the mermaid"}
-{"qid": "14cf1a1b603c48fd8d22081c86b593cf", "answer": "coat of arms"}
-{"qid": "3b1fe0e4219243c29fcd81b77e8ba9dd", "answer": "oldest existing armed seal of warsaw"}
-{"qid": "a780ea6b75db46d0bb2dc3fade2cc43c", "answer": "female upper"}
-{"qid": "13976f2daaf34686a2dff5f929eaeea1", "answer": "josh"}
-{"qid": "dd3e4027b7be4297b36ef78ded343e2e", "answer": "josh"}
-{"qid": "3738f01733564ed4a0f356102ca135af", "answer": "4:51 left"}
-{"qid": "8f0f6fe56ac7425a943d5e7b6f89dabd", "answer": "josh"}
-{"qid": "2320419b651a4e769fee6eafebe86234", "answer": "josh"}
-{"qid": "7f4664d42c5145a69b312a76bb385025", "answer": "josh"}
-{"qid": "f569c7d73b434b58acb02ed089e2ec66", "answer": "josh norman gave the broncos a new set of downs"}
-{"qid": "77211e94e57e453a8f3fbe1d567a9742", "answer": "josh norman"}
-{"qid": "0aab8d7f174b4d0fa46c16499cd29a15", "answer": "five yards to the panthers 4-yard"}
-{"qid": "a04a6455c3a64a56bab62c6390fcac24", "answer": "4:51 left in regulation , carolina got the ball on their own 24-yard"}
-{"qid": "679c90bdf35b4362acd1339cf4782681", "answer": "josh"}
-{"qid": "c907595c362841a69b04555490fa8e19", "answer": "josh norman"}
-{"qid": "2fcda27a0d164338902b004a48015b80", "answer": "five"}
-{"qid": "e5a626c1d85d47a78cc9b14529d68351", "answer": "josh norman gave the broncos a new set of downs"}
-{"qid": "a2b3d5b1bd564a5493cf3b040fdc2ada", "answer": "john paul ii 's visits"}
-{"qid": "af96dd81d3be4867be31148d27624f69", "answer": "visits"}
-{"qid": "7f1de9f0c08a4bb29584eb9a79343666", "answer": "victory square"}
-{"qid": "fbc60940bacb48c68a213a1a7ddb5319", "answer": "victory square"}
-{"qid": "1973eafa925c4afeba61bca4701a4b8f", "answer": "visits"}
-{"qid": "760c9f7be33d49d380ae1c641c3015df", "answer": "germany"}
-{"qid": "bb799fd3f41247028ade85280cfea836", "answer": "12 that germany withdraw"}
-{"qid": "fe479390c22c40edaed1a5962dfc0c03", "answer": "warsaw"}
-{"qid": "17fc62fb82f447cfb7482e6a6fd8e4ce", "answer": "warsaw"}
-{"qid": "3124c209dab04484982f4ba22b873fd1", "answer": "warsaw"}
-{"qid": "f751fdc054bf4b579f7766ab5f9f6b87", "answer": "warsaw 's name in the polish language"}
-{"qid": "8578f8e9c164463fb5affc6be4817ec0", "answer": "warsaw"}
-{"qid": "40ce3bfce5c849828fd4c50af24682d2", "answer": "warsaw"}
-{"qid": "00889ec7b61441f09f40d3279b281809", "answer": "warsaw"}
-{"qid": "c187616b21ea45b3b2ea593a563a077c", "answer": "warsaw"}
-{"qid": "99636ed77dd14c0286bbf0bd900e72d1", "answer": "world"}
-{"qid": "5bf9ed3a035c429eadc4fa1028fee0d2", "answer": "warsaw \" campaign"}
-{"qid": "68ae505b289d4c7fbca7981943ab292f", "answer": "typical buildings of an eastern bloc"}
-{"qid": "7839712d50eb4d4b9a63244d68f35294", "answer": "the soviet union"}
-{"qid": "fd6406dc7f6a44b99eb512935a8e06e4", "answer": "historic old town was inscribed onto unesco 's world heritage"}
-{"qid": "f6211cf3800c42e4ab7bf2ed1f90366b", "answer": "artist born in warsaw"}
-{"qid": "1060a70c32544abea6e811561e267f65", "answer": "tamara"}
-{"qid": "931970cbc4054001b25ffdf651809a05", "answer": "tamara"}
-{"qid": "36295b3d496d42a0876527402ebad5bc", "answer": "tamara"}
-{"qid": "215809d2eb7940c1bd4b8511d2e1d5d4", "answer": "tamara de lempicka"}
-{"qid": "d6725bf672f54fe4a6021db160a1e485", "answer": "1529 , warsaw"}
-{"qid": "143f253aff10417d8af50d9ea3795db5", "answer": "1529 , warsaw for the first time became the seat of the general sejm"}
-{"qid": "0ea13bfe1c7d489c90592ea81e894d8f", "answer": "1529"}
-{"qid": "7de801e15cb64e0fb7ac4a1d308c05de", "answer": "the commonwealth"}
-{"qid": "9d62295f4d1d45b79a0033feed58a436", "answer": "1529"}
-{"qid": "786e633fcd2e445b8408229844755a47", "answer": "global"}
-{"qid": "8019375815c94132a929a8d67d3ed446", "answer": "global"}
+{"qid": "51ef258565de43bca808fd31177b20d1", "answer": "wianki ("}
+{"qid": "1efa16567dee40f3bae5678aeec7fec2", "answer": "wianki ("}
+{"qid": "e8a17dcdf53447b6a964b1474d3bfd4a", "answer": "wianki ("}
+{"qid": "bec1bcd3f94c40acbca28919a65b3d05", "answer": "wianki ("}
+{"qid": "99bf603eddae49049e8c050d10e41490", "answer": "j."}
+{"qid": "fa11905483bb4c7bb663c92d177eb553", "answer": "j."}
+{"qid": "ec403dcced51404fbc6b851b085d60cf", "answer": "jr."}
+{"qid": "4ec5beca852e460c9f010d4ef2217a80", "answer": "defense halted the drive on the 26-yard"}
+{"qid": "898c6b16214b41e79c88b4f8de69a589", "answer": "j."}
+{"qid": "7d2fd238263b427aa2a8a705742d2cda", "answer": "j."}
+{"qid": "de0937a79db14c54a308eaebb13bfa41", "answer": "jr."}
+{"qid": "dba3c579006449e9b334dc78de9351b0", "answer": "22"}
+{"qid": "0e43218a0d594ff1a82868a47f8b4167", "answer": "pass jerricho cotchery"}
+{"qid": "0be5ccc5a9c444fa9c876d94426dcb11", "answer": "3rd - and-10 from the 15-yard"}
+{"qid": "ecfb5e0c38fa495092087670796f96aa", "answer": "3rd - and-10 from the 15-yard"}
+{"qid": "d3b2a7cd45e04ae8bccc69e905f576af", "answer": "super"}
+{"qid": "f76a0154e9334d6ab5c038c3dbe895c3", "answer": "3rd - and-10 from the 15-yard"}
+{"qid": "65d60692f7aa4f4ba96fa3cb0847571a", "answer": "3rd - and-10 from the 15-yard"}
+{"qid": "20fe7c4a064d46b894e747288d5a0489", "answer": "3rd - and-10 from the 15-yard"}
+{"qid": "e3d810285da74de8a691bc7996022082", "answer": "3rd - and-10 from the 15-yard"}
+{"qid": "0731e4271080467796bddd0f0a48056a", "answer": "super"}
+{"qid": "5c3a8beffc41454cb61262349da857ef", "answer": "manning completing"}
+{"qid": "2b661ca735734fd3ad534d5dd6846ae2", "answer": "thompson tackled"}
+{"qid": "6b823eb4bf0c4d98bb71be84da366f19", "answer": "thomas davis tackled"}
+{"qid": "a9285d290396423bac13011dcf37abbe", "answer": "j."}
+{"qid": "7d2a01834a834ca49e296e8f5ed0c91c", "answer": "thompson tackled ronnie"}
+{"qid": "f6926ddc8eec47debdcd726c1a77f542", "answer": "thomas davis tackled"}
+{"qid": "2f36a54a499e43e48685119180f1733d", "answer": "j."}
+{"qid": "afb2ebc3ac7144428950f82b8298f2aa", "answer": "j."}
+{"qid": "ab6e82c828bd48629daa2134649f642e", "answer": "thomas davis tackled"}
+{"qid": "99b934c91c494a759ea100243fa97e00", "answer": "j."}
+{"qid": "0f050c81509a4ee896f789c9ee0b2cdc", "answer": "artur oppman"}
+{"qid": "654bed286e47425fa672080e51a29ba1", "answer": "artur oppman"}
+{"qid": "4766ba29d08d4fabab349fedbb049625", "answer": "artur oppman"}
+{"qid": "89e312272b7d4db4b32a2de1b08dfcb9", "answer": "followed the fishermen and captured the mermaid"}
+{"qid": "17032566ce704156a5d9fe5eea2c3f93", "answer": "broncos 40-yard"}
+{"qid": "6710148cc3404e6b8cd1cdffc7c76693", "answer": "19"}
+{"qid": "f51d5700891947099a62a570cf0b8681", "answer": "seconds left , newton was sacked by demarcus ware as time expired in the half"}
+{"qid": "2385a1006c0a4a9799e79b72322fbaab", "answer": "19"}
+{"qid": "875074ecdbbd47e8be477ca1f85c471c", "answer": "19"}
+{"qid": "a9a3fcb7b8e34ac8a9160e228d4929b0", "answer": "19"}
+{"qid": "e902e225975047548c0250674e33ce90", "answer": "demarcus ware as time expired in the half"}
+{"qid": "63c1b4c8da7c4772b4b0e4ec0719cbca", "answer": "touchdown run , cutting the score to 10\u20137 with 11:28 left in the second quarter"}
+{"qid": "b9289a8951d046ee800faa051e67e47e", "answer": "25"}
+{"qid": "df9414d82c574375af55282ee72ee51a", "answer": "newton completed"}
+{"qid": "6b6a17d528c948caae8e90c5d2461ffa", "answer": "receiver jordan norwood"}
+{"qid": "aad588fdba604167bc11e5234f98be13", "answer": "kicked a 33-yard field goal"}
+{"qid": "14971c15f14a42b5b41e20f2f87aee1a", "answer": "lithuanian commonwealth"}
+{"qid": "cbf33da4ae554a64979b7c572875d9bf", "answer": "lithuanian commonwealth"}
+{"qid": "0d0114c237864da6baa3f49f2978dc12", "answer": "lithuanian commonwealth"}
+{"qid": "b02b47efbe894bf6a2a58140a2729489", "answer": "lithuanian commonwealth"}
+{"qid": "9080698da40e40f28e9f8c0afe246743", "answer": "\u2013"}
+{"qid": "aeb7ce370dac4d5f9418120ece171bcf", "answer": "krasi\u0144ski palace"}
+{"qid": "823a1f66ec3f4a2abc302bf9b74ebc56", "answer": "krasi\u0144ski palace garden is a popular strolling destination for the varsovians"}
+{"qid": "4c76ddc590504aca87e8fc876c0d5c46", "answer": "saxon garden , covering the area of 15.5 ha"}
+{"qid": "2a7b74cd98234be6acf32c272d164c59", "answer": "mermaid"}
+{"qid": "3b1fe0e4219243c29fcd81b77e8ba9dd", "answer": "civitatis varsoviensis"}
+{"qid": "a780ea6b75db46d0bb2dc3fade2cc43c", "answer": "document"}
+{"qid": "13976f2daaf34686a2dff5f929eaeea1", "answer": "3rd"}
+{"qid": "2320419b651a4e769fee6eafebe86234", "answer": "3rd"}
+{"qid": "7f4664d42c5145a69b312a76bb385025", "answer": "stripped"}
+{"qid": "f569c7d73b434b58acb02ed089e2ec66", "answer": "five yards to the panthers 4-yard"}
+{"qid": "77211e94e57e453a8f3fbe1d567a9742", "answer": "josh"}
+{"qid": "0aab8d7f174b4d0fa46c16499cd29a15", "answer": "touchdown run and manning completed"}
+{"qid": "a04a6455c3a64a56bab62c6390fcac24", "answer": "3rd"}
+{"qid": "679c90bdf35b4362acd1339cf4782681", "answer": "stripped"}
+{"qid": "c907595c362841a69b04555490fa8e19", "answer": "stripped the ball away from newton"}
+{"qid": "2fcda27a0d164338902b004a48015b80", "answer": "josh norman"}
+{"qid": "af96dd81d3be4867be31148d27624f69", "answer": "paul celebrated mass in victory square"}
+{"qid": "7f1de9f0c08a4bb29584eb9a79343666", "answer": "paul celebrated mass in victory square"}
+{"qid": "fbc60940bacb48c68a213a1a7ddb5319", "answer": "paul celebrated mass in victory square"}
+{"qid": "1973eafa925c4afeba61bca4701a4b8f", "answer": "paul celebrated mass in victory square"}
+{"qid": "760c9f7be33d49d380ae1c641c3015df", "answer": "1918"}
+{"qid": "bb799fd3f41247028ade85280cfea836", "answer": "1918"}
+{"qid": "fe479390c22c40edaed1a5962dfc0c03", "answer": "1920"}
+{"qid": "17fc62fb82f447cfb7482e6a6fd8e4ce", "answer": "1920"}
+{"qid": "3124c209dab04484982f4ba22b873fd1", "answer": "1918"}
+{"qid": "f751fdc054bf4b579f7766ab5f9f6b87", "answer": "sto\u0142eczne warszawa ("}
+{"qid": "8578f8e9c164463fb5affc6be4817ec0", "answer": "warszawa"}
+{"qid": "40ce3bfce5c849828fd4c50af24682d2", "answer": "/v\u0251\u02d0r\u02c8\u0283\u0251\u02d0v\u0259/"}
+{"qid": "00889ec7b61441f09f40d3279b281809", "answer": "/v\u0251\u02d0r\u02c8\u0283\u0251\u02d0v\u0259/"}
+{"qid": "c187616b21ea45b3b2ea593a563a077c", "answer": "warszawiak"}
+{"qid": "5bf9ed3a035c429eadc4fa1028fee0d2", "answer": "conquering soviets"}
+{"qid": "68ae505b289d4c7fbca7981943ab292f", "answer": "conquering soviets"}
+{"qid": "7839712d50eb4d4b9a63244d68f35294", "answer": "conquering soviets"}
+{"qid": "fd6406dc7f6a44b99eb512935a8e06e4", "answer": "conquering soviets"}
+{"qid": "f6211cf3800c42e4ab7bf2ed1f90366b", "answer": "born in warsaw"}
+{"qid": "36295b3d496d42a0876527402ebad5bc", "answer": "born in warsaw"}
+{"qid": "215809d2eb7940c1bd4b8511d2e1d5d4", "answer": "married"}
+{"qid": "d6725bf672f54fe4a6021db160a1e485", "answer": "sigismund iii"}
+{"qid": "143f253aff10417d8af50d9ea3795db5", "answer": "sigismund iii"}
+{"qid": "0ea13bfe1c7d489c90592ea81e894d8f", "answer": "sigismund iii"}
+{"qid": "7de801e15cb64e0fb7ac4a1d308c05de", "answer": "sigismund iii"}
+{"qid": "9d62295f4d1d45b79a0033feed58a436", "answer": "sigismund iii"}
+{"qid": "786e633fcd2e445b8408229844755a47", "answer": "economist intelligence"}
+{"qid": "8019375815c94132a929a8d67d3ed446", "answer": "economist intelligence"}
 {"qid": "9a06ce94eff34dd2ae82d31988eadc59", "answer": "fmcg manufacturing"}
-{"qid": "c3b52f222b7a472ea5f0b00f350f9836", "answer": "the largest"}
-{"qid": "080df6474c4d4b788cf5ac6e4e7e99cb", "answer": "\u2019s chic"}
-{"qid": "d7a50571f76a468680c9822c6c15582e", "answer": "nearby clans and dukes"}
-{"qid": "8beada2a9fe4402997283ddc686a91e8", "answer": "the first fortified settlements"}
-{"qid": "17776f42da034a9d96f055e8b17b8536", "answer": "fortified settlements"}
-{"qid": "89b49986c2b44f1bbad3c63ae2c0e138", "answer": "fortified settlements"}
-{"qid": "ce97e379d3b3478092dc37dbd581266f", "answer": "the first fortified settlements"}
-{"qid": "7c7ca5c2a04a41a9a1268d1107f6f167", "answer": "mixture of architectural"}
-{"qid": "67a9ba605f194c2ba41d5f94a12ac3ef", "answer": "bombing raids and planned destruction"}
-{"qid": "6dd0adb82a9247bca152eec3128af442", "answer": "warsaw"}
-{"qid": "b5d231f553c34f68b0ad63fdbc730d6f", "answer": "warsaw"}
-{"qid": "4390f1eeb21d47f0bcb5b28f06e3d1ca", "answer": "warsaw"}
-{"qid": "b99fbefdddc14ff5aef3ae287e1f5683", "answer": "300"}
-{"qid": "62f6b82678094aa9a2cdf64025f9222d", "answer": "300"}
-{"qid": "ea27e3a379c3411aa00031423f64a1e5", "answer": "warsaw"}
-{"qid": "1be63ca818864b958595ea5c496d910a", "answer": "warsaw lies"}
-{"qid": "2dc99b49a2374e1bbd051b5ec740fa99", "answer": "warsaw lies"}
-{"qid": "60003869972a4abe933b6b416e3070ab", "answer": "plain moraine plateau"}
-{"qid": "a3c683aa04f64b3b83e6c3071379f18d", "answer": "the pattern of the vistula terraces"}
-{"qid": "b86ed6c4082d4bfda5839f90af087a6a", "answer": "the pattern of the vistula terraces is asymmetrical . the left side"}
-{"qid": "c0ee14dc9a064a00a8d08502db0e4e5b", "answer": "number of dunes parted"}
-{"qid": "405d5ee0ba9d4837aaaa13f87320b32b", "answer": "highest terrace"}
-{"qid": "73c6b6b478d34c72b887f4c5ab9b8385", "answer": "german invasion of poland"}
-{"qid": "4124578286f24773b25c3cc08254990e", "answer": "hitler 's \" final solution"}
-{"qid": "ad229d6a65244b20a9121c7b19dc38ed", "answer": "german invasion"}
-{"qid": "4cacfcf00fca42ba80b9f0a9301e2c7a", "answer": "german invasion of poland"}
-{"qid": "7226e93c8a414b8896c6a183fa907290", "answer": "german invasion"}
-{"qid": "b9f8cb6acbe44469a4ec76887ee9d54a", "answer": "the"}
-{"qid": "92ab525713754d9e80536f4245ec5889", "answer": "polish academy of sciences"}
-{"qid": "32611422de6149c6a621be685e9bb74e", "answer": "unesco world heritage"}
-{"qid": "65e89c3a29b44958ad55109fb13f5dcc", "answer": "the city is the seat of a roman catholic archdiocese"}
-{"qid": "59081982f84c4fd6a2a247680494bc8c", "answer": "luxurious parks and royal gardens"}
-{"qid": "fce2f22bf0874f0d8d522a37697c2dc1", "answer": "pow camps in germany"}
-{"qid": "9f09988da86542218fc9c7476a4ce50a", "answer": "pow camps in germany"}
-{"qid": "a54075e89a834bcc8fbb548f86119023", "answer": "july 1944"}
-{"qid": "6794e26db716433aa4c022a78cab4716", "answer": "between 150,000"}
-{"qid": "4913d4f319db4e629920a940ed81a8ca", "answer": "polish civilian deaths"}
-{"qid": "d148f150e2164b479327ccda400a448a", "answer": "exceptional examples of the bourgeois architecture"}
-{"qid": "9dc80a1536b44d6daa8a1d710617e573", "answer": "exceptional examples of the bourgeois"}
-{"qid": "d01eeff64c6d4de5b66f6aa1a4c906a9", "answer": "exceptional"}
-{"qid": "8719bf913a5b4dbe8f594a2987e60545", "answer": "exceptional examples of the bourgeois architecture"}
-{"qid": "4d68dd223b754eabaec130dc6c507a43", "answer": "exceptional"}
-{"qid": "07b93e6e11f0414c9de15f02babb7446", "answer": "13"}
-{"qid": "325ae15ba817445f8758bc262b0930a4", "answer": "five"}
-{"qid": "10575f3d6d5245e2bb2995d3c5e48107", "answer": "13"}
-{"qid": "bcb8390c10a24e32bbd8658a0bac5329", "answer": "13 of 23"}
-{"qid": "b6ad6f6fcdfb414a9fd119bb1c65bbb3", "answer": "five"}
-{"qid": "a761a7afdb394a7b980db57be9f6f684", "answer": "13"}
-{"qid": "35fa6a9489fe45e88b6f16987d915729", "answer": "13"}
-{"qid": "f51bdf5fd1e443e5afa6c8ee2b316cf1", "answer": "charles johnson"}
-{"qid": "aa85a4d5854c48979d508fcbd1c4a31d", "answer": "six receptions for 83 yards"}
-{"qid": "515548af79b8450ab80ab34fad4ffdea", "answer": "charles johnson"}
-{"qid": "3aba7f1a13a64ed4933ce792de4f0688", "answer": "charles johnson"}
-{"qid": "ad078f926a1740d886a1827074542d41", "answer": "charles johnson"}
-{"qid": "e62007fb830542d4a257099bbd38aacb", "answer": "13"}
-{"qid": "85d33c9826a64b6f894bb8e8ee55bd72", "answer": "13"}
-{"qid": "93c438c0d6324102a3282e45df07d78a", "answer": "five total"}
-{"qid": "8ba586b3f64843589279b60c4536c1d5", "answer": "heroic history of warsaw . pawiak , an infamous german gestapo prison"}
-{"qid": "0c804b64e5c84eab9eb7d16430832176", "answer": "gestapo prison"}
-{"qid": "3f3230f5d8c14253b1a372392eedae78", "answer": "impressive 19th - century fortification"}
-{"qid": "e6dd993f83e3452b856cd06438bc9a46", "answer": "places commemorating the heroic history of warsaw . pawiak , an infamous german gestapo prison"}
-{"qid": "08922b3c7cd945cfa2a60c02e56d8502", "answer": "memory of the largest"}
-{"qid": "d170834c90654afa9f8f754a9a3a7d21", "answer": "two"}
-{"qid": "4be999fb51a04e3693688a7628e9f4fd", "answer": "warsaw"}
-{"qid": "71a3a6eeedf94e888494572f6f3a3a3d", "answer": "the edge of moraine plateau called warsaw escarpment"}
-{"qid": "996c9e2716a9444f89130c16264fb61b", "answer": "specific axis of warsaw"}
-{"qid": "27fa3088f915420ca01333a46fcb48d6", "answer": "the edge of moraine plateau called warsaw escarpment"}
-{"qid": "c8c4dd6b8c0b48a1a44a4abc57a36496", "answer": "multi - cultural"}
-{"qid": "ed8d60e2f0884e51b5397c9e825cb01e", "answer": "warsaw uprising of 1944"}
-{"qid": "205b41e572d44bf7933601736d95a2f2", "answer": "% greek orthodox christians and 2.8 %"}
-{"qid": "cfabca3dddaa484aad2ed8c6664abc2b", "answer": "% greek orthodox christians and 2.8 %"}
-{"qid": "7b4416fe02ad4b29a97b56e26c3ad339", "answer": "religious worship"}
-{"qid": "72b54818105a4c23a516c94cc9feec66", "answer": "legislative"}
-{"qid": "6df50ef414854068a09639b0d62277d1", "answer": "60"}
-{"qid": "8ffac07ea91447bfa34f504a11c85c78", "answer": "60"}
-{"qid": "38f8ae5ab0c14101965c30a7a39cb2f9", "answer": "the city council divides"}
-{"qid": "9c9a6185e6da4dd3ad604971e9558502", "answer": "60"}
+{"qid": "c3b52f222b7a472ea5f0b00f350f9836", "answer": "economist intelligence"}
+{"qid": "d7a50571f76a468680c9822c6c15582e", "answer": "nearby clans"}
+{"qid": "8beada2a9fe4402997283ddc686a91e8", "answer": "14th"}
+{"qid": "17776f42da034a9d96f055e8b17b8536", "answer": "boles\u0142aw ii of masovia"}
+{"qid": "89b49986c2b44f1bbad3c63ae2c0e138", "answer": "nearby clans"}
+{"qid": "ce97e379d3b3478092dc37dbd581266f", "answer": "local ducal"}
+{"qid": "7c7ca5c2a04a41a9a1268d1107f6f167", "answer": "reflects"}
+{"qid": "67a9ba605f194c2ba41d5f94a12ac3ef", "answer": "razed"}
+{"qid": "b5d231f553c34f68b0ad63fdbc730d6f", "answer": "kronenberg palace"}
+{"qid": "b99fbefdddc14ff5aef3ae287e1f5683", "answer": "metres ( 397.0 ft"}
+{"qid": "62f6b82678094aa9a2cdf64025f9222d", "answer": "metres ( 397.0 ft"}
+{"qid": "1be63ca818864b958595ea5c496d910a", "answer": "metres ( 397.0 ft"}
+{"qid": "2dc99b49a2374e1bbd051b5ec740fa99", "answer": "metres ( 397.0 ft"}
+{"qid": "60003869972a4abe933b6b416e3070ab", "answer": "plain moraine"}
+{"qid": "b86ed6c4082d4bfda5839f90af087a6a", "answer": "vistula old \u2013"}
+{"qid": "73c6b6b478d34c72b887f4c5ab9b8385", "answer": "1939"}
+{"qid": "4124578286f24773b25c3cc08254990e", "answer": "1939"}
+{"qid": "ad229d6a65244b20a9121c7b19dc38ed", "answer": "hundred thousand"}
+{"qid": "4cacfcf00fca42ba80b9f0a9301e2c7a", "answer": "1939"}
+{"qid": "b9f8cb6acbe44469a4ec76887ee9d54a", "answer": "catholic archdiocese"}
+{"qid": "92ab525713754d9e80536f4245ec5889", "answer": "catholic"}
+{"qid": "32611422de6149c6a621be685e9bb74e", "answer": "catholic archdiocese"}
+{"qid": "65e89c3a29b44958ad55109fb13f5dcc", "answer": "catholic archdiocese"}
+{"qid": "59081982f84c4fd6a2a247680494bc8c", "answer": "catholic archdiocese"}
+{"qid": "fce2f22bf0874f0d8d522a37697c2dc1", "answer": "ak"}
+{"qid": "9f09988da86542218fc9c7476a4ce50a", "answer": "ak"}
+{"qid": "a54075e89a834bcc8fbb548f86119023", "answer": "ak"}
+{"qid": "d148f150e2164b479327ccda400a448a", "answer": "palais garnier in paris"}
+{"qid": "d01eeff64c6d4de5b66f6aa1a4c906a9", "answer": "palais garnier in paris"}
+{"qid": "8719bf913a5b4dbe8f594a2987e60545", "answer": "1899\u20131902"}
+{"qid": "4d68dd223b754eabaec130dc6c507a43", "answer": "palais garnier in paris"}
+{"qid": "07b93e6e11f0414c9de15f02babb7446", "answer": "tackles"}
+{"qid": "325ae15ba817445f8758bc262b0930a4", "answer": "13 of 23 for 141 yards with one interception and zero touchdowns"}
+{"qid": "a761a7afdb394a7b980db57be9f6f684", "answer": "13 of 23"}
+{"qid": "35fa6a9489fe45e88b6f16987d915729", "answer": "13 of 23"}
+{"qid": "f51bdf5fd1e443e5afa6c8ee2b316cf1", "answer": "receptions"}
+{"qid": "e62007fb830542d4a257099bbd38aacb", "answer": "attempts"}
+{"qid": "8ba586b3f64843589279b60c4536c1d5", "answer": "warsaw uprising monument by wincenty ku\u0107ma"}
+{"qid": "0c804b64e5c84eab9eb7d16430832176", "answer": "gestapo prison now occupied by a mausoleum of memory of martyrdom and the museum"}
+{"qid": "3f3230f5d8c14253b1a372392eedae78", "answer": "the defeat of the november uprising"}
+{"qid": "e6dd993f83e3452b856cd06438bc9a46", "answer": "warsaw uprising monument by wincenty ku\u0107ma"}
+{"qid": "08922b3c7cd945cfa2a60c02e56d8502", "answer": "warsaw uprising monument by wincenty ku\u0107ma"}
+{"qid": "d170834c90654afa9f8f754a9a3a7d21", "answer": "m"}
+{"qid": "4be999fb51a04e3693688a7628e9f4fd", "answer": "plain moraine"}
+{"qid": "996c9e2716a9444f89130c16264fb61b", "answer": "m"}
+{"qid": "27fa3088f915420ca01333a46fcb48d6", "answer": "plateau ( 10 to 25 m"}
+{"qid": "c8c4dd6b8c0b48a1a44a4abc57a36496", "answer": "warsaw uprising of 1944"}
+{"qid": "7b4416fe02ad4b29a97b56e26c3ad339", "answer": "warsaw uprising of 1944"}
+{"qid": "72b54818105a4c23a516c94cc9feec66", "answer": "rada miasta"}
+{"qid": "6df50ef414854068a09639b0d62277d1", "answer": "rada miasta"}
+{"qid": "38f8ae5ab0c14101965c30a7a39cb2f9", "answer": "rada miasta"}
+{"qid": "9c9a6185e6da4dd3ad604971e9558502", "answer": "mayor vetoes a bill"}
 {"qid": "3e397266bfcc4a82906820d11579e3ea", "answer": "17th"}
-{"qid": "e9cbec222e37450b8d53df934fba5852", "answer": "17th"}
-{"qid": "0edead33dca04d77ae955e4f978c04f3", "answer": "revival"}
-{"qid": "bc0f04935ed446f39c9b4d2c1fa71561", "answer": "a great inspiration"}
-{"qid": "cfb5ca2c127540e1a34d3c18f2e0330a", "answer": "17th"}
-{"qid": "bec0524e854b4b78b4c2b9ea3a2828bb", "answer": "seven"}
-{"qid": "ead6955ac86d48a98e07d5295e5baefb", "answer": "seven"}
-{"qid": "179476eba2fb49e493f7b8709c79b62f", "answer": "super"}
-{"qid": "6aeb15220d4c4f63bf703ceaabeaa42b", "answer": "surpassing the old record of 45 yards set by john taylor"}
-{"qid": "ee5dfef4b9034a55b28fd28c4fd3df1e", "answer": "the super bowl"}
-{"qid": "2b5c7f595e914b039dcfde54a8c0cfcd", "answer": "seven"}
-{"qid": "2081340e85bd438383b4563b7e182f0e", "answer": "seven"}
+{"qid": "e9cbec222e37450b8d53df934fba5852", "answer": "church"}
+{"qid": "0edead33dca04d77ae955e4f978c04f3", "answer": "four winds ( 1730s ) and visitationist church"}
+{"qid": "bc0f04935ed446f39c9b4d2c1fa71561", "answer": "roman"}
+{"qid": "cfb5ca2c127540e1a34d3c18f2e0330a", "answer": "church"}
+{"qid": "bec0524e854b4b78b4c2b9ea3a2828bb", "answer": "yards ("}
+{"qid": "ead6955ac86d48a98e07d5295e5baefb", "answer": "yards"}
+{"qid": "179476eba2fb49e493f7b8709c79b62f", "answer": "john taylor in super bowl xxiii"}
+{"qid": "6aeb15220d4c4f63bf703ceaabeaa42b", "answer": "john taylor in super bowl xxiii"}
+{"qid": "ee5dfef4b9034a55b28fd28c4fd3df1e", "answer": "john taylor in super bowl xxiii"}
+{"qid": "2b5c7f595e914b039dcfde54a8c0cfcd", "answer": "yards ("}
+{"qid": "2081340e85bd438383b4563b7e182f0e", "answer": "yards ("}
 {"qid": "41ec8f2c7b35404cb9bab02991d04be0", "answer": "john taylor in super bowl xxiii"}
-{"qid": "d72643cdff85402eaff5874dadfbe5f6", "answer": "super bowl 50 featured numerous records from individuals and teams . denver won"}
-{"qid": "84df2365b31a47c8aac5b9792bbe49cd", "answer": "seven"}
-{"qid": "7461e2abbdca42caa6e914f94987a6ab", "answer": "seven"}
-{"qid": "6cc205982ca948e39b9e6c996549ebae", "answer": "super bowl 50 featured numerous records"}
-{"qid": "d85aafe6026f4acaab57e8a3f898f142", "answer": "surpassing the old record of 45"}
+{"qid": "d72643cdff85402eaff5874dadfbe5f6", "answer": "john taylor in super bowl xxiii"}
+{"qid": "6cc205982ca948e39b9e6c996549ebae", "answer": "john taylor in super bowl xxiii"}
+{"qid": "d85aafe6026f4acaab57e8a3f898f142", "answer": "john taylor in super bowl xxiii"}
 {"qid": "e4a2bb47548d4cb297383fb1fe537d7f", "answer": "seven"}
-{"qid": "8583bf582667472c875c4148c68f6dba", "answer": "jesuit church"}
-{"qid": "d414ca66b0ee4887878cb4480c403c21", "answer": "17th century ) and salwator tenement ( 1632"}
-{"qid": "65c7c7c1a7cd4d788674d43960e40244", "answer": "jesuit church"}
-{"qid": "2bec5b4382994a348e353f89ff357d73", "answer": "jesuit church"}
-{"qid": "3fc0aaac413344cd802792d7c00c1ccd", "answer": "the"}
-{"qid": "18606115509b4509b12e7cae49561197", "answer": "warsaw 's first stock"}
-{"qid": "6742d3946d2e422098fa14ab916d0d3f", "answer": "warsaw"}
-{"qid": "9f790cd6c22842ee883caf3bb6b256de", "answer": "warsaw 's first stock"}
-{"qid": "58b8639075e6447980a60c6ee40cc164", "answer": "374 companies listed and total"}
-{"qid": "d12cef64efd6460280ef462f7315d95f", "answer": "the stock"}
+{"qid": "d414ca66b0ee4887878cb4480c403c21", "answer": "mary 's church"}
+{"qid": "65c7c7c1a7cd4d788674d43960e40244", "answer": "mary 's church"}
+{"qid": "2bec5b4382994a348e353f89ff357d73", "answer": "17th century"}
+{"qid": "3fc0aaac413344cd802792d7c00c1ccd", "answer": "jesuit church"}
+{"qid": "18606115509b4509b12e7cae49561197", "answer": "stock exchange was established in 1817 and continued trading until world war ii"}
+{"qid": "6742d3946d2e422098fa14ab916d0d3f", "answer": "stock exchange was established in 1817 and continued trading until world war ii"}
+{"qid": "58b8639075e6447980a60c6ee40cc164", "answer": "warsaw stock exchange ( wse"}
 {"qid": "4cc5eca85cff4b1082d143f858bebd89", "answer": "catholicism"}
-{"qid": "88cc3f346403493da0006d8dace3a21c", "answer": "the descendants"}
-{"qid": "3cea6e1a518a4e1198698e631064fb39", "answer": "alexius komnenos"}
-{"qid": "6fd9b2fdb1cc4c04997b40e25098a0c7", "answer": "alexius komnenos"}
-{"qid": "4c22f177db734206b0ac1fb2c54fd9ce", "answer": "byzantine duke of antioch"}
-{"qid": "355a07cd20634f0db56322f36a35eda6", "answer": "the"}
-{"qid": "d7a59a9961c84cd283f0a0df25f0a74b", "answer": "normans"}
-{"qid": "5508a22a67974792bef797674f5c74df", "answer": "franks"}
-{"qid": "16bedb96c13840a3b5ee92cc49763736", "answer": "fso car factory"}
-{"qid": "1906777b53274499b272ed633ec4f6ae", "answer": "fso car factory"}
-{"qid": "932328eb335b425ea87258ff8ac3beee", "answer": "1995 the factory"}
-{"qid": "c04d0e83c98a43779f0319ecf435eb95", "answer": "fso car factory"}
-{"qid": "55b3020fe59f4b48ac0d314790c9a7f5", "answer": "fso car factory"}
-{"qid": "6e59d1b97a4343d0913d311a4cef875f", "answer": "warsaw"}
-{"qid": "b562ea966ba746cc960eb7d7305f4765", "answer": "over 650 million"}
-{"qid": "bd35ed0415644092a1d20bceacf0a011", "answer": "33 000"}
-{"qid": "422fb60dab1348f59a56b97f05e93592", "answer": "650 million euro . warsaw produces 12 %"}
-{"qid": "72eb5b857e7a4e8e8235702f685a8734", "answer": "650 million euro . warsaw produces 12 %"}
+{"qid": "88cc3f346403493da0006d8dace3a21c", "answer": "catholicism"}
+{"qid": "3cea6e1a518a4e1198698e631064fb39", "answer": "the 1050s"}
+{"qid": "6fd9b2fdb1cc4c04997b40e25098a0c7", "answer": "crispin led the normans of edessa against the turks"}
+{"qid": "4c22f177db734206b0ac1fb2c54fd9ce", "answer": "byzantine general alexius komnenos"}
+{"qid": "5508a22a67974792bef797674f5c74df", "answer": "byzantine"}
+{"qid": "16bedb96c13840a3b5ee92cc49763736", "answer": "fso car factory was established in 1951"}
+{"qid": "1906777b53274499b272ed633ec4f6ae", "answer": "fso 125p when the license expired"}
+{"qid": "c04d0e83c98a43779f0319ecf435eb95", "answer": "car manufacturer"}
+{"qid": "6e59d1b97a4343d0913d311a4cef875f", "answer": "23 800 , usd 33 000"}
+{"qid": "bd35ed0415644092a1d20bceacf0a011", "answer": "23"}
+{"qid": "422fb60dab1348f59a56b97f05e93592", "answer": "23"}
+{"qid": "72eb5b857e7a4e8e8235702f685a8734", "answer": "23"}
