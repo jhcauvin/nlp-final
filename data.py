@@ -17,12 +17,9 @@ import spacy
 PAD_TOKEN = '[PAD]'
 UNK_TOKEN = '[UNK]'
 
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_web_md')
 spacy.prefer_gpu()
 spacy_checkpoint = 0
-
-bigger = 0
-smaller = 0
 
 class Vocabulary:
     """
@@ -168,32 +165,20 @@ class QADataset(Dataset):
         passage_tokens = [token.text for token in passage]
         question_tokens = [token.text for token in question]
         SCORE = 1
-        THRESHOLD = 2
+        THRESHOLD = 0
         CHECK_NER = True
         CHECK_PROPN = True
         CHECK_SENT_LEN = True
         CHECK_SUBJ = True
+        CHECK_SIMILARITY = True
     
-        # for sent in passage.sents:
-        #     end_of_sent = index + len(sent)
-        #     contains_entity = len(sent.ents) != 0
-        #     if contains_entity:
-        #         sent_cands.append(sent)
-        #         index += len(sent)
-        #     elif index < answer_start < end_of_sent:
-        #         print("cheating")
-        #         sent_cands.append(sent)
-        #         index += len(sent)
-        #     elif end_of_sent < answer_start:
-        #         answer_start -= len(sent)
-        #         answer_end -= len(sent)
-
         # create array to store each sentence and its score
         sentences = [[sentence, 0] for sentence in passage.sents]
 
         # parse the question for useful attributes
         question_proper_nouns = [noun.text for noun in question if noun.pos_ == 'PROPN']
         question_noun_subjs = [noun.text for noun in question if noun.dep_ == 'nsubj']
+        avg_similarity = sum([sent[0].similarity(question) for sent in sentences]) / len(sentences)
 
         for sent in sentences:
             # check if there's a named entity
@@ -218,27 +203,13 @@ class QADataset(Dataset):
                 for word in sent[0]:
                     if word.dep_ == 'nsubj' and word.text in question_noun_subjs:
                         sent[SCORE] += 1
-
+            # use spacy's built-in similarity estimate
+            if CHECK_SIMILARITY:
+                if sent[0].similarity(question) > avg_similarity:
+                    sent[SCORE] += 1
         
-        avg_sent_len = sum([len(sent[0]) for sent in sentences]) / len(sentences)
-        min_sent_len = min([len(sent[0]) for sent in sentences])
-        max_sent_len = max([len(sent[0]) for sent in sentences])
-        ans_len = 0
-        index = 0
-        for sent in sentences:
-            end_of_sent = index + len(sent[0])
-            if index < answer_start < end_of_sent:
-                ans_len += len(sent[0])
-            index += len(sent[0])
-        global bigger, smaller
-        if ans_len == min_sent_len:
-            bigger += 1
-        else:
-            smaller += 1
-
-        # print('min', min_sent_len)
-        # print('avg', avg_sent_len)
-        # print('max', max_sent_len)
+        if len(question) == 0:
+            print('question with nothing')
 
         # go through sentence candidates and remove ones with too low of a score
         passage_tokens = []
@@ -246,13 +217,13 @@ class QADataset(Dataset):
         for sent in sentences:
             end_of_sent = index + len(sent[0])
             # keep the sentence if the score is high enough
-            if sent[SCORE] > THRESHOLD:
+            if sent[SCORE] >= THRESHOLD:
                 passage_tokens.extend([token.text for token in sent[0]])
                 index += len(sent[0])
-            elif index < answer_start < end_of_sent:
+            elif index <= answer_start < end_of_sent:
                 # the sentence containing the answer is being removed
                 print("Sentence with answer is removed")
-            elif end_of_sent < answer_start:
+            elif end_of_sent <= answer_start:
                 # sentence not containing the answer is removed, adjust start and end
                 answer_start -= len(sent[0])
                 answer_end -= len(sent[0])
@@ -311,12 +282,8 @@ class QADataset(Dataset):
                 # print('OUR ANSWER   ', passage[answer_start:answer_end + 1])
                 # print('ACTUAL ANSWER',answers[0]['text'])
 
-            print('num bigger', bigger)
-            print('num smaller', smaller)
-            print('frac', (bigger / (smaller + bigger)))
             if spacy_checkpoint % 1000 == 0:
                 print('Finished ' + str(spacy_checkpoint) + ' samples')
-        print()
         return samples
 
     def _create_data_generator(self, shuffle_examples=False):
