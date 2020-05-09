@@ -30,6 +30,8 @@ nsubj_count = 0
 simil_count = 0
 nchunk_count = 0
 num_removed = 0
+total = 0
+sents_removed = 0
 
 class Vocabulary:
     """
@@ -175,13 +177,14 @@ class QADataset(Dataset):
         passage_tokens = [token.text for token in passage]
         question_tokens = [token.text for token in question]
         SCORE = 1
-        THRESHOLD = 3
+        THRESHOLD = 0
         CHECK_NER = True
         CHECK_PROPN = True
         CHECK_SUBJ = True
         CHECK_SIMILARITY = True
         CHECK_NOUN_CHNKS = True
-        global ner_count, propn_count, nsubj_count, simil_count, nchunk_count, num_removed
+        global ner_count, propn_count, nsubj_count, simil_count, nchunk_count, num_removed, total, sents_removed
+        total += 1
     
         # create array to store each sentence and its score
         sentences = [[sentence, 0] for sentence in passage.sents]
@@ -233,6 +236,7 @@ class QADataset(Dataset):
         # go through sentence candidates and remove ones with too low of a score
         passage_tokens = []
         index = 0
+        removed = 0
         for sent in sentences:
             end_of_sent = index + len(sent[0])
             # keep the sentence if the score is high enough
@@ -241,20 +245,21 @@ class QADataset(Dataset):
                 index += len(sent[0])
             elif index <= answer_start < end_of_sent:
                 # the sentence containing the answer is being removed
-                #print("Sentence with answer is removed")
                 num_removed += 1
                 return None, None, None, None
-            elif end_of_sent <= answer_start:
+            else:
                 # sentence not containing the answer is removed, adjust start and end
                 answer_start -= len(sent[0])
                 answer_end -= len(sent[0])
+                removed += 1
 
         if len(passage_tokens) == 0:
             print("PASSAGE TOKENS LENGTH IS ZERO")
 
+        sents_removed += removed
         return passage_tokens, question_tokens, answer_start, answer_end
             
-
+    # def find_subarray(ar1, ar2):
     def _create_samples(self):
         """
         Formats raw examples to desired form. Any passages/questions longer
@@ -267,7 +272,7 @@ class QADataset(Dataset):
         print('Creating samples')
         samples = []
         spacy_checkpoint = 0
-        for elem in self.elems[:1500]:
+        for elem in self.elems[:1000]:
             # Each passage has several questions associated with it.
             # Additionally, each question has multiple possible answer spans.
             passage_str = elem['context']
@@ -283,10 +288,10 @@ class QADataset(Dataset):
                 # is inclusive. These will need to be adjusted if sentences 
                 # are eliminated
                 answers = qa['detected_answers']
-                answer_start, answer_end = answers[0]['token_spans'][0]
+                orig_start, orig_end = answers[0]['token_spans'][0]
 
                 # Run through Spacy
-                passage, question, answer_start, answer_end = self.spacy_adjustment(processed_passage, question_str, answer_start, answer_end)
+                passage, question, answer_start, answer_end = self.spacy_adjustment(processed_passage, question_str, orig_start, orig_end)
                 if passage == None:
                     # throw out examples that throw off the heuristics
                     continue
@@ -296,14 +301,50 @@ class QADataset(Dataset):
                 passage = [token.lower() for token in passage]
                 question = question[:self.args.max_question_length]
                 question = [token.lower() for token in question]
+
+                orig_q = [
+                    token.lower() for (token, offset) in qa['question_tokens']
+                ][:self.args.max_question_length]
+
+                orig_p = [
+                    token.lower() for (token, offset) in elem['context_tokens']
+                ][:self.args.max_context_length]
+
+                orig_ans = orig_p[answer_start:answer_end + 1]
+
+
+                i = 0
+                while i < len(passage):
+                    token = passage[i]
+                    if token == ' ':
+                        passage.pop(i)
+                        answer_start = answer_start - 1 if i < answer_start else answer_start
+                        answer_end = answer_end - 1 if i < answer_end else answer_end
+                    else:
+                        i += 1
+
+
+
+                if orig_p[orig_start:orig_end +1] != passage[answer_start:answer_end + 1]:
+                    print('here')
+
+                if len(passage) <= answer_start or len(passage) <= answer_end or answer_start > answer_end:
+                    # print('answer_start', answer_start)
+                    # print('answer_end', answer_end)
+                    # print(len(passage))
+                    # print(len(precut))
+                    continue
                 samples.append(
                     (qid, passage, question, answer_start, answer_end)
                 )
 
             if spacy_checkpoint % 1000 == 0:
                 print('Finished ' + str(spacy_checkpoint) + ' samples')
-        global ner_count, propn_count, nsubj_count, simil_count, nchunk_count, num_removed
-        print(str(num_removed) + " examples were removed")
+        global ner_count, propn_count, nsubj_count, simil_count, nchunk_count, num_removed, total, sents_removed
+        print()
+        print(str(num_removed) + " out of " + str(total) + " examples were removed")
+        print(str(sents_removed / (total - num_removed)) + " average sentences removed per passage/question pair")
+        print()
         print('NER triggered ' + str(ner_count) + ' times')
         print('Proper Noun triggered ' + str(propn_count) + ' times')
         print('Noun Subject triggered ' + str(nsubj_count) + ' times')
