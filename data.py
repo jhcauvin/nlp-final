@@ -12,6 +12,7 @@ from torch.utils.data import Dataset
 from random import shuffle
 from utils import cuda, load_dataset
 import spacy
+from spacy.tokenizer import Tokenizer
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -21,6 +22,7 @@ PAD_TOKEN = '[PAD]'
 UNK_TOKEN = '[UNK]'
 
 nlp = spacy.load('en_core_web_md')
+tokenizer = nlp.tokenizer
 #spacy.prefer_gpu()
 
 spacy_checkpoint = 0
@@ -162,15 +164,6 @@ class QADataset(Dataset):
         self.pad_token_id = self.tokenizer.pad_token_id \
             if self.tokenizer is not None else 0
 
-    # score the sentence based on a set of heuristics
-    def score_sentence(self, sentence, question):
-        score = 0
-        for token in sentence:
-            for word in question:
-                if token.text == word.text and token.dep_ == word.dep_:
-                    score += 1
-        return score
-
     def spacy_adjustment(self, processed_passage, question, answer_start, answer_end):
         passage = processed_passage
         question = nlp(question)
@@ -258,8 +251,23 @@ class QADataset(Dataset):
 
         sents_removed += removed
         return passage_tokens, question_tokens, answer_start, answer_end
-            
-    # def find_subarray(ar1, ar2):
+    
+    # Search for the start index of ar2 inside ar1
+    def find_subarray(self, ar1, ar2):
+        for index1 in range(len(ar1)):
+            if index1 > len(ar1) - len(ar2):
+                return -1
+            sub_ar = ar1[index1:index1 + len(ar2)]
+            worked = True
+            for el in range(len(sub_ar)):
+                if sub_ar[el].text != ar2[el].text:
+                    worked = False
+                    break
+            if worked:
+                return index1
+        return -1
+                
+
     def _create_samples(self):
         """
         Formats raw examples to desired form. Any passages/questions longer
@@ -268,7 +276,6 @@ class QADataset(Dataset):
         Returns:
             A list of words (string).
         """
-
         print('Creating samples')
         samples = []
         spacy_checkpoint = 0
@@ -279,60 +286,67 @@ class QADataset(Dataset):
             processed_passage = nlp(passage_str)
             spacy_checkpoint += 1
             for qa in elem['qas']:
-                # Get the passage and question string
+                # get the passage and question string
                 passage_str = elem['context']
                 question_str = qa['question']
                 qid = qa['qid']
-                # Select the first answer span, which is formatted as
-                # (start_position, end_position), where the end_position
-                # is inclusive. These will need to be adjusted if sentences 
-                # are eliminated
+
+                # select the first answer span, which is formatted as (start_position, end_position), where the end_position
+                # is inclusive. These will need to be adjusted if sentences are eliminated
                 answers = qa['detected_answers']
                 orig_start, orig_end = answers[0]['token_spans'][0]
+                orig_ans = answers[0]['text']
 
-                # Run through Spacy
-                passage, question, answer_start, answer_end = self.spacy_adjustment(processed_passage, question_str, orig_start, orig_end)
+                # spacy tokenizes the passages in a slightly different way
+                # so we tokenize the answer with spacy and then find it within the spacy-tokenized passage
+                processed_ans = tokenizer(orig_ans)
+                answer_start = self.find_subarray(processed_passage, processed_ans)
+                answer_end = answer_start + len(processed_ans) - 1
+
+                ans = processed_passage[answer_start:answer_end + 1].text
+                if ans != orig_ans:
+                    print('kus bad')
+                    quit()
+
+                # processed_ans = [token.text for token in processed_ans]
+                # other = nlp(orig_ans)
+                # other = [token.text for token in other]
+                # if processed_ans != other:
+                #     print('fart')
+                #     print(processed_ans)
+                #     print(other)
+
+                # run through Spacy
+                passage, question, answer_start, answer_end = self.spacy_adjustment(processed_passage, question_str, answer_start, answer_end)
                 if passage == None:
                     # throw out examples that throw off the heuristics
                     continue
 
-                # Adjust size for max length and lowercase
+                pre_ans = [token.text for token in processed_ans]
+                ans = passage[answer_start:answer_end + 1]
+                real = [token.text for token in processed_ans]
+
+                if pre_ans != ans:
+                    print(pre_ans)
+                    print(ans)
+
+                # adjust size for max length and lowercase
                 passage = passage[:self.args.max_context_length]
                 passage = [token.lower() for token in passage]
                 question = question[:self.args.max_question_length]
                 question = [token.lower() for token in question]
 
-                orig_q = [
-                    token.lower() for (token, offset) in qa['question_tokens']
-                ][:self.args.max_question_length]
+                # orig_q = [
+                #     token.lower() for (token, offset) in qa['question_tokens']
+                # ][:self.args.max_question_length]
 
-                orig_p = [
-                    token.lower() for (token, offset) in elem['context_tokens']
-                ][:self.args.max_context_length]
+                # orig_p = [
+                #     token.lower() for (token, offset) in elem['context_tokens']
+                # ][:self.args.max_context_length]
 
-                orig_ans = orig_p[answer_start:answer_end + 1]
-
-
-                i = 0
-                while i < len(passage):
-                    token = passage[i]
-                    if token == ' ':
-                        passage.pop(i)
-                        answer_start = answer_start - 1 if i < answer_start else answer_start
-                        answer_end = answer_end - 1 if i < answer_end else answer_end
-                    else:
-                        i += 1
-
-
-
-                if orig_p[orig_start:orig_end +1] != passage[answer_start:answer_end + 1]:
-                    print('here')
 
                 if len(passage) <= answer_start or len(passage) <= answer_end or answer_start > answer_end:
-                    # print('answer_start', answer_start)
-                    # print('answer_end', answer_end)
-                    # print(len(passage))
-                    # print(len(precut))
+                    #pass
                     continue
                 samples.append(
                     (qid, passage, question, answer_start, answer_end)

@@ -3,11 +3,29 @@ import spacy
 
 nlp = spacy.load('en_core_web_sm')
 
-passage = nlp("architecturally , the school has a catholic character . atop the main building 's gold dome is a golden statue of the virgin mary . immediately in front of the main building and facing it , is a copper statue of christ with arms upraised with the legend ' venite ad me omnes ' . next to the main building is the basilica of the sacred heart . immediately behind the basilica is the grotto , a marian place of prayer and reflection . it is a replica of the grotto at lourdes , france where the virgin mary reputedly appeared to saint bernadette soubirous in 1858 . at the end of the main drive ( and in a direct line that connects through 3 statues and the gold dome ) , is a simple , modern stone statue of mary .")
+# passage = nlp("architecturally , the school has a catholic character . atop the main building 's gold dome is a golden statue of the virgin mary . immediately in front of the main building and facing it , is a copper statue of christ with arms upraised with the legend ' venite ad me omnes ' . next to the main building is the basilica of the sacred heart . immediately behind the basilica is the grotto , a marian place of prayer and reflection . it is a replica of the grotto at lourdes , france where the virgin mary reputedly appeared to saint bernadette soubirous in 1858 . at the end of the main drive ( and in a direct line that connects through 3 statues and the gold dome ) , is a simple , modern stone statue of mary .")
 
-question = nlp("to whom did the virgin mary allegedly appear in 1858 in lourdes france ?")
-question_noun_subjs = [noun.lemma_ for noun in question]
-print(question_noun_subjs)
+# question = nlp("to whom did the virgin mary allegedly appear in 1858 in lourdes france ?")
+# question_noun_subjs = [noun.lemma_ for noun in question]
+# print(question_noun_subjs)
+
+def find_subarray(ar1, ar2):
+        for index1 in range(len(ar1)):
+            if index1 > len(ar1) - len(ar2):
+                return -1
+            sub_ar = ar1[index1:index1 + len(ar2)]
+            worked = True
+            for el in range(len(sub_ar)):
+                if sub_ar[el] != ar2[el]:
+                    worked = False
+                    break
+            if worked == True:
+                return index1
+        return -1
+ar1 = ['hi', 'bue', 'my', 'lie', 'test']
+ar2 = ['hi', "bue"]
+print("HI")
+print(find_subarray(ar1, ar2))
 # print(test4)
 # sentences = [[sentence, 0] for sentence in passage.sents]
 # for sent in sentences:
