@@ -21,7 +21,8 @@ warnings.filterwarnings("ignore")
 PAD_TOKEN = '[PAD]'
 UNK_TOKEN = '[UNK]'
 
-nlp = spacy.load('en_core_web_md')
+print("USING SMALL")
+nlp = spacy.load('en_core_web_sm')
 tokenizer = nlp.tokenizer
 #spacy.prefer_gpu()
 
@@ -170,7 +171,7 @@ class QADataset(Dataset):
         passage_tokens = [token.text for token in passage]
         question_tokens = [token.text for token in question]
         SCORE = 1
-        THRESHOLD = 0
+        THRESHOLD = 2
         CHECK_NER = True
         CHECK_PROPN = True
         CHECK_SUBJ = True
@@ -236,11 +237,11 @@ class QADataset(Dataset):
             if sent[SCORE] >= THRESHOLD:
                 passage_tokens.extend([token.text for token in sent[0]])
                 index += len(sent[0])
-            elif index <= answer_start < end_of_sent:
-                # the sentence containing the answer is being removed
+            elif index <= answer_start < end_of_sent or index <= answer_end < end_of_sent:
+                # a sentence containing the answer is being removed
                 num_removed += 1
                 return None, None, None, None
-            else:
+            elif end_of_sent <= answer_start:
                 # sentence not containing the answer is removed, adjust start and end
                 answer_start -= len(sent[0])
                 answer_end -= len(sent[0])
@@ -316,18 +317,19 @@ class QADataset(Dataset):
                 #     print(processed_ans)
                 #     print(other)
 
+
                 # run through Spacy
                 passage, question, answer_start, answer_end = self.spacy_adjustment(processed_passage, question_str, answer_start, answer_end)
                 if passage == None:
                     # throw out examples that throw off the heuristics
                     continue
 
-                pre_ans = [token.text for token in processed_ans]
+
                 ans = passage[answer_start:answer_end + 1]
                 real = [token.text for token in processed_ans]
 
-                if pre_ans != ans:
-                    print(pre_ans)
+                if real != ans:
+                    print(real)
                     print(ans)
 
                 # adjust size for max length and lowercase
