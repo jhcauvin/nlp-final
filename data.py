@@ -21,8 +21,7 @@ warnings.filterwarnings("ignore")
 PAD_TOKEN = '[PAD]'
 UNK_TOKEN = '[UNK]'
 
-print("USING SMALL")
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_web_md')
 tokenizer = nlp.tokenizer
 #spacy.prefer_gpu()
 
@@ -171,7 +170,7 @@ class QADataset(Dataset):
         passage_tokens = [token.text for token in passage]
         question_tokens = [token.text for token in question]
         SCORE = 1
-        THRESHOLD = 2
+        THRESHOLD = 3
         CHECK_NER = True
         CHECK_PROPN = True
         CHECK_SUBJ = True
@@ -237,7 +236,7 @@ class QADataset(Dataset):
             if sent[SCORE] >= THRESHOLD:
                 passage_tokens.extend([token.text for token in sent[0]])
                 index += len(sent[0])
-            elif index <= answer_start < end_of_sent or index <= answer_end < end_of_sent:
+            elif index <= answer_start < end_of_sent or index <= answer_end < end_of_sent or answer_start <= index <= answer_end:
                 # a sentence containing the answer is being removed
                 num_removed += 1
                 return None, None, None, None
@@ -280,7 +279,7 @@ class QADataset(Dataset):
         print('Creating samples')
         samples = []
         spacy_checkpoint = 0
-        for elem in self.elems[:1000]:
+        for elem in self.elems:
             # Each passage has several questions associated with it.
             # Additionally, each question has multiple possible answer spans.
             passage_str = elem['context']
@@ -295,7 +294,6 @@ class QADataset(Dataset):
                 # select the first answer span, which is formatted as (start_position, end_position), where the end_position
                 # is inclusive. These will need to be adjusted if sentences are eliminated
                 answers = qa['detected_answers']
-                orig_start, orig_end = answers[0]['token_spans'][0]
                 orig_ans = answers[0]['text']
 
                 # spacy tokenizes the passages in a slightly different way
@@ -307,7 +305,8 @@ class QADataset(Dataset):
                 ans = processed_passage[answer_start:answer_end + 1].text
                 if ans != orig_ans:
                     print('kus bad')
-                    quit()
+                    continue
+                    #quit()
 
                 # processed_ans = [token.text for token in processed_ans]
                 # other = nlp(orig_ans)
@@ -329,6 +328,7 @@ class QADataset(Dataset):
                 real = [token.text for token in processed_ans]
 
                 if real != ans:
+                    [print(sent) for sent in processed_passage.sents]
                     print(real)
                     print(ans)
 
@@ -348,8 +348,8 @@ class QADataset(Dataset):
 
 
                 if len(passage) <= answer_start or len(passage) <= answer_end or answer_start > answer_end:
-                    #pass
-                    continue
+                    pass
+                    #continue
                 samples.append(
                     (qid, passage, question, answer_start, answer_end)
                 )
