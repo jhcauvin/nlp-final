@@ -10,6 +10,7 @@ import torch
 
 from torch.utils.data import Dataset
 from random import shuffle
+import random as rand
 from utils import cuda, load_dataset
 import spacy
 from spacy.tokenizer import Tokenizer
@@ -23,7 +24,7 @@ UNK_TOKEN = '[UNK]'
 
 nlp = spacy.load('en_core_web_md')
 tokenizer = nlp.tokenizer
-#spacy.prefer_gpu()
+#spacy.require_gpu()
 
 spacy_checkpoint = 0
 ner_count = 0
@@ -170,7 +171,7 @@ class QADataset(Dataset):
         passage_tokens = [token.text for token in passage]
         question_tokens = [token.text for token in question]
         SCORE = 1
-        THRESHOLD = 3
+        THRESHOLD = 1
         CHECK_NER = True
         CHECK_PROPN = True
         CHECK_SUBJ = True
@@ -279,6 +280,8 @@ class QADataset(Dataset):
         print('Creating samples')
         samples = []
         spacy_checkpoint = 0
+        # rand.seed(4)
+        # rand.shuffle(self.elems)
         for elem in self.elems:
             # Each passage has several questions associated with it.
             # Additionally, each question has multiple possible answer spans.
@@ -303,10 +306,10 @@ class QADataset(Dataset):
                 answer_end = answer_start + len(processed_ans) - 1
 
                 ans = processed_passage[answer_start:answer_end + 1].text
+
+                # the spacy tokenizer makes a mistake on 4 out of roughly 86,000 test cases. We ignore these.
                 if ans != orig_ans:
-                    print('kus bad')
                     continue
-                    #quit()
 
                 # processed_ans = [token.text for token in processed_ans]
                 # other = nlp(orig_ans)

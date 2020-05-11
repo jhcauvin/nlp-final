@@ -1,8 +1,8 @@
-python3 main.py --use_gpu --model "baseline" --model_path "thresh1.pt" --train_path "datasets/squad_train.jsonl.gz" --dev_path "datasets/squad_dev.jsonl.gz" --output_path "preds_thresh1.txt" --hidden_dim 256 --bidirectional --do_train --do_test
+python3 main.py --use_gpu --model "baseline" --model_path "adjusted_thresh_1.pt" --train_path "datasets/squad_train.jsonl.gz" --dev_path "datasets/squad_dev.jsonl.gz" --output_path "adjusted_thresh_1.txt" --hidden_dim 256 --bidirectional --do_train --do_test
 
-python3 main.py --use_gpu --model "baseline" --model_path "thresh2.pt" --train_path "datasets/squad_train.jsonl.gz" --dev_path "datasets/squad_dev.jsonl.gz" --output_path "preds_thresh2.txt" --hidden_dim 256 --bidirectional --do_train --do_test
+python3 main.py --use_gpu --model "baseline" --model_path "default_thresh_1.pt" --train_path "datasets/squad_train.jsonl.gz" --dev_path "datasets/squad_dev.jsonl.gz" --output_path "default_thresh_1.txt" --hidden_dim 256 --bidirectional --do_train --do_test
 
-python3 main.py --use_gpu --model "baseline" --model_path "thresh3.pt" --train_path "datasets/squad_train.jsonl.gz" --dev_path "datasets/squad_dev.jsonl.gz" --output_path "preds_thresh3.txt" --hidden_dim 256 --bidirectional --do_train --do_test
+python3 main.py --use_gpu --model "baseline" --model_path "default_thresh_2.pt" --train_path "datasets/squad_train.jsonl.gz" --dev_path "datasets/squad_dev.jsonl.gz" --output_path "default_thresh_2.txt" --hidden_dim 256 --bidirectional --do_train --do_test
 
 python3 main.py \
     --use_gpu \
