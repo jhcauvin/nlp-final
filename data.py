@@ -32,7 +32,7 @@ propn_count = 0
 nsubj_count = 0
 simil_count = 0
 nchunk_count = 0
-num_removed = 0
+num_unprocessed = 0
 total = 0
 sents_removed = 0
 
@@ -156,8 +156,10 @@ class QADataset(Dataset):
         tokenizer: `Tokenizer` object.
         batch_size: Int. The number of example in a mini batch.
     """
-    def __init__(self, args, path):
+    def __init__(self, args, path, do_train=True, is_train=True,):
         self.args = args
+        self.is_train = is_train
+        self.do_train = do_train
         self.meta, self.elems = load_dataset(path)
         self.samples = self._create_samples()
         self.tokenizer = None
@@ -168,16 +170,17 @@ class QADataset(Dataset):
     def spacy_adjustment(self, processed_passage, question, answer_start, answer_end):
         passage = processed_passage
         question = nlp(question)
-        passage_tokens = [token.text for token in passage]
+        orig_ans_st = answer_start
+        orig_ans_end = answer_end
         question_tokens = [token.text for token in question]
         SCORE = 1
-        THRESHOLD = 1
+        THRESHOLD = 2
         CHECK_NER = True
         CHECK_PROPN = True
         CHECK_SUBJ = True
         CHECK_SIMILARITY = True
         CHECK_NOUN_CHNKS = True
-        global ner_count, propn_count, nsubj_count, simil_count, nchunk_count, num_removed, total, sents_removed
+        global ner_count, propn_count, nsubj_count, simil_count, nchunk_count, num_unprocessed, total, sents_removed
         total += 1
     
         # create array to store each sentence and its score
@@ -237,19 +240,22 @@ class QADataset(Dataset):
             if sent[SCORE] >= THRESHOLD:
                 passage_tokens.extend([token.text for token in sent[0]])
                 index += len(sent[0])
-            elif index <= answer_start < end_of_sent or index <= answer_end < end_of_sent or answer_start <= index <= answer_end:
-                # a sentence containing the answer is being removed
-                num_removed += 1
-                return None, None, None, None
+            elif self.is_train and (index <= answer_start < end_of_sent or index <= answer_end < end_of_sent or answer_start <= index <= answer_end):
+                # a sentence containing the answer is being removed. Don't process this during training
+                num_unprocessed += 1
+                orig_pass = [token.text for token in passage]
+                return orig_pass, question_tokens, orig_ans_st, orig_ans_end
             elif end_of_sent <= answer_start:
                 # sentence not containing the answer is removed, adjust start and end
                 answer_start -= len(sent[0])
                 answer_end -= len(sent[0])
                 removed += 1
 
+        # if all sentences are removed, return the original values
         if len(passage_tokens) == 0:
-            print("PASSAGE TOKENS LENGTH IS ZERO")
-
+            orig_pass = [token.text for token in passage]
+            return orig_pass, question_tokens, orig_ans_st, orig_ans_end
+            
         sents_removed += removed
         return passage_tokens, question_tokens, answer_start, answer_end
     
@@ -267,7 +273,39 @@ class QADataset(Dataset):
             if worked:
                 return index1
         return -1
+    
+    def _original(self):
+        """
+        Formats raw examples to desired form. Any passages/questions longer
+        than max sequence length will be truncated.
+        Returns:
+            A list of words (string).
+        """
+        samples = []
+        for elem in self.elems:
+            # Unpack the context paragraph. Shorten to max sequence length.
+            passage = [
+                token.lower() for (token, offset) in elem['context_tokens']
+            ][:self.args.max_context_length]
+
+            # Each passage has several questions associated with it.
+            # Additionally, each question has multiple possible answer spans.
+            for qa in elem['qas']:
+                qid = qa['qid']
+                question = [
+                    token.lower() for (token, offset) in qa['question_tokens']
+                ][:self.args.max_question_length]
+
+                # Select the first answer span, which is formatted as
+                # (start_position, end_position), where the end_position
+                # is inclusive.
+                answers = qa['detected_answers']
+                answer_start, answer_end = answers[0]['token_spans'][0]
+                samples.append(
+                    (qid, passage, question, answer_start, answer_end)
+                )
                 
+        return samples
 
     def _create_samples(self):
         """
@@ -277,7 +315,13 @@ class QADataset(Dataset):
         Returns:
             A list of words (string).
         """
-        print('Creating samples')
+        if self.is_train and self.do_train:
+            print('Creating samples for train set')
+        elif self.is_train:
+            print('Only processing test set. Calling original code for train')
+            return self._original()
+        else:
+            print('Creating samples for test set')
         samples = []
         spacy_checkpoint = 0
         # rand.seed(4)
@@ -307,30 +351,18 @@ class QADataset(Dataset):
 
                 ans = processed_passage[answer_start:answer_end + 1].text
 
-                # the spacy tokenizer makes a mistake on 4 out of roughly 86,000 test cases. We ignore these.
-                if ans != orig_ans:
+                # the spacy tokenizer makes a mistake on 4 out of roughly 86,000 test cases. We ignore these during training
+                if ans != orig_ans and self.is_train:
                     continue
-
-                # processed_ans = [token.text for token in processed_ans]
-                # other = nlp(orig_ans)
-                # other = [token.text for token in other]
-                # if processed_ans != other:
-                #     print('fart')
-                #     print(processed_ans)
-                #     print(other)
-
 
                 # run through Spacy
                 passage, question, answer_start, answer_end = self.spacy_adjustment(processed_passage, question_str, answer_start, answer_end)
-                if passage == None:
-                    # throw out examples that throw off the heuristics
-                    continue
-
 
                 ans = passage[answer_start:answer_end + 1]
                 real = [token.text for token in processed_ans]
 
-                if real != ans:
+                # training should never have the wrong answer
+                if self.is_train and real != ans:
                     [print(sent) for sent in processed_passage.sents]
                     print(real)
                     print(ans)
@@ -341,28 +373,23 @@ class QADataset(Dataset):
                 question = question[:self.args.max_question_length]
                 question = [token.lower() for token in question]
 
-                # orig_q = [
-                #     token.lower() for (token, offset) in qa['question_tokens']
-                # ][:self.args.max_question_length]
-
-                # orig_p = [
-                #     token.lower() for (token, offset) in elem['context_tokens']
-                # ][:self.args.max_context_length]
-
-
-                if len(passage) <= answer_start or len(passage) <= answer_end or answer_start > answer_end:
-                    pass
-                    #continue
+                # preprocessing got something wrong on testing set, return a wrong answer that's in bounds to avoid erroring out
+                if (not self.is_train) and (len(passage) <= answer_start or len(passage) <= answer_end or answer_start > answer_end):
+                    answer_start = 0
+                    answer_end = 0
+                    
                 samples.append(
                     (qid, passage, question, answer_start, answer_end)
                 )
 
             if spacy_checkpoint % 1000 == 0:
                 print('Finished ' + str(spacy_checkpoint) + ' samples')
-        global ner_count, propn_count, nsubj_count, simil_count, nchunk_count, num_removed, total, sents_removed
+        global ner_count, propn_count, nsubj_count, simil_count, nchunk_count, num_unprocessed, total, sents_removed
         print()
-        print(str(num_removed) + " out of " + str(total) + " examples were removed")
-        print(str(sents_removed / (total - num_removed)) + " average sentences removed per passage/question pair")
+        if self.is_train:
+            # only relevant when training
+            print(str(num_unprocessed) + " out of " + str(total) + " examples were not processed")
+        print(str(sents_removed / total) + " average sentences removed per passage/question pair")
         print()
         print('NER triggered ' + str(ner_count) + ' times')
         print('Proper Noun triggered ' + str(propn_count) + ' times')

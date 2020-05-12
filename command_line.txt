@@ -1,4 +1,4 @@
-python3 main.py --use_gpu --model "baseline" --model_path "adjusted_thresh_1.pt" --train_path "datasets/squad_train.jsonl.gz" --dev_path "datasets/squad_dev.jsonl.gz" --output_path "adjusted_thresh_1.txt" --hidden_dim 256 --bidirectional --do_train --do_test
+python3 main.py --use_gpu --model "baseline" --model_path "final.pt" --train_path "datasets/squad_train.jsonl.gz" --dev_path "datasets/squad_dev.jsonl.gz" --output_path "final.txt" --hidden_dim 256 --bidirectional --do_train --do_test
 
 python3 main.py --use_gpu --model "baseline" --model_path "default_thresh_1.pt" --train_path "datasets/squad_train.jsonl.gz" --dev_path "datasets/squad_dev.jsonl.gz" --output_path "default_thresh_1.txt" --hidden_dim 256 --bidirectional --do_train --do_test
 
@@ -25,6 +25,30 @@ python3 main.py \
     --hidden_dim 256 \
     --bidirectional \
     --do_train \
+    --do_test
+
+Use pretrained
+
+python3 main.py \
+    --use_gpu \
+    --model "baseline" \
+    --model_path "baseline_large_squad.pt" \
+    --train_path "datasets/squad_train.jsonl.gz" \
+    --dev_path "datasets/squad_dev.jsonl.gz" \
+    --output_path "baseline_large_squad_preds.txt" \
+    --hidden_dim 512 \
+    --bidirectional \
+    --do_test
+
+python3 main.py \
+    --use_gpu \
+    --model "baseline" \
+    --model_path "baseline_medium_squad.pt" \
+    --train_path "datasets/squad_train.jsonl.gz" \
+    --dev_path "datasets/squad_dev.jsonl.gz" \
+    --output_path "baseline_medium_squad_preds.txt" \
+    --hidden_dim 256 \
+    --bidirectional \
     --do_test
 
 python3 visualize.py --path datasets/squad_train.jsonl.gz --samples 0
